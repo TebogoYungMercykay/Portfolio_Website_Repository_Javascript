@@ -1,5 +1,3 @@
-/* Cascading Code for my Portfolio Website */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -195,8 +193,7 @@ section {
 }
 
 .home-content p {
-    font-family: "Montserrat", sans-serif;
-    position: relative;
+    font-family: "Montserrat", sans-serif;    position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
@@ -261,15 +258,15 @@ section {
     width: 100%;
 }
 
-.home-sci {
+.home-sci, #contact .home-sci {
     position: absolute;
     bottom: 4rem;
-    width: 170px;
+    width: 215px;
     display: flex;
     justify-content: space-between;
 }
 
-.home-sci a {
+.home-sci a, #contact .home-sci a{
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -286,11 +283,11 @@ section {
     transition: 0.5s;
 }
 
-.home-sci a:hover {
+.home-sci a:hover,  #contact .home-sci a:hover {
     color: var(--bg-color);
 }
 
-.home-sci a::before {
+.home-sci a::before,  #contact .home-sci a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -302,7 +299,7 @@ section {
     transition: 0.5s;
 }
 
-.home-sci a:hover::before {
+.home-sci a:hover::before,  #contact .home-sci a:hover::before  {
     width: 100%;
 }
 
@@ -314,7 +311,6 @@ section {
     flex-direction: column;
     gap: 2rem;
     background: var(--second-bg-color);
-    /* background: url("./Images/B_and_W_Backround.jpg") center no-repeat, var(--main-color); */
     padding-bottom: 6rem;
 }
 
@@ -379,7 +375,6 @@ span {
 
 .about-content p {
     font-family: "Montserrat", sans-serif;
-
     position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
@@ -396,25 +391,11 @@ span {
 
 .education {
     display: flex;
-    min-height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     position: relative;
-}
-
-.education::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('./Images/Queen_Backround.jpg') center no-repeat;
-    opacity: 0.3;
-    background-size: cover;
-    z-index: -1;
 }
 
 .education .education-row {
@@ -451,7 +432,6 @@ span {
     left: -1.5rem;
     width: 3rem;
     height: 3rem;
-    /* background: var(--main-color); */
     background: url("./Images/AI_SVG.png") center no-repeat, var(--main-color);
     background-size: 40px, cover;
     border-radius: 50%;
@@ -473,8 +453,8 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color);
-    z-index: -1;
+    background: var(--transparent-bg-color);
+    z-index: 1;
     transition: 0.5s;
 }
 
@@ -483,7 +463,7 @@ span {
 }
 
 .education-content content .year {
-    font-size: 1.5rem;
+    font-size: 1.8rem !important;
     color: var(--main-color);
     padding-bottom: 0.5rem;
 }
@@ -498,16 +478,29 @@ span {
 
 .education-content content p {
     font-family: "Montserrat", sans-serif;
-
     font-size: 1.6rem;
     padding-top: 0.5rem;
 }
 
 .skills {
     min-height: 100vh;
-    padding-bottom: 7rem;
-    background: var(--second-bg-color);
+    padding-bottom: 3rem;
+    position: relative;
 }
+
+.skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./Images/Chess_Backround.jpg') center no-repeat;
+    opacity: 0.3;
+    background-size: cover;
+    z-index: -1;
+}
+
 
 .skills h2 {
     display: inline-block;
@@ -596,7 +589,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./Images/B_and_W_Backround.jpg') center no-repeat;
+    background: url('./Images/B_and_W_Backround_Server_Edit.jpg') center no-repeat;
     opacity: 0.3;
     background-size: cover;
     z-index: -1;
@@ -693,7 +686,6 @@ span {
 
 .footer-text p {
     font-family: "Montserrat", sans-serif;
-
     font-size: 1.6rem;
 }
 
@@ -893,11 +885,11 @@ section:nth-child(even) .animate.scroll,
         flex-direction: column;
     }
 
-    .home-sci {
+    .home-sci,  #contact .home-sci {
         width: 160px;
     }
 
-    .home-sci a {
+    .home-sci a,  #contact .home-sci a {
         width: 38px;
         height: 38px;
     }
@@ -938,4 +930,3 @@ section:nth-child(even) .animate.scroll,
         text-align: center;
     }
 }
-/* --------------------- THE END ------------------------ */
