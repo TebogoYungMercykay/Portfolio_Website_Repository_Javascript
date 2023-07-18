@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display-swap');
+
+/*###########################################################################################*/
+/*########                            SETUP SECTION                                 #########*/
+/*###########################################################################################*/
 
 * {
     margin: 0;
@@ -18,6 +23,12 @@
     --transparent-second-bg-color: #75a2af20;
     --text-color: #e8e8e8fc;
     --main-color: #72f0db;
+    --transparent-main-color: #72f0db47;
+    --lang-color: #6610a8af;
+    --lang-color-yel: #978e0a9e;
+    --darker-color: #0000009b;
+    --grey-color: #bbbbbbe4;
+    --black-color: rgba(0, 0, 0, 0.908);
 }
 
 html {
@@ -84,6 +95,10 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
+/*###########################################################################################*/
+/*########                             HOME SECTION                                 #########*/
+/*###########################################################################################*/
 
 .home {
     display: flex;
@@ -303,6 +318,10 @@ section {
     width: 100%;
 }
 
+/*###########################################################################################*/
+/*########                            ABOUT SECTION                                 #########*/
+/*###########################################################################################*/
+
 .about {
     display: flex;
     min-height: 100vh;
@@ -482,13 +501,17 @@ span {
     padding-top: 0.5rem;
 }
 
-.skills {
+/*###########################################################################################*/
+/*########                         PORTFOLIO SECTION                                #########*/
+/*###########################################################################################*/
+
+.Portfolio {
     min-height: 100vh;
     padding-bottom: 3rem;
     position: relative;
 }
 
-.skills::before {
+.Portfolio::before {
     content: "";
     position: absolute;
     top: 0;
@@ -502,34 +525,34 @@ span {
 }
 
 
-.skills h2 {
+.Portfolio h2 {
     display: inline-block;
     left: 50% ;
     transform: translateX(-50%);
 }
 
-.skills .skills-row {
+.Portfolio .Portfolio-row {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
 }
 
-.skills-row .skills-column {
+.Portfolio-row .Portfolio-column {
     flex: 1 1 40rem;
 }
 
-.skills-column .title {
+.Portfolio-column .title {
     position: relative;
     display: inline-block;
     font-size: 2.5rem;
     margin: 0 0 1.5rem;
 }
 
-.skills-column .skills-box {
+.Portfolio-column .Portfolio-box {
     position: relative;
 }
 
-.skills-box .skills-content {
+.Portfolio-box .Portfolio-content {
     position: relative;
     border: 0.2rem solid var(--main-color);
     border-radius: 0.6rem;
@@ -538,7 +561,7 @@ span {
     overflow: hidden;
 }
 
-.skills-box .skills-content::before {
+.Portfolio-box .Portfolio-content::before {
     content: '';
     position: absolute;
     top: 0;
@@ -550,31 +573,35 @@ span {
     transition: .5s;
 }
 
-.skills-box .skills-content:hover::before {
+.Portfolio-box .Portfolio-content:hover::before {
     width: 100%;
 }
 
-.skills-content .progress {
+.Portfolio-content .progress {
     padding: 1rem 0;
 }
 
-.skills-content .progress h3 {
+.Portfolio-content .progress h3 {
     font-size: 1.7rem;
     display: flex;
     justify-content: space-between;
 }
 
-.skills-content .progress h3 span {
+.Portfolio-content .progress h3 span {
     color: var(--text-color);
 }
 
-.skills-content progress .bar {
+.Portfolio-content progress .bar {
     height: 2.5rem;
     border-radius: 0.6rem;
     border: 0.2rem solid var(--main-color);
     padding: 0.5rem;
     margin: 1rem 0;
 }
+
+/*###########################################################################################*/
+/*########                          CONTACT SECTION                                 #########*/
+/*###########################################################################################*/
 
 .contact {
     min-height: 100vh;
@@ -670,6 +697,10 @@ span {
     cursor: pointer;
 }
 
+/*###########################################################################################*/
+/*########                           FOOTER SECTION                                 #########*/
+/*###########################################################################################*/
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -732,6 +763,10 @@ span {
     color: var(--main-color);
 }
 
+/*###########################################################################################*/
+/*########                       ANIMATIONS SECTION                                 #########*/
+/*###########################################################################################*/
+
 /* Reload and Scroll Animation */
 .animate {
     position: absolute;
@@ -771,7 +806,7 @@ section:nth-child(even) .animate.scroll,
 .education.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll,
-.skills.show-animate .animate.scroll {
+.Portfolio.show-animate .animate.scroll {
     transition-delay: calc(0.3s * var(--i));
     width: 0;
 }
@@ -929,4 +964,271 @@ section:nth-child(even) .animate.scroll,
         flex-direction: column;
         text-align: center;
     }
+}
+
+/**** The Languages Animation CSS ****/
+
+.languages_section
+{
+    margin: 50px;
+    margin-bottom: 80px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages_container
+{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 4px solid var(--grey-color);
+    border-radius: 50%;
+}
+
+.languages_container .languages_icon
+{
+    position: relative;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.languages_container .languages_icon .imgBx
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid var(--text-color);
+    box-shadow: 0 0 0 4px var(--darker-color) ,0 0 0 6px var(--text-color);
+    transform: rotate(calc(360deg/8 * var(--i)));
+    transform-origin: 340px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.languages_container .languages_icon .imgBx.active
+{
+    box-shadow: 0 0 0 6px var(--darker-color), 0 0 0 12px var(--main-color);
+}
+
+.languages_container .languages_icon .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: rotate(calc(-360deg/8 * var(--i)));
+    transition: 0.5s;
+    filter: grayscale(0.7);
+}
+
+.languages_container .languages_icon .imgBx.active img
+{
+    filter: grayscale(0);
+}
+
+.languages_content
+{
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages_content::before
+{
+    content: '';
+    position: absolute;
+    inset: 60px;
+    border: 4px solid transparent;
+    border-left: 5px solid var(--main-color);
+    border-right: 5px solid var(--text-color);
+    border-radius: 50%;
+    animation: animte_01 5s linear infinite;
+    z-index: 1;
+    pointer-events: none;
+}
+
+@keyframes animte_01
+{
+    0%
+    {
+        rotate: 0deg;
+    }
+    100%
+    {
+        rotate: 360deg;
+    }
+}
+
+.languages_content::after
+{
+    content: '';
+    position: absolute;
+    inset: 93px;
+    border: 4px solid transparent;
+    border-left: 5px solid var(--lang-color);
+    border-right: 5px solid var(--lang-color-yel);
+    border-radius: 50%;
+    animation: animte_02 2.5s linear infinite;
+    z-index: 1;
+    pointer-events: none;
+}
+
+@keyframes animte_02
+{
+    0%
+    {
+        rotate: 360deg;
+    }
+    100%
+    {
+        rotate: 0deg;
+    }
+}
+
+.languages_contentBx
+{
+    position: absolute;
+    transform: scale(0);
+    transition: 0.5s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages_contentBx.active
+{
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.languages_contentBx .card
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.languages_contentBx .card .imgBx
+{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.languages_contentBx .card .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.languages_contentBx .card .textBx
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.languages_contentBx .card .textBx h2
+{
+    position: relative;
+    font-size: 3em;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.languages_contentBx .card .textBx h2 span
+{
+    font-size: 0.65em;
+    color: var(--text-color);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.languages_contentBx .card .textBx .H_n_C span
+{
+    font-size: 0.31em;
+}
+
+.languages_contentBx .card .textBx .Type_C span
+{
+    font-size: 0.39em;
+}
+
+.languages_contentBx .card .textBx .sci
+{
+    position: relative;
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    background-color: var(--text-color);
+    color: var(--black-color);
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 3px;
+    align-items: center;
+    border: 2px solid var(--grey-color);
+}
+
+.languages_contentBx .card .textBx .sci li i
+{
+    font-size: 15px;
+    bottom: 0;
+}
+
+.languages_contentBx .card .textBx .sci li
+{
+    list-style: none;
+}
+
+.languages_contentBx .card .textBx .sci li a
+{
+    position: relative;
+    max-width: 60px;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.languages_content, .languages_contentBx {
+    pointer-events: none;
 }
