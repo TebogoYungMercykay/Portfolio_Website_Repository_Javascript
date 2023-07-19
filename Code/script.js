@@ -55,19 +55,27 @@ function sendEmail(name, subject, email, mobile, message) {
         From : email,
         Subject : "PORTFOLIO: New Contact Form Enquiry",
         Body : "Name: " + name + "<br> Subject: " + subject + "<br> Email: " + email + "<br> Mobile: " + mobile + "<br> Message: " + message
-    }).then( console.log("Thank You for Contacting Me, You shall have a Great Day ahead."));
+    }).then( alert("Thank You for Contacting Me, You shall have a Great Day ahead."));
 }
 // InputValidation
 function confirmDetails() {
+    // Storing User Inputs
     var name = document.getElementById("name").value;
     var subject = document.getElementById("subject").value;
     var email = document.getElementById("email").value;
     var mobile = document.getElementById("mobile_number").value;
     var message = document.getElementById("message").value;
     var check = false;
-    if(check) {
+    if(!check) {
+        // Sending an Enquiry Email
         sendEmail(name, subject, email, mobile, message);
     }
+    // Clearing Inputs
+    document.getElementById("name").value = "";
+    document.getElementById("subject").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("mobile_number").value = "";
+    document.getElementById("message").value = "";
     return check;
 }
 
@@ -99,3 +107,40 @@ for (let i = 0; i < imgBx.length; i++ ) {
         this.className = 'imgBx active';
     });
 }
+// // The View on GitHub link for the Languages:
+// const viewOnGithubLinks = document.querySelectorAll('.view_on_github');
+// viewOnGithubLinks.forEach(function(link) {
+//     link.addEventListener('click', function(event) {
+//         const activeDiv = document.querySelector('.imgBx.active');
+//         const dataId = activeDiv.getAttribute('data-id');
+//         switch (dataId) {
+//             case "languages_content1": // CPP
+//                 window.open('https://github.com/TebogoYungMercykay/Towers_Of_Hanoi----Recursion_And_STL_Stacks.git', '_blank');
+//                 break;
+//             case "languages_content2": // Java
+//                 window.open('https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps.git', '_blank');
+//                 break;
+//             case "languages_content3": // JS
+//                 window.open('https://github.com/TebogoYungMercykay/The-Complete-Web-Development-Practice-Space.git', '_blank');
+//                 break;
+//             case "languages_content4": // PHP
+//                 window.open('https://github.com/TebogoYungMercykay/The-Complete-Web-Development-Practice-Space.git', '_blank');
+//                 break;
+//             case "languages_content5": // H&C
+//                 window.open('https://github.com/TebogoYungMercykay/The-Complete-Web-Development-Practice-Space.git', '_blank');
+//                 break;
+//             case "languages_content6": // Python
+//                 window.open('https://github.com/TebogoYungMercykay/Python_Codes_for_Mathematical_Problem_Solving.git', '_blank');
+//                 break;
+//             case "languages_content7": // TypeScript
+//                 window.open('https://github.com/TebogoYungMercykay/Project-4---Building-Serverless-Project-in-Aws.git', '_blank');
+//                 break;
+//             case "languages_content8": // C#
+//                 window.open('https://github.com/TebogoYungMercykay/CSharp---Windows_Forms_App.git', '_blank');
+//                 break;
+//             default: // Repositories
+//                 window.open('https://github.com/TebogoYungMercykay?tab=repositories', '_blank');
+//                 break;
+//         }
+//     });
+// });
