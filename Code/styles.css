@@ -464,7 +464,7 @@ span { color: var(--main-color); }
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./Images/Chess_Backround.jpg') center no-repeat;
+    background: url('./Images/Queen_Backround.jpg') center no-repeat;
     opacity: 0.26;
     background-size: cover;
     z-index: -1;
