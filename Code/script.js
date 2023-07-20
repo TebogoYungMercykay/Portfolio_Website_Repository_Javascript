@@ -1,3 +1,28 @@
+// Updating The CSS Variable as The Width-Dimensions Change:
+function updateVariableBasedOnViewport() {
+    // Get the viewport width
+    const viewportWidth = window.innerWidth;
+    if (viewportWidth < 371) {
+        document.documentElement.style.setProperty("--ratio-px-manipulation", "3px");
+        document.documentElement.style.setProperty("--ratio-em-manipulation", "3em");
+    } else if (viewportWidth < 462) {
+        document.documentElement.style.setProperty("--ratio-px-manipulation", "4.4px");
+        document.documentElement.style.setProperty("--ratio-em-manipulation", "4.4em");
+    } else if (viewportWidth < 520) {
+        document.documentElement.style.setProperty("--ratio-px-manipulation", "5px");
+        document.documentElement.style.setProperty("--ratio-em-manipulation", "5em");
+    } else if (viewportWidth < 768) {
+        document.documentElement.style.setProperty("--ratio-px-manipulation", "6px");
+        document.documentElement.style.setProperty("--ratio-em-manipulation", "6em");
+    } else {
+        document.documentElement.style.setProperty("--ratio-px-manipulation", "10px");
+        document.documentElement.style.setProperty("--ratio-em-manipulation", "10em");
+    }
+}
+// This Function is Called when the Page Loads and on Window Resize
+window.addEventListener("load", updateVariableBasedOnViewport);
+window.addEventListener("resize", updateVariableBasedOnViewport);
+
 // toddle icon navbar
 let menuIcon = document.querySelector ('#menu-icon');
 let navbar = document . querySelector ('.navbar');
