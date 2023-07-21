@@ -19,7 +19,7 @@
     --bg-color: #787e7c;
     --second-bg-color: #75a2af;
     --transparent-bg-color: #787e7c1e;
-    --transparent-second-bg-color: #75a2af20;
+    --transparent-second-bg-color: #75a2af2e;
     --text-color: #e8e8e8fc;
     --main-color: #72f0db;
     --transparent-main-color: #72f0db47;
@@ -28,7 +28,7 @@
     --darker-color: #0000009b;
     --grey-color: #bbbbbbe4;
     --projects-grey-color: #bbbbbb53;
-    --black-color: rgba(0, 0, 0, 0.908);
+    --black-color: rgba(0, 0, 0, 0.8);
     --ratio-px-manipulation: 10px;
     --ratio-em-manipulation: 10em;
 }
@@ -39,7 +39,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    background: var(--black-color);
     color: var(--text-color);
 }
 
@@ -464,7 +464,7 @@ span { color: var(--main-color); }
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./Images/Chess_Backround.jpg') center no-repeat;
+    background: url('./Images/Queen_Backround.jpg') center no-repeat;
     opacity: 0.26;
     background-size: cover;
     z-index: -1;
@@ -509,7 +509,7 @@ span { color: var(--main-color); }
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--grey-color);
+    background: var(--transparent-second-bg-color);
     z-index: -1;
     transition: .5s;
 }
@@ -556,11 +556,11 @@ span { color: var(--main-color); }
     max-width: 1240px;
     padding: 20px;
     border-radius: 15px;
-    background-color: var(--transparent-bg-color);
+    background-color: var(--transparent-second-bg-color);
     transition: box-shadow 0.7s linear;
 }
 
-.section_projects:hover { box-shadow: 0 0 10px var(--main-color); }
+.section_projects:hover { box-shadow: 0 0 16px var(--main-color); }
 
 .section_project {
     padding: 10px;
@@ -608,7 +608,7 @@ span { color: var(--main-color); }
 
 .section_project p {
     font-family: "Montserrat", sans-serif;
-	padding: 10px;
+	padding: 6px;
 	line-height: 22px;
     text-align: center;
     font-size: medium;
@@ -634,6 +634,9 @@ span { color: var(--main-color); }
     border: 2px solid var(--main-color);
 }
 
+.view_project_on_github {
+    margin-top: 25px;
+}
 
 #Github_Profile {
     font-size: 1.9em;
@@ -650,37 +653,7 @@ span { color: var(--main-color); }
 }
 
 strong {
-    font-size: 20px;
     font-weight: 600;
-}
-
-.car-preferences, .sort-items-by, .seach-bar-top {
-    color: rgba(255, 255, 255, 0.824);
-    text-align: center;
-    border: none;
-    background-color: rgba(205, 37, 37, 0);
-}
-
-.car-preferences:hover, .sort-items-by:hover {
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.824);
-    border: none;
-    background-color: rgba(220, 39, 39, 0);
-}
-
-.car-preferences .select-options-cars, .sort-items-by  .select-options-cars {
-    color: rgba(255, 255, 255, 0.824);
-    font-weight: 400;
-    text-align: center;
-    border: none;
-    background-color: rgba(2, 2, 2, 0.771);
-}
-
-.car-preferences .select-options-cars:hover, .sort-items-by  .select-options-cars:hover {
-    cursor: pointer;
-    border: none;
-    color: rgba(255, 255, 255, 0.824);
-    background-color: rgba(2, 2, 2, 0.771);
 }
 
 /*###########################################################################################*/
@@ -949,6 +922,15 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
     .footer p {
         margin-top: 2rem;
         text-align: center;
+    }
+    .home-sci, #contact .home-sci {
+        bottom: 4rem;
+        width: 120px;
+    }
+    .home-sci a, #contact .home-sci a{
+        width: 22px;
+        height: 22px;
+        font-size: 17px;
     }
 }
 
