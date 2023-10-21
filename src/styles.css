@@ -63,10 +63,10 @@ body {
     width: 100%;
 }
 
-/* Background Animation Cascading Starts Here */
+/* Background Animation Cascading */
 
 .backgroundAnimation{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -78,7 +78,6 @@ body {
 }
 
 .colorBoxEffect{
-    z-index: 2;
     transition: 2s ease;
     position: relative;
     margin: 2px;
@@ -94,7 +93,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 70px;
     background: var(--animation-color);
     filter: blur(90px);
     animation: animBack 6s linear infinite;
@@ -182,7 +181,11 @@ section { padding: 10rem 9% 2rem; }
     z-index: -1;
 }
 
-.home-content { max-width: 60rem; }
+.home-content {
+    max-width: 60rem;
+    position: relative;
+    z-index: 2;
+}
 
 .home-content h1 {
     position: relative;
@@ -230,7 +233,9 @@ section { padding: 10rem 9% 2rem; }
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
 }
-/* KeyFrames Animations */
+
+/***************** KeyFrames Animations ******************/
+
 @keyframes homeBgText {
     0%, 10%, 100% { background-position: -33rem 0; }
     65%, 85% { background-position: 0 0; }
@@ -450,7 +455,9 @@ span { color: var(--main-color); }
     border-right: 0.2rem solid var(--main-color);
     animation: aboutSpinner 8s linear infinite;
 }
-/* KeyFrames Animations */
+
+/***************** KeyFrames Animations *****************/
+
 @keyframes aboutSpinner { 100% { transform: translate(-50%, -50%) rotate(360deg); } }
 
 .about-content { text-align: center; }
@@ -784,7 +791,6 @@ strong {
 .contact {
     min-height: 100vh;
     padding-bottom: 7rem;
-    position: relative;
     background: var(--second-bg-color);
 }
 
@@ -923,6 +929,7 @@ strong {
 /*###########################################################################################*/
 /*########                       ANIMATIONS SECTION                                 #########*/
 /*###########################################################################################*/
+
 /* Reload and Scroll Animation */
 
 .animate {
@@ -955,7 +962,8 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
     width: 0;
 }
 
-/* KeyFrames Animations */
+/***************** KeyFrames Animations *****************/
+
 @keyframes showRight {
     100% { width: 0; }
 }
@@ -1067,7 +1075,9 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
         text-align: center;
     }
 }
+
 /**** The Languages Animation CSS ****/
+
 .languages_section {
     margin: calc(5 * var(--ratio-px-manipulation));
     margin-bottom: calc(8 * var(--ratio-px-manipulation));
