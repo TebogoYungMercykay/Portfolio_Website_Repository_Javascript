@@ -41,24 +41,6 @@ window.addEventListener('load', function() {
 		changeThemeTo('light');
 		modifyVariables('light');
 	}
-
-	// * Making sure all the Content Dividers have the same Height
-
-	var journeyContentDivs = document.querySelectorAll('.content');
-	var maxHeight = 0;
-
-	// Looping through the journey-content dividers to find the tallest one
-	journeyContentDivs.forEach(function(contentDiv) {
-		var contentHeight = contentDiv.clientHeight;
-		if (contentHeight > maxHeight) {
-			maxHeight = contentHeight;
-		}
-	});
-
-	// Setting the height of all journey-content dividers to match the tallest one
-	journeyContentDivs.forEach(function(contentDiv) {
-		contentDiv.style.height = maxHeight + 'px';
-	});
 });
 
 // * Toddle icon navbar
