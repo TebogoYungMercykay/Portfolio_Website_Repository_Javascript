@@ -36,32 +36,3 @@ fetch('./JSON/languages-data.json')
     allEventListeners();
 })
 .catch(error => console.error('Error fetching data:', error));
-
-/*
-<div class="languages_icon">
-    <div class="imgBx active" style="--i:2;" data-id="languages_content1">
-        <img src="./Images/Languages/CPP.jpg" alt="Image1">
-    </div>
-    <div class="imgBx" style="--i:1;" data-id="languages_content2">
-        <img src="./Images/Languages/Java.jpg" alt="Image2">
-    </div>
-    <div class="imgBx" style="--i:3;" data-id="languages_content3">
-        <img src="./Images/Languages/Javascript.png" alt="Image3">
-    </div>
-    <div class="imgBx" style="--i:8;" data-id="languages_content4">
-        <img src="./Images/Languages/PHP.jpg" alt="Image4">
-    </div>
-    <div class="imgBx" style="--i:4;" data-id="languages_content5">
-        <img src="./Images/Languages/HTML_CSS.jpg" alt="Image5">
-    </div>
-    <div class="imgBx" style="--i:7;" data-id="languages_content6">
-        <img src="./Images/Languages/Python.jpg" alt="Image6">
-    </div>
-    <div class="imgBx" style="--i:5;" data-id="languages_content7">
-        <img src="./Images/Languages/Typescript.png" alt="Image7">
-    </div>
-    <div class="imgBx" style="--i:6;" data-id="languages_content8">
-        <img src="./Images/Languages/CSharp.jpg" alt="Image8">
-    </div>
-</div>
-*/
