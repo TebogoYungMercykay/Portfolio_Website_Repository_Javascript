@@ -21,6 +21,7 @@
     --black-color: hsl(0, 0%, 0%);
     --second-bg-color: hsl(0, 0%, 4%);
     --transparent-bg-color: hsla(0, 0%, 0%, 0.211);
+    --hov-transparent-bg-color: hsla(212, 29%, 38%, 0.386);
 
     --animation-color: hsla(197, 100%, 26%, 0.831);
     --text-color: hsla(0, 0%, 91%, 0.99);
@@ -209,7 +210,6 @@ section { padding: 10rem 9% 2rem; }
     -webkit-text-stroke: 0.7px var(--main-color);
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
-    -webkit-background-clip: text;
     background-position: -33rem 0;
 }
 
@@ -581,7 +581,7 @@ span { color: var(--main-color); }
 .Portfolio {
     min-height: 100%;
     padding-bottom: 3rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .Portfolio::before {
@@ -635,7 +635,7 @@ span { color: var(--main-color); }
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--transparent-bg-color);
+    background: var(--hov-transparent-bg-color);
     z-index: -1;
     transition: .5s;
 }
@@ -677,6 +677,8 @@ span { color: var(--main-color); }
 .section_projects {
     color: var(--text-color);
     display: grid;
+    position: relative;
+    z-index: 1;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     grid-gap: 50px;
     margin: 90px auto;
@@ -710,6 +712,8 @@ span { color: var(--main-color); }
 
 .section_project2 {
     display: flex;
+    position: relative;
+    z-index: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -742,7 +746,7 @@ span { color: var(--main-color); }
     font-size: medium;
 }
 
-.section_project .view_project_on_github, #Github_Profile {
+.section_project .view_project_on_github {
     margin-top: 10px;
     font-size: 1.5em;
     background-color: var(--bg-color);
@@ -756,28 +760,33 @@ span { color: var(--main-color); }
     transition: background-color 0.9s linear, color 0.9s linear, border 0.9s linear;
 }
 
-.section_project .view_project_on_github:hover, #Github_Profile:hover {
-    background-color: var(--text-color);
+.section_project .view_project_on_github:hover {
+    background-color: var(--grey-color);
     color: var(--bg-color);
-    border: 2px solid var(--main-color);
+    border: 2px solid var(--hov-transparent-bg-color);
 }
 
 .view_project_on_github {
     margin-top: 25px;
 }
 
-#Github_Profile {
-    font-size: 1.9em;
-    background-color: var(--projects-grey-color);
-    color: var(--text-color);
-    height: 50px;
-    border: 2px solid var(--grey-color);
+#Custom_Button, #Custom_Button_2 {
+    /* justify-content: ; */
+    font-size: 250%;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 2px solid var(--transparent-bg-color);
 }
 
-#Github_Profile:hover {
-    background-color: var(--text-color);
-    color: var(--projects-grey-color);
-    border: 2px solid var(--main-color);
+#Custom_Button_0 {
+    border: 2px solid var(--transparent-bg-color);
+}
+
+.profile-github {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 strong {
@@ -796,14 +805,13 @@ strong {
 
 .contact::before {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: 0.2;
     background-size: cover;
-    z-index: -1;
+    z-index: 1;
 }
 
 .contact h2 {
@@ -815,6 +823,8 @@ strong {
 .contact form {
     max-width: 70rem;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -874,15 +884,18 @@ strong {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center !important;
     flex-wrap: wrap;
+    gap: 20px;
     padding: 2rem 9%;
     background: var(--transparent-bg-color);
 }
 
-.footer-text, .footer-iconTop { position: relative; }
+.footer-text, .footer-iconTop {
+    position: relative;
+}
 
 .footer-text p {
     font-family: "Montserrat", sans-serif;
@@ -1120,14 +1133,18 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
     border-radius: 50%;
     transition: 0.5s;
     border: 1px solid var(--text-color);
-    box-shadow: 0 0 0 calc(0.4 * var(--ratio-px-manipulation)) var(--projects-grey-color) ,0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--text-color);
+    box-shadow: 0 0 0 calc(0.4 * var(--ratio-px-manipulation)) var(--bg-color) ,
+                0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--text-color);
     transform: rotate(calc(360deg/8 * var(--i)));
     transform-origin: calc(34 * var(--ratio-px-manipulation));
     z-index: 1;
     overflow: hidden;
 }
 
-.languages_container .languages_icon .imgBx.active { box-shadow: 0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--projects-grey-color), 0 0 0 calc(1.2 * var(--ratio-px-manipulation)) var(--main-color); }
+.languages_container .languages_icon .imgBx.active {
+    box-shadow: 0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--bg-color),
+                0 0 0 calc(1.2 * var(--ratio-px-manipulation)) var(--main-color);
+}
 
 .languages_container .languages_icon .imgBx img {
     position: absolute;
@@ -1174,7 +1191,7 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
 .languages_content::after {
     content: '';
     position: absolute;
-    inset: calc(9.3 * var(--ratio-px-manipulation));
+    inset: calc(8.3 * var(--ratio-px-manipulation));
     border: calc(0.4 * var(--ratio-px-manipulation)) solid transparent;
     border-left: calc(0.5 * var(--ratio-px-manipulation)) solid var(--lang-color);
     border-right: calc(0.5 * var(--ratio-px-manipulation)) solid var(--lang-color-yel);
