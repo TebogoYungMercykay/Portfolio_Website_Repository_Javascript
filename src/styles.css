@@ -4,6 +4,7 @@
 /*###########################################################################################*/
 /*########                            SETUP SECTION                                 #########*/
 /*###########################################################################################*/
+
 * {
     margin: 0;
     padding: 0;
@@ -16,22 +17,41 @@
 }
 
 :root {
-    --bg-color: #787e7c;
-    --second-bg-color: #75a2af;
-    --transparent-bg-color: #787e7c1e;
-    --transparent-second-bg-color: #75a2af2e;
-    --text-color: #e8e8e8fc;
-    --main-color: #72f0db;
-    --transparent-main-color: #72f0db47;
-    --lang-color: #6610a8af;
-    --lang-color-yel: #978e0a9e;
-    --darker-color: #0000009b;
-    --grey-color: #bbbbbbe4;
-    --projects-grey-color: #bbbbbb53;
-    --black-color: rgba(0, 0, 0, 0.8);
+    --bg-color: hsl(0, 0%, 12%);
+    --black-color: hsl(0, 0%, 0%);
+    --second-bg-color: hsl(0, 0%, 4%);
+    --transparent-bg-color: hsla(0, 0%, 0%, 0.211);
+    --hov-transparent-bg-color: hsla(212, 29%, 38%, 0.386);
+
+    --animation-color: hsla(197, 100%, 26%, 0.831);
+    --text-color: hsla(0, 0%, 91%, 0.99);
+    --main-color: hsl(197, 100%, 45%);
+    --lang-color: hsla(329, 100%, 25%, 0.58);
+    --lang-color-yel: hsla(70, 100%, 31%, 0.62);
+    --grey-color: hsla(0, 0%, 60%, 0.89);
+    --projects-grey-color: hsla(0, 0%, 47%, 0.297);
+
     --ratio-px-manipulation: 10px;
     --ratio-em-manipulation: 10em;
 }
+
+/* --main-color: hsl(197, 100%, 45%); */
+/* :root {
+    --bg-color: hsl(210, 3%, 13%);
+    --second-bg-color: hsl(0, 0%, 4%);
+    --transparent-bg-color: hsla(150, 2%, 49%, 0.12);
+    --transparent-bg-color: hsla(190, 35%, 64%, 0.18);
+    --text-color: hsla(0, 0%, 91%, 0.99);
+    --main-color: hsl(174, 100%, 67%);
+    --lang-color: hsla(270, 100%, 33%, 0.68);
+    --lang-color-yel: hsla(56, 100%, 31%, 0.62);
+    --projects-grey-color: hsl(0, 0%, 0%);
+    --grey-color: hsla(0, 0%, 73%, 0.89);
+    --projects-grey-color: hsla(0, 0%, 73%, 0.33);
+    --black-color: hsl(0, 0%, 0%);
+    --ratio-px-manipulation: 10px;
+    --ratio-em-manipulation: 10em;
+} */
 
 html {
     font-size: 62.5%;
@@ -41,7 +61,55 @@ html {
 body {
     background: var(--black-color);
     color: var(--text-color);
+    width: 100%;
 }
+
+/* Background Animation Cascading */
+
+.backgroundAnimation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+    overflow: hidden;
+}
+
+.colorBoxEffect{
+    transition: 2s ease;
+    position: relative;
+    margin: 2px;
+}
+
+.colorBoxEffect:hover{
+    background: var(--animation-color);
+    transition-duration: 0s;
+}
+
+.divBackgroundAnimation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: var(--animation-color);
+    filter: blur(90px);
+    animation: animBack 6s linear infinite;
+}
+
+@keyframes animBack {
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: 120%;
+    }
+}
+
+/* Header Cascading Starts Here */
 
 .header {
     position: fixed;
@@ -94,6 +162,7 @@ section { padding: 10rem 9% 2rem; }
 /*###########################################################################################*/
 /*########                             HOME SECTION                                 #########*/
 /*###########################################################################################*/
+
 .home {
     display: flex;
     min-height: 100vh;
@@ -108,13 +177,16 @@ section { padding: 10rem 9% 2rem; }
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./Images/Edited_Using_FotorEditor.jpg') center no-repeat;
     opacity: 0.8;
     background-size: cover;
     z-index: -1;
 }
 
-.home-content { max-width: 60rem; }
+.home-content {
+    max-width: 60rem;
+    position: relative;
+    z-index: 2;
+}
 
 .home-content h1 {
     position: relative;
@@ -138,8 +210,6 @@ section { padding: 10rem 9% 2rem; }
     -webkit-text-stroke: 0.7px var(--main-color);
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    /* background-clip: inherit; */
     background-position: -33rem 0;
 }
 
@@ -163,7 +233,9 @@ section { padding: 10rem 9% 2rem; }
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
 }
-/* KeyFrames Animations */
+
+/***************** KeyFrames Animations ******************/
+
 @keyframes homeBgText {
     0%, 10%, 100% { background-position: -33rem 0; }
     65%, 85% { background-position: 0 0; }
@@ -278,9 +350,61 @@ section { padding: 10rem 9% 2rem; }
 
 .home-sci a:hover::before,  #contact .home-sci a:hover::before  { width: 100%; }
 
+.home-developer-img {
+    position: absolute;
+    justify-content: center;
+    right: 0;
+    width: 45%;
+    height: 70%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.home-developer-img img {
+    width: 85%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    align-content: left;
+    transition: 3s;
+    opacity: 0.85;
+}
+
+.home-developer-img img:hover {
+    opacity: 0.35;
+}
+
+@media (max-width: 848px) {
+    .introduction {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .home-developer-img {
+        display: none;
+    }
+
+    #home {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .home-content {
+        padding-left: 10%;
+    }
+
+    .introduction {
+        max-width: 80%;
+    }
+}
+
 /*###########################################################################################*/
 /*########                            ABOUT SECTION                                 #########*/
 /*###########################################################################################*/
+
 .about {
     display: flex;
     min-height: 100vh;
@@ -331,7 +455,9 @@ span { color: var(--main-color); }
     border-right: 0.2rem solid var(--main-color);
     animation: aboutSpinner 8s linear infinite;
 }
-/* KeyFrames Animations */
+
+/***************** KeyFrames Animations *****************/
+
 @keyframes aboutSpinner { 100% { transform: translate(-50%, -50%) rotate(360deg); } }
 
 .about-content { text-align: center; }
@@ -451,10 +577,11 @@ span { color: var(--main-color); }
 /*###########################################################################################*/
 /*########                         PORTFOLIO SECTION                                #########*/
 /*###########################################################################################*/
+
 .Portfolio {
     min-height: 100%;
     padding-bottom: 3rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .Portfolio::before {
@@ -464,7 +591,6 @@ span { color: var(--main-color); }
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./Images/Queen_Backround.jpg') center no-repeat;
     opacity: 0.26;
     background-size: cover;
     z-index: -1;
@@ -509,7 +635,7 @@ span { color: var(--main-color); }
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--transparent-second-bg-color);
+    background: var(--hov-transparent-bg-color);
     z-index: -1;
     transition: .5s;
 }
@@ -545,28 +671,32 @@ span { color: var(--main-color); }
 }
 
 #projects span { color: var(--main-color); }
+
 /* Listing Projects! */
+
 .section_projects {
     color: var(--text-color);
     display: grid;
+    position: relative;
+    z-index: 1;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     grid-gap: 50px;
-    margin: 50px auto;
+    margin: 90px auto;
     margin-bottom: 10px;
     max-width: 1240px;
     padding: 20px;
     border-radius: 15px;
-    background-color: var(--transparent-second-bg-color);
+    background-color: var(--projects-grey-color);
     transition: box-shadow 0.7s linear;
 }
 
 .section_projects:hover { box-shadow: 0 0 16px var(--main-color); }
 
 .section_project {
-    padding: 10px;
+    padding: 20px;
     border-radius: 9px;
-    border: 2px solid var(--second-bg-color);
-    background-color: var(--projects-grey-color);
+    border: 2px solid var(--grey-color);
+    background-color: var(--second-bg-color);
     font-family: "Lucida Console", "Courier New", monospace;
     display: flex;
     flex-direction: column;
@@ -582,6 +712,8 @@ span { color: var(--main-color); }
 
 .section_project2 {
     display: flex;
+    position: relative;
+    z-index: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -614,7 +746,7 @@ span { color: var(--main-color); }
     font-size: medium;
 }
 
-.section_project .view_project_on_github, #Github_Profile {
+.section_project .view_project_on_github {
     margin-top: 10px;
     font-size: 1.5em;
     background-color: var(--bg-color);
@@ -624,32 +756,37 @@ span { color: var(--main-color); }
     font-weight: 600;
     border-radius: 9px;
     align-items: center;
-    border: 2px solid var(--second-bg-color);
+    border: 2px solid var(--grey-color);
     transition: background-color 0.9s linear, color 0.9s linear, border 0.9s linear;
 }
 
-.section_project .view_project_on_github:hover, #Github_Profile:hover {
-    background-color: var(--text-color);
+.section_project .view_project_on_github:hover {
+    background-color: var(--grey-color);
     color: var(--bg-color);
-    border: 2px solid var(--main-color);
+    border: 2px solid var(--hov-transparent-bg-color);
 }
 
 .view_project_on_github {
     margin-top: 25px;
 }
 
-#Github_Profile {
-    font-size: 1.9em;
-    background-color: var(--darker-color);
-    color: var(--text-color);
-    height: 50px;
-    border: 2px solid var(--second-bg-color);
+#Custom_Button, #Custom_Button_2 {
+    /* justify-content: ; */
+    font-size: 250%;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 2px solid var(--transparent-bg-color);
 }
 
-#Github_Profile:hover {
-    background-color: var(--text-color);
-    color: var(--darker-color);
-    border: 2px solid var(--main-color);
+#Custom_Button_0 {
+    border: 2px solid var(--transparent-bg-color);
+}
+
+.profile-github {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 strong {
@@ -659,23 +796,22 @@ strong {
 /*###########################################################################################*/
 /*########                          CONTACT SECTION                                 #########*/
 /*###########################################################################################*/
+
 .contact {
     min-height: 100vh;
     padding-bottom: 7rem;
-    position: relative;
+    background: var(--second-bg-color);
 }
 
 .contact::before {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./Images/B_and_W_Backround_Server_Edit.jpg') center no-repeat;
     opacity: 0.2;
     background-size: cover;
-    z-index: -1;
+    z-index: 1;
 }
 
 .contact h2 {
@@ -687,6 +823,8 @@ strong {
 .contact form {
     max-width: 70rem;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -743,17 +881,21 @@ strong {
 /*###########################################################################################*/
 /*########                           FOOTER SECTION                                 #########*/
 /*###########################################################################################*/
+
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center !important;
     flex-wrap: wrap;
+    gap: 20px;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--transparent-bg-color);
 }
 
-.footer-text, .footer-iconTop { position: relative; }
+.footer-text, .footer-iconTop {
+    position: relative;
+}
 
 .footer-text p {
     font-family: "Montserrat", sans-serif;
@@ -800,7 +942,9 @@ strong {
 /*###########################################################################################*/
 /*########                       ANIMATIONS SECTION                                 #########*/
 /*###########################################################################################*/
+
 /* Reload and Scroll Animation */
+
 .animate {
     position: absolute;
     top: 0;
@@ -822,7 +966,7 @@ strong {
     animation: none;
 }
 
-section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: var(--transparent-second-bg-color); }
+section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: var(--transparent-bg-color); }
 
 .journey .journey-box .animate.scroll { width: 105% ; }
 
@@ -831,7 +975,8 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
     width: 0;
 }
 
-/* KeyFrames Animations */
+/***************** KeyFrames Animations *****************/
+
 @keyframes showRight {
     100% { width: 0; }
 }
@@ -943,7 +1088,9 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
         text-align: center;
     }
 }
+
 /**** The Languages Animation CSS ****/
+
 .languages_section {
     margin: calc(5 * var(--ratio-px-manipulation));
     margin-bottom: calc(8 * var(--ratio-px-manipulation));
@@ -953,6 +1100,11 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.languages_section::before {
+    content: '';
+    position: absolute;
 }
 
 .languages_container {
@@ -981,14 +1133,18 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
     border-radius: 50%;
     transition: 0.5s;
     border: 1px solid var(--text-color);
-    box-shadow: 0 0 0 calc(0.4 * var(--ratio-px-manipulation)) var(--darker-color) ,0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--text-color);
+    box-shadow: 0 0 0 calc(0.4 * var(--ratio-px-manipulation)) var(--bg-color) ,
+                0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--text-color);
     transform: rotate(calc(360deg/8 * var(--i)));
     transform-origin: calc(34 * var(--ratio-px-manipulation));
     z-index: 1;
     overflow: hidden;
 }
 
-.languages_container .languages_icon .imgBx.active { box-shadow: 0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--darker-color), 0 0 0 calc(1.2 * var(--ratio-px-manipulation)) var(--main-color); }
+.languages_container .languages_icon .imgBx.active {
+    box-shadow: 0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--bg-color),
+                0 0 0 calc(1.2 * var(--ratio-px-manipulation)) var(--main-color);
+}
 
 .languages_container .languages_icon .imgBx img {
     position: absolute;
@@ -1035,7 +1191,7 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
 .languages_content::after {
     content: '';
     position: absolute;
-    inset: calc(9.3 * var(--ratio-px-manipulation));
+    inset: calc(8.3 * var(--ratio-px-manipulation));
     border: calc(0.4 * var(--ratio-px-manipulation)) solid transparent;
     border-left: calc(0.5 * var(--ratio-px-manipulation)) solid var(--lang-color);
     border-right: calc(0.5 * var(--ratio-px-manipulation)) solid var(--lang-color-yel);

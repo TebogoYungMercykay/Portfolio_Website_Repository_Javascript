@@ -1,4 +1,5 @@
-// Updating The CSS Variable as The Width-Dimensions Change:
+// * Updating The CSS Variable as The Width-Dimensions Change:
+
 function updateVariableBasedOnViewport() {
     // Get the viewport width
     const viewportWidth = window.innerWidth;
@@ -19,11 +20,14 @@ function updateVariableBasedOnViewport() {
         document.documentElement.style.setProperty("--ratio-em-manipulation", "10em");
     }
 }
-// This Function is Called when the Page Loads and on Window Resize
+
+// * This Function is Called when the Page Loads and on Window Resize
+
 window.addEventListener("load", updateVariableBasedOnViewport);
 window.addEventListener("resize", updateVariableBasedOnViewport);
 
-// toddle icon navbar
+// * Toddle icon navbar
+
 let menuIcon = document.querySelector ('#menu-icon');
 let navbar = document . querySelector ('.navbar');
 
@@ -32,7 +36,8 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-// Smooth scrolling
+// * Smooth scrolling
+
 let sections = document.querySelectorAll ('section');
 let navLinks = document.querySelectorAll ('header nav a');
 
@@ -70,6 +75,8 @@ window.onscroll = () => {
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 };
 
+// * Sending Form Data Via Email
+
 // SmtpJS.com:
 // Website: https://smtpjs.com/
 // Script: https://smtpjs.com/v3/smtp.js
@@ -82,7 +89,9 @@ function sendEmail(name, subject, email, mobile, message) {
         Body : "Name: " + name + "<br> Subject: " + subject + "<br> Email: " + email + "<br> Mobile: " + mobile + "<br> Message: " + message
     }).then( alert("Thank You for Contacting Me, You shall have a Great Day ahead."));
 }
-// InputValidation
+
+// * InputValidation
+
 function confirmDetails() {
     // Storing User Inputs
     var name = document.getElementById("name").value;
@@ -117,7 +126,8 @@ form.addEventListener("submit", e => {
     });
 });
 
-// Language_Section
+// * Language Section
+
 let imgBx = document.querySelectorAll('.imgBx');
 let languages_contentBx = document.querySelectorAll('.languages_contentBx');
 for (let i = 0; i < imgBx.length; i++ ) {
@@ -132,7 +142,19 @@ for (let i = 0; i < imgBx.length; i++ ) {
         this.className = 'imgBx active';
     });
 }
-// // The View on GitHub link for the Languages:
+
+// * Animation Scripting
+
+const backgroundAnimation = document.getElementById('backgroundAnimation');
+const numBoxes = 400;
+
+for (let i = 0; i < numBoxes; i++) {
+    const colorBoxEffect = document.createElement('div');
+    colorBoxEffect.classList.add('colorBoxEffect');
+    backgroundAnimation.append(colorBoxEffect)
+}
+
+// // * The View on GitHub link for the Languages:
 // const viewOnGithubLinks = document.querySelectorAll('.view_on_github');
 // viewOnGithubLinks.forEach(function(link) {
 //     link.addEventListener('click', function(event) {
