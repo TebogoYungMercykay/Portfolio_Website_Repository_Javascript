@@ -73,21 +73,14 @@
 		</section>
 		<!----------------------- The About Section ----------------------->
 		<section class="about" id="about">
-			<h2 class="heading"> About <span>Me</span>
-				<span class="animate scroll" style="--i:1;"></span>
-			</h2>
+			<h2 class="heading"> About <span>Me</span></h2>
 			<div class="about-img">
 				<img src="./Images/Profile_Img.png" alt="My-Profile-Image">
 				<span class="circle-spin"></span>
-				<span class="animate scroll" style="--i:2;"></span>
 			</div>
 			<div class="about-content">
-				<h3> Your Favorite Software Engineer/Developer! <span class="animate scroll" style="--i:3;"></span>
-				</h3>
-				<p>
-					I am a versatile Software Engineer/Developer and ALX Cloud Developer, driven by a passion for problem-solving and the practical application of technology to address real-world challenges. With programming and development expertise and experience as a Computer Laboratory Technician, I excel in ensuring seamless operations and support. Beyond technology, I find joy in chess, art, and design, constantly nurturing my strategic thinking and creative Portfolio. I thrive on leveraging my diverse interests and expertise to make a meaningful impact through innovative solutions. <br>
-					<br>Additionally, as a STARS Mentor at the University of Pretoria, I guide and inspire aspiring minds on their educational and professional journeys. As Martin Luther King, Jr. once said, "Life's most persistent and urgent question is, what are you doing for others?" Mentoring is a way to contribute to others by dedicating yourself to your mentee's well-being. Since I enrolled in the STARS mentorship, I have a better appreciation for the importance of mentorship. I am thankful for the individuals who have shared their time to help guide first-year students as they start their journey to pursue their dreams and goals. <span class="animate scroll" style="--i:4;"></span>
-				</p>
+				<h3> Your Favorite Software Engineer/Developer!</h3>
+    			<p id="about-description">Loading data...</p>
 				<div class="journey" id="journey">
 					<h2 class="heading"> My <span>Journey</span>
 						<span class="animate scroll" style="--i:5;"></span>
@@ -97,81 +90,15 @@
 						<div class="journey-column">
 							<h3 class="title"> Education <span class="animate scroll" style="--i:5;"></span>
 							</h3>
-							<div class="journey-box">
-								<!-- High School -->
-								<div class="journey-content">
-									<div class="content">
-										<div class="year">
-											<i class="bx bxs-calendar"></i> 2015 - 2019
-										</div>
-										<h3>High School (Grade 8-12)</h3>
-										<p> I attended and completed my Grade 12 at Selebalo Secondary School for my high school education and Grade 11 at Tshihlo. I studied and understood combinations of the following subjects: Physical Sciences (PHSC), Mathematics (MATH), Life Sciences (LFSC), Agricultural Sciences (AGRS), and Accounting (ACC). </p>
-									</div>
-								</div>
-								<!-- Online Courses -->
-								<div class="journey-box">
-									<div class="journey-content">
-										<div class="content">
-											<div class="year">
-												<i class="bx bxs-calendar"></i> Aug 2022 - Oct 2022
-											</div>
-											<h3>ALX Cloud Development</h3>
-											<p> ALX-T Cloud Development is an Online Nanodegree Programme/Course offered by Udacity: Developing, Deploying, and Testing Applications on the Cloud or migrating existing Apps to the Cloud, with AWS as an Example. </p>
-										</div>
-									</div>
-								</div>
-								<!-- CS -->
-								<div class="journey-content">
-									<div class="content">
-										<div class="year">
-											<i class="bx bxs-calendar"></i> 2022 - Present
-										</div>
-										<h3>BSc Computer Sciences</h3>
-										<p> I initially enrolled for BSc IKS after Matric and Then changed courses in 2022. I am currently enrolled in and passionately pursuing a Bachelor of Science in Computer Sciences at the University of Pretoria, as my goal is to become the finest software developer/engineer. I have completely fallen in love with the field. </p>
-									</div>
-								</div>
+							<div class="journey-box" id="education_box_data">
+								<!-- Data Is Populated Using Javascript -->
 							</div>
 						</div>
 						<!-- Experience -->
-						<div class="journey-column">
+						<div class="journey-column" id="experience_box_data">
 							<h3 class="title"> Experience <span class="animate scroll" style="--i:5;"></span>
 							</h3>
-							<!-- Lab Technician -->
-							<div class="journey-box">
-								<div class="journey-content">
-									<div class="content">
-										<div class="year">
-											<i class="bx bxs-calendar"></i> 2023 - Present
-										</div>
-										<h3>Computer Laboratory Technician</h3>
-										<p> I provide support and assistance to the users of the Student Computing Labs, as well as performing tasks like Software installation, Hardware installation, and Computer Hardware assembly to provide an efficient student computing laboratory at UP. </p>
-									</div>
-								</div>
-							</div>
-							<!-- Mentorship -->
-							<div class="journey-box">
-								<div class="journey-content">
-									<div class="content">
-										<div class "year">
-											<i class="bx bxs-calendar"></i> 2022 - Present
-										</div>
-										<h3>STARS Mentorship</h3>
-										<p> The STARS Mentorship program is a student development program at the University of Pretoria. The program's main aim is to assist first-year students with adjusting from high school to varsity life by supporting them socially and emotionally to boost their academic performance. </p>
-									</div>
-								</div>
-							</div>
-							<!-- Hackathons & Bootcamps -->
-							<div class="journey-box">
-								<div class="journey-content">
-									<div class="content">
-										<div class="year">
-											<i class="bx bxs-calendar"></i> 2022 - Present
-										</div>
-										<h3>Hackathons & Bootcamps</h3>
-										<p> I actively participate in hackathons, datathons, and similar events to enhance my skills and collaborate with peers on projects. I am enrolling in coding bootcamps, such as Umuzi, to sharpen my skills further and acquire new knowledge. I aim to stay updated with cutting-edge technologies and become a more effective team player. </p>
-									</div>
-								</div>
-							</div>
+							<!-- Data Is Populated Using Javascript -->
 						</div>
 						<span class="animate scroll" style="--i:5;"></span>
 					</div>
@@ -647,6 +574,7 @@
 		</footer>
 		<!-- Javascript Below -->
 		<script type="text/javascript" src="./script.js"></script>
+		<script type="text/javascript" src="./js/about-me.js"></script>
 		<script type="text/javascript" src="./js/social-media.js"></script>
 		<script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
 	</body>
