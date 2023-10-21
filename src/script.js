@@ -142,23 +142,6 @@ form.addEventListener("submit", e => {
 	});
 });
 
-// * Language Section
-
-let imgBx = document.querySelectorAll('.imgBx');
-let languages_contentBx = document.querySelectorAll('.languages_contentBx');
-for (let i = 0; i < imgBx.length; i++) {
-	imgBx[i].addEventListener('mouseover', function() {
-		for (let i = 0; i < languages_contentBx.length; i++) {
-			languages_contentBx[i].className = 'languages_contentBx';
-		}
-		document.getElementById(this.dataset.id).className = 'languages_contentBx active';
-		for (let ik = 0; ik < imgBx.length; ik++) {
-			imgBx[ik].className = 'imgBx';
-		}
-		this.className = 'imgBx active';
-	});
-}
-
 // * Animation Scripting
 
 const backgroundAnimation = document.getElementById('backgroundAnimation');
