@@ -29,11 +29,17 @@ window.addEventListener('load', function() {
 	/****** Light/Dark Theme Toggle with JavaScript ******/
 	if (defaultTheme && defaultTheme != "N/A") {
 		html.setAttribute('current-theme', defaultTheme);
-		if (defaultTheme === 'dark') {
-			toggle.className = 'bi-moon';
+		if (defaultTheme === 'light') {
+			changeThemeTo('light');
+			modifyVariables('light');
 		} else {
-			toggle.className = 'bi-brightness-high-fill';
+			changeThemeTo('dark');
+			modifyVariables('dark');
 		}
+	} else {
+		html.setAttribute('current-theme', 'light');
+		changeThemeTo('light');
+		modifyVariables('light');
 	}
 
 	// * Making sure all the Content Dividers have the same Height
@@ -192,21 +198,21 @@ const defaultTheme = localStorage.getItem('default_theme');
 toggle.addEventListener('click', function() {
 	if (html.getAttribute('current-theme') === 'dark') {
 		changeThemeTo('light');
-		// modifyVariables('light');
+		modifyVariables('light');
 	} else {
 		changeThemeTo('dark');
-		// modifyVariables('dark');
+		modifyVariables('dark');
 	}
 });
 
 // * This Function Saves the Theme Info for in case of Reload
 let changeThemeTo = function(mode) {
 	if (mode === 'light') {
-		toggle.className = 'bi-brightness-high-fill';
+		toggle.className = 'bi-moon';
 		html.setAttribute('current-theme', 'light');
 		localStorage.setItem('default_theme', 'light');
 	} else {
-		toggle.className = 'bi-moon';
+		toggle.className = 'bi-brightness-high-fill';
 		html.setAttribute('current-theme', 'dark');
 		localStorage.setItem('default_theme', 'dark');
 	}
