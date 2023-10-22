@@ -67,7 +67,7 @@ let modifyVariables = function(mode) {
 		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 83%, 0.975)');
 		document.documentElement.style.setProperty('--second-bg-color', 'hsla(198, 100%, 65%, 0.211)');
 		document.documentElement.style.setProperty('--text-color', 'hsla(0, 0%, 8%, 0.844)');
-		document.documentElement.style.setProperty('--main-color', 'hsla(180, 100%, 32%, 0.737)');
+		document.documentElement.style.setProperty('--main-color', 'hsla(180, 100%, 12%, 0.737)');
 		document.documentElement.style.setProperty('--main-box-color', 'hsl(180, 100%, 21%)');
 		document.documentElement.style.setProperty('--grey-color', 'hsla(0, 0%, 18%, 0.89)');
 		document.documentElement.style.setProperty('--projects-grey-color', 'hsla(0, 0%, 67%, 0.209)');
