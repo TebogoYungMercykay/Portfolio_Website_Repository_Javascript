@@ -1,12 +1,12 @@
 // Fetching and populating images from the JSON file
 
 fetch('./json/projects-data.json')
-  .then(response => response.json())
-  .then(data => {
-    const projectsDetails = document.getElementById('projects-details');
+	.then(response => response.json())
+	.then(data => {
+		const projectsDetails = document.getElementById('projects-details');
 
-    data.forEach(projectData => {
-      const projectDetailsHTML = `<div class="section_project">
+		data.forEach(projectData => {
+			const projectDetailsHTML = `<div class="section_project">
             <h3 class="project_tittle"> ${projectData.title} <br> ${projectData.subtitle || ''} </h3>
             <img class="project_image" src="${projectData.image}" alt="Image: ${projectData.title}" />
             <br>
@@ -24,11 +24,11 @@ fetch('./json/projects-data.json')
             </a>` : ''}
       </div>`;
 
-      // Check if the projectData object has a "title" property
-      if (projectData.hasOwnProperty('title')) {
-        projectsDetails.innerHTML += projectDetailsHTML;
-      }
-    });
-})
-.catch(error => console.error('Error fetching data:', error));
+			// Check if the projectData object has a "title" property
+			if (projectData.hasOwnProperty('title')) {
+				projectsDetails.innerHTML += projectDetailsHTML;
+			}
+		});
+	})
+	.catch(error => console.error('Error fetching data:', error));
 
