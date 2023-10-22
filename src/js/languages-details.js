@@ -20,7 +20,7 @@ let allEventListeners = function() {
 
 // Fetching and populating images from the JSON file
 
-fetch('./JSON/languages-data.json')
+fetch('./json/languages-data.json')
   .then(response => response.json())
   .then(data => {
     const languagesIcon = document.getElementById('languages_icon');
@@ -40,7 +40,7 @@ fetch('./JSON/languages-data.json')
 
 // Fetching and populating images from the JSON file
 
-fetch('./JSON/languages-details.json')
+fetch('./json/languages-details.json')
   .then(response => response.json())
   .then(data => {
     const languagesContent = document.getElementById('languages_content');

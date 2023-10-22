@@ -1,0 +1,34 @@
+[
+    {
+      "name": "C++ (OOP and Software Modeling)",
+      "percentage": 90
+    },
+    {
+      "name": "Java (DSA and Concurrent Systems)",
+      "percentage": 86
+    },
+    {
+      "name": "JavaScript (Client Side Scripting)",
+      "percentage": 97
+    },
+    {
+      "name": "PHP (APIs and Server Side Scripting)",
+      "percentage": 98
+    },
+    {
+      "name": "HTML & CSS (Frontend Development)",
+      "percentage": 97
+    },
+    {
+      "name": "Python (Mathematical Modeling)",
+      "percentage": 80
+    },
+    {
+      "name": "TypeScript (Mobile Apps)",
+      "percentage": 87
+    },
+    {
+      "name": "C# (Windows Forms Apps)",
+      "percentage": 71
+    }
+]

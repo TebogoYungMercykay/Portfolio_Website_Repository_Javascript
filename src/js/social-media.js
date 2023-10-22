@@ -1,4 +1,4 @@
-fetch('./JSON/social-media.json')
+fetch('./json/social-media.json')
     .then(response => response.json())
     .then(data => {
         // Contact Page

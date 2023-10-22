@@ -22,7 +22,7 @@ let updateHeightsContent = function() {
 }
 
 // Fetch and populate data from JSON
-fetch('./JSON/about-data.json')
+fetch('./json/about-data.json')
     .then(response => response.json())
     .then(data => {
     // Populate the "About Me" section
