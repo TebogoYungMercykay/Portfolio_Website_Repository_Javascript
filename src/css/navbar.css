@@ -50,3 +50,15 @@
     cursor: pointer;
     display: none;
 }
+
+/****** Light/Dark Theme Toggle ******/
+
+#toggleDark {
+    font-size: 2.3rem;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    padding: 10rem 9% 2rem;
+}

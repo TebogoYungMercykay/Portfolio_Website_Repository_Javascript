@@ -39,16 +39,3 @@ body {
     color: var(--text-color);
     width: 100%;
 }
-
-/****** Light/Dark Theme Toggle ******/
-
-#toggleDark {
-    margin-left: 3.5rem;
-    font-size: 3rem;
-    cursor: pointer;
-    transform: translate(-50%, -50%);
-}
-
-section {
-    padding: 10rem 9% 2rem;
-}
