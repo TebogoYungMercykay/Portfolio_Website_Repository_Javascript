@@ -1,80 +1,67 @@
-// * Making sure all the Content Dividers have the same Height
-let updateHeightsContent = function() {
-	console.log("Making sure all the Content Dividers have the same Height");
+// * Function to ensure all content dividers have the same height
 
-	var journeyContentDivs = document.querySelectorAll('.content');
-	console.log(journeyContentDivs);
-	var maxHeight = 0;
+function updateHeightsContent() {
+    console.log("Making sure all the Content Dividers have the same Height");
 
-	// Looping through the journey-content dividers to find the tallest one
-	journeyContentDivs.forEach(function(contentDiv) {
-		var contentHeight = contentDiv.clientHeight;
-		if (contentHeight > maxHeight) {
-			maxHeight = contentHeight;
-		}
-	});
+    const journeyContentDivs = document.querySelectorAll('.content');
+    const maxHeight = findMaxHeight(journeyContentDivs);
 
-	// Setting the height of all journey-content dividers to match the tallest one
-	journeyContentDivs.forEach(function(contentDiv) {
-		console.log("Done: ", maxHeight, 'px');
-		contentDiv.style.height = maxHeight + 'px';
-	});
+    setHeightForAll(journeyContentDivs, maxHeight);
 }
 
-// Fetch and populate data from JSON
+// * Function to find the maximum height among content dividers
+
+function findMaxHeight(contentDivs) {
+    let maxHeight = 0;
+    contentDivs.forEach(function (contentDiv) {
+        const contentHeight = contentDiv.clientHeight;
+        if (contentHeight > maxHeight) {
+            maxHeight = contentHeight;
+        }
+    });
+    return maxHeight;
+}
+
+// * Function to set the same height for all content dividers
+
+function setHeightForAll(contentDivs, height) {
+    contentDivs.forEach(function (contentDiv) {
+        console.log("Done: ", height, 'px');
+        contentDiv.style.height = height + 'px';
+    });
+}
+
+// * Function to populate education or experience data
+
+function populateData(elementId, dataArray) {
+    const container = document.getElementById(elementId);
+    let html = '';
+
+    dataArray.forEach(item => {
+        html += `
+            <div class="journey-content">
+                <div class="content">
+                    <div class="year">
+                        <i class="bx bxs-calendar"></i> ${item.year}
+                    </div>
+                    <h3> ${item.institution || item.position} </h3>
+                    <p> ${item.details} </p>
+                </div>
+            </div>
+        `;
+    });
+
+    container.innerHTML = html;
+}
+
+// * Fetch and populate data from JSON
+
 fetch('./json/about-data.json')
     .then(response => response.json())
     .then(data => {
-    // Populate the "About Me" section
-    document.getElementById('about-description').innerHTML = data.description;
-
-    // Iterate through education and experience data and populate the sections
-
-    for (let k = 0; k < data.education.length; k++) {
-        if (k == 0) {
-            document.getElementById('education_box_data').innerHTML = `
-            <div class="journey-content">
-                <div class="content">
-                    <div class="year">
-                        <i class="bx bxs-calendar"></i> ${data.education[k].year}
-                    </div>
-                    <h3> ${data.education[k].institution} </h3>
-                    <p> ${data.education[k].details} </p>
-                </div>
-            </div>
-            `;
-        } else {
-            document.getElementById('education_box_data').innerHTML += `
-            <div class="journey-content">
-                <div class="content">
-                    <div class="year">
-                        <i class="bx bxs-calendar"></i> ${data.education[k].year}
-                    </div>
-                    <h3> ${data.education[k].institution} </h3>
-                    <p> ${data.education[k].details} </p>
-                </div>
-            </div>
-            `;
-        }
-    }
-
-    for (let k = 0; k < data.experience.length; k++) {
-        document.getElementById('experience_box_data').innerHTML += `
-        <div class="journey-box">
-            <div class="journey-content">
-                <div class="content">
-                    <div class="year">
-                        <i class="bx bxs-calendar"></i> ${data.experience[k].year}
-                    </div>
-                    <h3> ${data.experience[k].position} </h3>
-                    <p> ${data.experience[k].details} </p>
-                </div>
-            </div>
-        </div>
-        `;
-    }
-
-    updateHeightsContent();
-
-})
-.catch(error => console.error('Error fetching social media data:', error));
+        document.getElementById('about-description').innerHTML = data.description;
+        populateData('education_box_data', data.education);
+        populateData('experience_box_data', data.experience);
+        updateHeightsContent();
+    })
+    .catch(error => console.error('Error fetching data:', error));
