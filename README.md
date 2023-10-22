@@ -39,18 +39,18 @@ This README aims to provide you with an `overview` of the `content` and `functio
 - # `Skills`
     - Here, you can explore the various `skills` I have acquired throughout my career. From `programming languages` and `technologies` to design `tools` and `soft` skills, this section highlights the breadth and depth of my expertise. Each skill is accompanied by a brief description to provide context for my proficiency.
         ```json
-            {
-                "Proficient": {
-                    "Languages": ["C++", "Java", "Python", "JavaScript", "C#", "PHP", "Node.js", "Typescript"],
-                    "Front-End Frameworks and Libraries": ["Angular", "React", "Ionic", "Bootstrap", "jQuery", "NextJS", "Tailwind CSS"],
-                    "Back-End Frameworks and Libraries": ["Node.js", "Express.js"],
-                    "Web Technologies": ["JSON", "AJAX", "HTML & CSS", "Markdown", "Socket.io"],
-                    "Database and Query Languages": ["MySQL", "MongoDB", "NeDB", "PostgreSQL", "Microsoft SQL Server"],
-                    "AWS Services": ["AWS", "S3 Bucket", "DynamoDB", "AWS Lambda", "XRAY", "API Gateway", "AWS Elastic Beanstalk", "Amazon EC2", "AWS CloudFormation", "AWS IAM (AWS Identity and Access Management)"],
-                    "Development Tools": ["phpMyAdmin", "Docker", "Continuous Integration and Continuous Delivery (CI/CD)", "CircleCI", "SSMS"],
-                    "Terminals": ["CMD", "Bash", "WSL", "PowerShell", "Ubuntu"]
-                }
+        {
+            "Proficient": {
+                "Languages": ["C++", "Java", "Python", "JavaScript", "C#", "PHP", "Node.js", "Typescript"],
+                "Front-End Frameworks and Libraries": ["Angular", "React", "Ionic", "Bootstrap", "jQuery", "NextJS", "Tailwind CSS"],
+                "Back-End Frameworks and Libraries": ["Node.js", "Express.js"],
+                "Web Technologies": ["JSON", "AJAX", "HTML & CSS", "Markdown", "Socket.io"],
+                "Database and Query Languages": ["MySQL", "MongoDB", "NeDB", "PostgreSQL", "Microsoft SQL Server"],
+                "AWS Services": ["AWS", "S3 Bucket", "DynamoDB", "AWS Lambda", "XRAY", "API Gateway", "AWS Elastic Beanstalk", "Amazon EC2", "AWS CloudFormation", "AWS IAM (AWS Identity and Access Management)"],
+                "Development Tools": ["phpMyAdmin", "Docker", "Continuous Integration and Continuous Delivery (CI/CD)", "CircleCI", "SSMS"],
+                "Terminals": ["CMD", "Bash", "WSL", "PowerShell", "Ubuntu"]
             }
+        }
         ```
     - Github Profile: [View Link](https://github.com/TebogoYungMercykay)
 
