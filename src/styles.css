@@ -728,6 +728,10 @@ span {
     margin: 1rem 0;
 }
 
+#portfolio_heading {
+    padding-bottom: 50px;
+}
+
 #projects {
     position: relative;
     display: inline-block;
@@ -1471,4 +1475,9 @@ section:nth-child(even) .animate.scroll, .footer .animate.scroll { background: v
 
 .textBx {
     text-align: center;
+}
+
+.languages_section {
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
