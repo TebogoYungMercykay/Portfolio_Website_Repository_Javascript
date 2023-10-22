@@ -1,0 +1,54 @@
+[
+    {
+        "title": "The Brand Race",
+        "subtitle": "(Local NodeJs Socket Server)",
+        "image": "./Images/Projects_Edits/NodeJS_Edit.png",
+        "description": "<strong> Description </strong> This game is played in real-time by users per 1 vs 1 per Game Loop. The general idea of the game is to guess the logo of a car brand quicker than an opponent.",
+        "clientSide": "<strong> Frontend: </strong> Javascript, HTML, and CSS.",
+        "serverSide": "<strong> Backend: </strong> NodeJs, Socket.io, ExpressJs, PHP API, and MySQL Database",
+        "githubLink": "https://github.com/TebogoYungMercykay/The_Brand_Race---NodeJS_MultiUser_Server"
+    },
+    {
+        "title": "A TODO App",
+        "subtitle": "(AWS Lambda and Serverless Framework)",
+        "image": "./Images/Projects_Edits/AWS_Todo_Edit.png",
+        "description": "<strong> Description </strong> This application will allow users to create/remove/update/get TODO items. Each user only has access to the TODO items they made.",
+        "clientSide": "<strong> Frontend: </strong> React and Bootstrap.",
+        "serverSide": "<strong> Backend: </strong> Serverless.yml, NodeJs, apiGateway, S3 Bucket, IAM, DynamoDB, AWS Lambda, XRAY, Serverless-API, Auth.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Project-4---Building-Serverless-Project-in-Aws"
+    },
+    {
+        "title": "Jerman Otto",
+        "subtitle": "(Car Site: PHP, API, JavaScript and MySQL)",
+        "image": "./Images/Projects_Edits/Jerman_Otto_Edit.jpg",
+        "description": "<strong> Description </strong> Jerman Otto is a site to view and compare different cars and brands. The idea is for you to look at other cars and see the specs to choose which car to buy. You can view car models, compare cars, and even use the Find Me a car feature.",
+        "clientSide": "<strong> Frontend: </strong> Javascript AJAX, JQuery, HTML, and CSS.",
+        "serverSide": "<strong> Backend: </strong> PHP, PHP-API, JSON, and MySQL Database.",
+        "githubLink": "https://github.com/TebogoYungMercykay/The-Complete-Web-Development-Practice-Space",
+        "liveViewLink": "https://jerman-otto-car-site.netlify.app"
+    },
+    {
+        "title": "Relational Databases",
+        "subtitle": "(Data Structures and Algorithms)",
+        "image": "./Images/Projects_Edits/Java_Edit.png",
+        "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in the sense that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
+        "concepts": "<strong> Concepts: </strong> Treap, Binary Trees, Self-organizing, Max Heap, Databases (Insert, Delete, Update, Search), Exceptions, and Indexing.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps"
+    },
+    {
+        "title": "Towers Of Hanoi",
+        "subtitle": "(C++: Object-Oriented Programming)",
+        "image": "./Images/Projects_Edits/CPP_Edit.png",
+        "description": "<strong> Description </strong> I implemented a Solver for this popular puzzle game that consists of two main components: three towers and n number of disks. The goal is to move the tower of disks from one tower to another, only moving a single disk at a time.",
+        "concepts": "<strong> Concepts: </strong> Recursion, Pointers, Classes and Objects, Templates, Abstract Classes And STL Stacks, Exceptions, Inheritance, Friends of classes.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Towers_Of_Hanoi----Recursion_And_STL_Stacks/tree/main"
+    },
+    {
+        "title": "Concurrent Multithreaded CRUD API",
+        "subtitle": "(Concurrent Systems in Java)",
+        "image": "./Images/Projects_Edits/CRUD.png",
+        "description": "<strong> Description </strong> This API is a multi-threaded CRUD (Create, Read, Update, Delete) API for handling database requests. It utilizes multi-threading and the Bakery Lock algorithm to ensure thread safety and concurrent operations on a shared database.",
+        "concepts": "<strong> Concepts: </strong> Java, multi-threading, locking, Fairness, concurrency, CRUD Operations, bakery lock, queues, threads, makefile, wsl, linked-lists, database development, requests.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Concurrent-Multithreaded-CRUD-API"
+    }
+]
