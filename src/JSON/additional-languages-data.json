@@ -1,0 +1,34 @@
+[
+    {
+        "name": "NodeJS & Web Sockets (MultiUser Server)",
+        "percentage": 91
+    },
+    {
+        "name": "Ionic, Angular, React (Mobile Apps)",
+        "percentage": 90
+    },
+    {
+        "name": "AWS, Docker, CI/CD (Cloud Computing)",
+        "percentage": 100
+    },
+    {
+        "name": "NPM (Package Management)",
+        "percentage": 99
+    },
+    {
+        "name": "MySQL (Databases and Dumps)",
+        "percentage": 100
+    },
+    {
+        "name": "JSON, jQuery, Ajax (HTTP Requests)",
+        "percentage": 100
+    },
+    {
+        "name": "Bootstrap & NextJs (Frontend Development)",
+        "percentage": 86
+    },
+    {
+        "name": "NASM (Netwide Assembler) (x86-64)",
+        "percentage": 68
+    }
+]

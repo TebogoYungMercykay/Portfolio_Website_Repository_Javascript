@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "imageSrc": "./Images/Languages/CPP.jpg",
+        "name": "C++",
+        "description": "Programming Language",
+        "repositories": "5+"
+    },
+    {
+        "id": 2,
+        "imageSrc": "./Images/Languages/Java.jpg",
+        "name": "Java",
+        "description": "Programming Language",
+        "repositories": "5+"
+    },
+    {
+        "id": 3,
+        "imageSrc": "./Images/Languages/Javascript.png",
+        "name": "Javascript",
+        "description": "Programming Language",
+        "repositories": "4+"
+    },
+    {
+        "id": 4,
+        "imageSrc": "./Images/Languages/PHP.jpg",
+        "name": "PHP",
+        "description": "Scripting Language",
+        "repositories": "3+"
+    },
+    {
+        "id": 5,
+        "imageSrc": "./Images/Languages/HTML_CSS.jpg",
+        "name": "HTML & CSS",
+        "description": "Standard Markup Language and a Style sheet language",
+        "repositories": "6+"
+    },
+    {
+        "id": 6,
+        "imageSrc": "./Images/Languages/Python.jpg",
+        "name": "Python",
+        "description": "Programming Language",
+        "repositories": "2+"
+    },
+    {
+        "id": 7,
+        "imageSrc": "./Images/Languages/Typescript.png",
+        "name": "Typescript",
+        "description": "Strongly Typed Programming Language",
+        "repositories": "4+"
+    },
+    {
+        "id": 8,
+        "imageSrc": "./Images/Languages/CSharp.jpg",
+        "name": "C Sharp",
+        "description": "Programming Language",
+        "repositories": "1+"
+    }
+]

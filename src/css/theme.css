@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display-swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: hsl(0, 0%, 95%);
+    --black-color: hsl(0, 0%, 86%);
+    --second-bg-color: hsl(175, 57%, 95%);
+    --text-color: hsla(0, 0%, 8%, 0.99);
+    --main-color: hsla(197, 98%, 20%, 0.831);
+    --main-box-color: hsl(197, 100%, 7%);
+    --grey-color: hsla(0, 0%, 18%, 0.89);
+    --projects-grey-color: hsla(0, 0%, 67%, 0.209);
+    --transparent-bg-color: hsla(185, 52%, 34%, 0.33);
+    --animation-color: hsla(179, 50%, 51%, 0.904);
+    --lang-color: hsla(329, 100%, 32%, 0.58);
+    --lang-color-yel: hsla(70, 98%, 16%, 0.62);
+    --ratio-px-manipulation: 10px;
+    --ratio-em-manipulation: 10em;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--black-color);
+    color: var(--text-color);
+    width: 100%;
+}
+
+/****** Light/Dark Theme Toggle ******/
+
+#toggleDark {
+    margin-left: 3.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    padding: 10rem 9% 2rem;
+}
