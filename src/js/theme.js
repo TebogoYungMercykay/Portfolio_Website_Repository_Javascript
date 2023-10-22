@@ -3,16 +3,16 @@ window.addEventListener('load', function() {
 	if (defaultTheme && defaultTheme != "N/A") {
 		html.setAttribute('current-theme', defaultTheme);
 		if (defaultTheme === 'light') {
-			changeThemeTo('light');
 			modifyVariables('light');
+			changeThemeTo('light');
 		} else {
-			changeThemeTo('dark');
 			modifyVariables('dark');
+			changeThemeTo('dark');
 		}
 	} else {
 		html.setAttribute('current-theme', 'light');
-		changeThemeTo('light');
 		modifyVariables('light');
+		changeThemeTo('light');
 	}
 });
 
@@ -25,11 +25,11 @@ const defaultTheme = localStorage.getItem('default_theme');
 
 toggle.addEventListener('click', function() {
 	if (html.getAttribute('current-theme') === 'dark') {
-		changeThemeTo('light');
 		modifyVariables('light');
+		changeThemeTo('light');
 	} else {
-		changeThemeTo('dark');
 		modifyVariables('dark');
+		changeThemeTo('dark');
 	}
 });
 

@@ -13,18 +13,18 @@
 }
 
 :root {
-    --bg-color: hsl(0, 0%, 95%);
-    --black-color: hsl(0, 0%, 86%);
-    --second-bg-color: hsl(175, 57%, 95%);
-    --text-color: hsla(0, 0%, 8%, 0.99);
-    --main-color: hsla(197, 98%, 20%, 0.831);
-    --main-box-color: hsl(197, 100%, 7%);
-    --grey-color: hsla(0, 0%, 18%, 0.89);
-    --projects-grey-color: hsla(0, 0%, 67%, 0.209);
-    --transparent-bg-color: hsla(185, 52%, 34%, 0.33);
-    --animation-color: hsla(179, 50%, 51%, 0.904);
-    --lang-color: hsla(329, 100%, 32%, 0.58);
-    --lang-color-yel: hsla(70, 98%, 16%, 0.62);
+    --bg-color: rgba(0, 0, 0, 0.585);
+    --black-color: rgba(0, 0, 0, 0.585);
+    --second-bg-color: rgba(0, 0, 0, 0.585);
+    --text-color: rgba(0, 0, 0, 0.585);
+    --main-color: rgba(0, 0, 0, 0.585);
+    --main-box-color: rgba(0, 0, 0, 0.585);
+    --grey-color: rgba(0, 0, 0, 0.585);
+    --projects-grey-color: rgba(0, 0, 0, 0.585);
+    --transparent-bg-color: rgba(0, 0, 0, 0.585);
+    --animation-color: rgba(0, 0, 0, 0.585);
+    --lang-color: rgba(0, 0, 0, 0.585);
+    --lang-color-yel: rgba(0, 0, 0, 0.585);
     --ratio-px-manipulation: 10px;
     --ratio-em-manipulation: 10em;
 }
