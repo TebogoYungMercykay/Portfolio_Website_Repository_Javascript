@@ -1,4 +1,4 @@
-// * Language Section
+// * Language Section, A function for Adding event Listeners
 
 let allEventListeners = function() {
     let imgBx = document.querySelectorAll('.imgBx');
