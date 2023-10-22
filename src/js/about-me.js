@@ -33,7 +33,7 @@ function setHeightForAll(contentDivs, height) {
 
 // * Function to populate education or experience data
 
-function populateData(elementId, dataArray) {
+function populateEducationData(elementId, dataArray) {
     const container = document.getElementById(elementId);
     let html = '';
 
@@ -54,14 +54,39 @@ function populateData(elementId, dataArray) {
     container.innerHTML = html;
 }
 
+function populateExperienceData(elementId, data) {
+    const container = document.getElementById(elementId);
+    let html = '';
+
+    html += `
+        <div class="journey-box">
+            <div class="journey-content">
+                <div class="content">
+                    <div class="journey-background"></div>
+                    <div class="year">
+                        <i class="bx bxs-calendar"></i> ${data.year}
+                    </div>
+                    <h3> ${data.institution || data.position} </h3>
+                    <p> ${data.details} </p>
+                </div>
+            </div>
+        </div>
+    `;
+
+    container.innerHTML += html;
+}
+
 // * Fetch and populate data from JSON
 
 fetch('./json/about-data.json')
     .then(response => response.json())
     .then(data => {
         document.getElementById('about-description').innerHTML = data.description;
-        populateData('education_box_data', data.education);
-        populateData('experience_box_data', data.experience);
+        populateEducationData('education_box_data', data.education, 'education');
+        for (let k = 0; k < data.experience.length; k++) {
+            populateExperienceData('experience_box_data', data.experience[k]);
+        }
         updateHeightsContent();
     })
     .catch(error => console.error('Error fetching data:', error));
+
