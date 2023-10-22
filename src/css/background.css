@@ -19,7 +19,7 @@
 }
 
 .colorBoxEffect:hover {
-    background: var(--animation-color);
+    background: var(--main-box-color);
     transition-duration: 0s;
 }
 
