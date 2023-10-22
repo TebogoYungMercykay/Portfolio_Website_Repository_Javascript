@@ -141,7 +141,6 @@ body {
     display: none;
 }
 
-
 /****** Light/Dark Theme Toggle with JavaScript ******/
 
 #toggleDark {
@@ -849,7 +848,7 @@ span {
     margin-top: 25px;
 }
 
-#Custom_Button_0{
+#Custom_Button_0 {
     /* justify-content: ; */
     font-size: 1.73rem;
     padding-left: 6px;
