@@ -1,0 +1,44 @@
+/* Background Animation Cascading */
+
+.backgroundAnimation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    overflow: hidden;
+}
+
+.colorBoxEffect {
+    transition: 2s ease;
+    /* position: relative; */
+    margin: 2px;
+}
+
+.colorBoxEffect:hover {
+    background: var(--animation-color);
+    transition-duration: 0s;
+}
+
+.divBackgroundAnimation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: var(--animation-color);
+    filter: blur(90px);
+    animation: animBack 6s linear infinite;
+}
+
+@keyframes animBack {
+    0% {
+        top: -60px;
+    }
+    100% {
+        top: 120%;
+    }
+}
