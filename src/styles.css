@@ -740,6 +740,10 @@ span {
     color: var(--text-color);
 }
 
+.Portfolio-column {
+    text-align: center;
+}
+
 #projects span {
     color: var(--main-color);
 }
