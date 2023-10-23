@@ -5,7 +5,7 @@
         "image": "./Images/Projects_Edits/NodeJS_Edit.png",
         "description": "<strong> Description </strong> This game is played in real-time by users per 1 vs 1 per Game Loop. The general idea of the game is to guess the logo of a car brand quicker than an opponent.",
         "clientSide": "<strong> Frontend: </strong> Javascript, HTML, and CSS.",
-        "serverSide": "<strong> Backend: </strong> NodeJs, Socket.io, ExpressJs, PHP API, and MySQL Database",
+        "serverSide": "<strong> Backend: </strong> Node.js, Socket.io, Express.js, PHP API, and MySQL Database.",
         "githubLink": "https://github.com/TebogoYungMercykay/Brand_Race-Local_NodeJS_Socket_Server"
     },
     {
@@ -14,7 +14,7 @@
         "image": "./Images/Projects_Edits/AWS_Todo_Edit.png",
         "description": "<strong> Description </strong> This application will allow users to create/remove/update/get TODO items. Each user only has access to the TODO items they made.",
         "clientSide": "<strong> Frontend: </strong> React and Bootstrap.",
-        "serverSide": "<strong> Backend: </strong> Serverless.yml, NodeJs, API gateway, S3 Bucket, IAM, DynamoDB, AWS Lambda, XRAY, Serverless-API, Auth.",
+        "serverSide": "<strong> Backend: </strong> Serverless.yml, Node.js, API gateway, S3 Bucket, IAM, DynamoDB, AWS Lambda, XRAY, Serverless-API, Auth.",
         "githubLink": "https://github.com/TebogoYungMercykay/Serverless_TODO_App_using_Aws_Lambda"
     },
     {
@@ -30,8 +30,8 @@
         "subtitle": "(Car Site: PHP, API, JavaScript and MySQL)",
         "image": "./Images/Projects_Edits/Jerman_Otto_Edit.jpg",
         "description": "<strong> Description </strong> Jerman Otto is a site to view and compare different cars and brands. The idea is for you to look at other cars and see the specs to choose which car to buy. You can view car models, compare cars, and even use the Find Me a Car feature.",
-        "clientSide": "<strong> Frontend: </strong> Javascript AJAX, JQuery, HTML, and CSS.",
-        "serverSide": "<strong> Backend: </strong> PHP, PHP-API, JSON, and MySQL Database.",
+        "clientSide": "<strong> Frontend: </strong> HTML and CSS, Javascript, AJAX and JQuery.",
+        "serverSide": "<strong> Backend: </strong> PHP, RESTful API, JSON, and MySQL Database.",
         "githubLink": "https://github.com/TebogoYungMercykay/The_Jerman_Otto_Car_Site",
         "liveViewLink": "https://jerman-otto-car-site.netlify.app"
     },
@@ -41,8 +41,8 @@
         "image": "./Images/Projects_Edits/Microservices.png",
         "description": "<strong> Description </strong> This udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
         "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
-        "serverSide": "<strong> Backend: </strong> NodeJS, ExpressJS, TypeScript, RDS database(POSTGRESS), Amazon S3",
-        "concepts": "<strong> Concepts: </strong> Reverse Proxy, nginx.conf, Docker, Containerisation, Kebernetes, Microservices, HorizontalPodAutoscaler",
+        "serverSide": "<strong> Backend: </strong> Node.js, Express.js, TypeScript, RDS Database (POSTGRESS), Amazon S3",
+        "concepts": "<strong> Concepts: </strong> Reverse Proxy, nginx.conf, Docker, Containerization, Kubernetes Clusters, Microservices, HorizontalPodAutoscaler.",
         "githubLink": "https://github.com/TebogoYungMercykay/Refactoring_a_Monolith_to_Microservices"
     },
     {
@@ -50,7 +50,7 @@
         "subtitle": "(Concurrent Systems in Java)",
         "image": "./Images/Projects_Edits/CRUD.png",
         "description": "<strong> Description </strong> This API is a multi-threaded CRUD (Create, Read, Update, Delete) API for handling database requests. It utilizes multi-threading and the Bakery Lock algorithm to ensure thread safety and concurrent operations on a shared database.",
-        "concepts": "<strong> Concepts: </strong> Java, multi-threading, locking, Fairness, concurrency, CRUD Operations, bakery lock, queues, threads, makefile, wsl, linked-lists, database development, requests.",
+        "concepts": "<strong> Concepts: </strong> Java, Multi-threading, Locking, Fairness, Concurrency, CRUD Operations, Bakery Lock, Queues, Threads, Makefile, WSL, Linked Lists, Database Development, Requests.",
         "githubLink": "https://github.com/TebogoYungMercykay/Concurrent_Multithreaded_CRUD_API"
     },
     {
@@ -58,7 +58,7 @@
         "subtitle": "(Data Structures and Algorithms)",
         "image": "./Images/Projects_Edits/Java_Edit.png",
         "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
-        "concepts": "<strong> Concepts: </strong> Treap, Binary Trees, Self-organizing, Max Heap, Databases (Insert, Delete, Update, Search), Exceptions, and Indexing.",
+        "concepts": "<strong> Concepts: </strong> Treap, Binary Trees, Self-organizing, Max Heap, CRUD Operations, Exceptions, and Indexing.",
         "githubLink": "https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps"
     },
     {
