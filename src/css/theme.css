@@ -13,18 +13,21 @@
 }
 
 :root {
-    --bg-color: rgba(0, 0, 0, 0.585);
-    --black-color: rgba(0, 0, 0, 0.585);
-    --second-bg-color: rgba(0, 0, 0, 0.585);
-    --text-color: rgba(0, 0, 0, 0.585);
-    --main-color: rgba(0, 0, 0, 0.585);
-    --main-box-color: rgba(0, 0, 0, 0.585);
-    --grey-color: rgba(0, 0, 0, 0.585);
-    --projects-grey-color: rgba(0, 0, 0, 0.585);
-    --transparent-bg-color: rgba(0, 0, 0, 0.585);
-    --animation-color: rgba(0, 0, 0, 0.585);
-    --lang-color: rgba(0, 0, 0, 0.585);
-    --lang-color-yel: rgba(0, 0, 0, 0.585);
+    --bg-color: hsla(0, 0%, 50%);
+    --black-color: hsla(0, 0%, 50%);
+    --second-bg-color: hsla(0, 0%, 50%);
+    --animation-color: hsla(0, 0%, 50%);
+    --text-color: hsla(0, 0%, 50%);
+    --main-color: hsla(0, 0%, 50%);
+    --main-box-color: hsla(0, 0%, 50%);
+    --lang-color: hsla(0, 0%, 50%);
+    --lang-color-yel: hsla(0, 0%, 50%);
+    --transparent-bg-color: hsla(0, 0%, 50%);
+    --grey-color: hsla(0, 0%, 50%);
+    --projects-grey-color: hsla(0, 0%, 50%);
+    --contact-input-hover: hsla(0, 0%, 50%);
+    --color-box-effect: hsla(0, 0%, 50%);
+
     --ratio-px-manipulation: 10px;
     --ratio-em-manipulation: 10em;
 }
