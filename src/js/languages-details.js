@@ -53,7 +53,7 @@ fetch('./json/languages-details.json')
                         <img src="${languageData.imageSrc}" alt="Image${languageData.id}">
                     </div>
                     <div class="textBx">
-                        <h2 class="Type_C"> ${languageData.id}. #${languageData.name} <br>
+                        <h2 class="Type_C"> #${languageData.id}. ${languageData.name} <br>
                             <span> ${languageData.description} </span>
                         </h2>
                         <ul class="sci">
@@ -69,7 +69,7 @@ fetch('./json/languages-details.json')
                         <img src="${languageData.imageSrc}" alt="Image${languageData.id}">
                     </div>
                     <div class="textBx">
-                        <h2 class="Type_C"> ${languageData.id}. #${languageData.name} <br>
+                        <h2 class="Type_C"> #${languageData.id}. ${languageData.name} <br>
                             <span> ${languageData.description} </span>
                         </h2>
                         <ul class="sci">
