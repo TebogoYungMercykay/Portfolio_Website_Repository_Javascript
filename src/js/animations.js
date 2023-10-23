@@ -49,7 +49,7 @@ window.onscroll = () => {
 // * Animation Scripting
 
 const backgroundAnimation = document.getElementById('backgroundAnimation');
-const numBoxes = 800;
+const numBoxes = 900;
 
 for (let i = 0; i < numBoxes; i++) {
 	const colorBoxEffect = document.createElement('div');

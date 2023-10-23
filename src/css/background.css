@@ -14,12 +14,11 @@
 
 .colorBoxEffect {
     transition: 2s ease;
-    /* position: relative; */
     margin: 2px;
 }
 
 .colorBoxEffect:hover {
-    background: var(--main-box-color);
+    background: var(--color-box-effect);
     transition-duration: 0s;
 }
 
