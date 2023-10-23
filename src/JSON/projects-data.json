@@ -14,7 +14,7 @@
         "image": "./Images/Projects_Edits/AWS_Todo_Edit.png",
         "description": "<strong> Description </strong> This application will allow users to create/remove/update/get TODO items. Each user only has access to the TODO items they made.",
         "clientSide": "<strong> Frontend: </strong> React and Bootstrap.",
-        "serverSide": "<strong> Backend: </strong> Serverless.yml, NodeJs, apiGateway, S3 Bucket, IAM, DynamoDB, AWS Lambda, XRAY, Serverless-API, Auth.",
+        "serverSide": "<strong> Backend: </strong> Serverless.yml, NodeJs, API gateway, S3 Bucket, IAM, DynamoDB, AWS Lambda, XRAY, Serverless-API, Auth.",
         "githubLink": "https://github.com/TebogoYungMercykay/Serverless_TODO_App_using_Aws_Lambda"
     },
     {
@@ -22,14 +22,14 @@
         "subtitle": "(Udagram Image Filtering Microservice)",
         "image": "./Images/Projects_Edits/Cat.png",
         "description": "<strong> Description </strong> Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
-        "concepts": "<strong> About: </strong> This is the project in this repository. It is a Node-Express application which runs a simple script to process images.",
+        "concepts": "<strong> About: </strong> This Node-Express application runs a simple script to process images.",
         "githubLink": "https://github.com/TebogoYungMercykay/Udagram_Image_Filtering_Microservice"
     },
     {
         "title": "Jerman Otto",
         "subtitle": "(Car Site: PHP, API, JavaScript and MySQL)",
         "image": "./Images/Projects_Edits/Jerman_Otto_Edit.jpg",
-        "description": "<strong> Description </strong> Jerman Otto is a site to view and compare different cars and brands. The idea is for you to look at other cars and see the specs to choose which car to buy. You can view car models, compare cars, and even use the Find Me a car feature.",
+        "description": "<strong> Description </strong> Jerman Otto is a site to view and compare different cars and brands. The idea is for you to look at other cars and see the specs to choose which car to buy. You can view car models, compare cars, and even use the Find Me a Car feature.",
         "clientSide": "<strong> Frontend: </strong> Javascript AJAX, JQuery, HTML, and CSS.",
         "serverSide": "<strong> Backend: </strong> PHP, PHP-API, JSON, and MySQL Database.",
         "githubLink": "https://github.com/TebogoYungMercykay/The_Jerman_Otto_Car_Site",
@@ -57,7 +57,7 @@
         "title": "Relational Databases",
         "subtitle": "(Data Structures and Algorithms)",
         "image": "./Images/Projects_Edits/Java_Edit.png",
-        "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in the sense that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
+        "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
         "concepts": "<strong> Concepts: </strong> Treap, Binary Trees, Self-organizing, Max Heap, Databases (Insert, Delete, Update, Search), Exceptions, and Indexing.",
         "githubLink": "https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps"
     },
@@ -73,7 +73,7 @@
         "title": "Mathematical Modelling",
         "subtitle": "(Python 3, Jupyter Notebook)",
         "image": "./Images/Languages/Python.jpg",
-        "description": "<strong> Description </strong> This repository contains a collection of Python scripts to aid in mathematical computations and analysis. It is designed for solving mathematical problems, conducting numerical computations, and exploring mathematical concepts.",
+        "description": "<strong> Description </strong> This repository contains a collection of Python scripts to aid in mathematical computations and analysis. The repository is a booth where I solve mathematical problems, conduct numerical computations, and explore mathematical concepts.",
         "concepts": "<strong> Concepts: </strong> Numpy, Recursion, Differential equations, Sympy, Linearization, Growth Factor, Mathplotlib, Polyfit, Riemann-Sums, Lambda expressions, Logistic Difference equations, Counter and Clock.",
         "githubLink": "https://github.com/TebogoYungMercykay/Mathematical_Modelling_In_Python"
     }
