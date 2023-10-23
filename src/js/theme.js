@@ -62,6 +62,7 @@ let modifyVariables = function(mode) {
 		document.documentElement.style.setProperty('--grey-color', 'hsla(165, 100%, 98%, 0.508)');
 		document.documentElement.style.setProperty('--projects-grey-color', 'hsla(0, 0%, 57%, 0.09)');
 		document.documentElement.style.setProperty('--contact-input-hover', 'hsla(0, 100%, 100%, 0.999)');
+		document.documentElement.style.setProperty('--color-box-effect', 'hsla(165, 100%, 98%, 0.25)');
 		modifySVGImage(mode);
 	} else {
 		document.documentElement.style.setProperty('--bg-color', 'hsl(0, 0%, 95%)');
@@ -77,6 +78,7 @@ let modifyVariables = function(mode) {
 		document.documentElement.style.setProperty('--grey-color', 'hsla(0, 0%, 18%, 0.89)');
 		document.documentElement.style.setProperty('--projects-grey-color', 'hsla(0, 0%, 67%, 0.209)');
 		document.documentElement.style.setProperty('--contact-input-hover', 'hsla(185, 98%, 21%, 0.178)');
+		document.documentElement.style.setProperty('--color-box-effect', 'hsla(185, 100%, 10%, 0.5)');
 		modifySVGImage(mode);
 	}
 }
