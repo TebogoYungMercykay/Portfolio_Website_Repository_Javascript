@@ -10,9 +10,9 @@ window.addEventListener('load', function() {
 			changeThemeTo('dark');
 		}
 	} else {
-		html.setAttribute('current-theme', 'light');
-		modifyVariables('light');
-		changeThemeTo('light');
+		html.setAttribute('current-theme', 'dark');
+		modifyVariables('dark');
+		changeThemeTo('dark');
 	}
 });
 
@@ -49,32 +49,34 @@ let changeThemeTo = function(mode) {
 // * The Function Changes the Variables Globally
 let modifyVariables = function(mode) {
 	if (mode === 'light') {
-		document.documentElement.style.setProperty('--bg-color', 'hsla(0, 0%, 9%, 0.975)');
-		document.documentElement.style.setProperty('--black-color', 'hsl(0, 0%, 10%)');
-		document.documentElement.style.setProperty('--second-bg-color', 'rgba(81, 81, 81, 0.387)');
-		document.documentElement.style.setProperty('--transparent-bg-color', 'hsla(0, 0%, 15%, 0.408)');
-		document.documentElement.style.setProperty('--animation-color', 'rgb(138, 138, 138)');
-		document.documentElement.style.setProperty('--text-color', 'hsl(0, 0%, 90%)');
-		document.documentElement.style.setProperty('--main-color', 'hsl(0, 0%, 75%)');
-		document.documentElement.style.setProperty('--main-box-color', 'rgb(107, 107, 107)');
-		document.documentElement.style.setProperty('--lang-color', 'rgb(162, 145, 145)');
-		document.documentElement.style.setProperty('--lang-color-yel', 'hsla(0, 100%, 98%, 0.408)');
-		document.documentElement.style.setProperty('--grey-color', 'rgba(166, 166, 166, 0.815)');
-		document.documentElement.style.setProperty('--projects-grey-color', 'rgba(46, 46, 46, 0.568)');
+		document.documentElement.style.setProperty('--bg-color', 'hsla(0, 0%, 15%, 0.99)');
+		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 0%, 0.972)');
+		document.documentElement.style.setProperty('--second-bg-color', 'hsla(0, 0%, 10%, 0.948)');
+		document.documentElement.style.setProperty('--animation-color', 'hsla(165, 100%, 98%, 0.70)');
+		document.documentElement.style.setProperty('--text-color', 'hsl(0, 0%, 95%)');
+		document.documentElement.style.setProperty('--main-color', 'hsl(0, 0%, 70%)');
+		document.documentElement.style.setProperty('--main-box-color', 'hsla(165, 100%, 100%, 0.977)');
+		document.documentElement.style.setProperty('--lang-color', 'hsla(165, 100%, 98%, 0.98)');
+		document.documentElement.style.setProperty('--lang-color-yel', 'hsla(160, 100%, 98%, 0.08)');
+		document.documentElement.style.setProperty('--transparent-bg-color', 'hsla(0, 0%, 100%, 0.18)');
+		document.documentElement.style.setProperty('--grey-color', 'hsla(165, 100%, 98%, 0.508)');
+		document.documentElement.style.setProperty('--projects-grey-color', 'hsla(0, 0%, 57%, 0.09)');
+		document.documentElement.style.setProperty('--contact-input-hover', 'hsla(0, 100%, 100%, 0.999)');
 		modifySVGImage(mode);
 	} else {
-		document.documentElement.style.setProperty('--bg-color', 'hsl(0, 0%, 90%)');
-		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 83%, 0.975)');
-		document.documentElement.style.setProperty('--second-bg-color', 'hsla(198, 100%, 65%, 0.211)');
+		document.documentElement.style.setProperty('--bg-color', 'hsl(0, 0%, 95%)');
+		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 85%, 0.975)');
+		document.documentElement.style.setProperty('--second-bg-color', 'hsla(185, 100%, 65%, 0.211)');
+		document.documentElement.style.setProperty('--animation-color', 'hsla(185, 100%, 10%, 0.996)');
 		document.documentElement.style.setProperty('--text-color', 'hsla(0, 0%, 8%, 0.844)');
-		document.documentElement.style.setProperty('--main-color', 'hsla(180, 100%, 12%, 0.737)');
-		document.documentElement.style.setProperty('--main-box-color', 'hsl(180, 100%, 21%)');
+		document.documentElement.style.setProperty('--main-color', 'hsla(185, 100%, 12%, 0.737)');
+		document.documentElement.style.setProperty('--main-box-color', 'hsl(185, 100%, 19%)');
+		document.documentElement.style.setProperty('--lang-color', 'hsla(185, 100%, 32%, 0.58)');
+		document.documentElement.style.setProperty('--lang-color-yel', 'hsla(180, 98%, 16%, 0.62)');
+		document.documentElement.style.setProperty('--transparent-bg-color', 'hsla(185, 98%, 21%, 0.178)');
 		document.documentElement.style.setProperty('--grey-color', 'hsla(0, 0%, 18%, 0.89)');
 		document.documentElement.style.setProperty('--projects-grey-color', 'hsla(0, 0%, 67%, 0.209)');
-		document.documentElement.style.setProperty('--transparent-bg-color', 'hsla(185, 98%, 21%, 0.178)');
-		document.documentElement.style.setProperty('--animation-color', 'hsla(185, 100%, 10%, 0.996)');
-		document.documentElement.style.setProperty('--lang-color', 'hsla(329, 100%, 32%, 0.58)');
-		document.documentElement.style.setProperty('--lang-color-yel', 'hsla(70, 98%, 16%, 0.62)');
+		document.documentElement.style.setProperty('--contact-input-hover', 'hsla(185, 98%, 21%, 0.178)');
 		modifySVGImage(mode);
 	}
 }
