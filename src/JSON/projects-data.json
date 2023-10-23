@@ -18,14 +18,12 @@
         "githubLink": "https://github.com/TebogoYungMercykay/Serverless_TODO_App_using_Aws_Lambda"
     },
     {
-        "title": "Cloud Application",
-        "subtitle": "(Refactoring a Monolith to Microservices)",
-        "image": "./Images/Projects_Edits/Microservices.png",
-        "description": "<strong> Description </strong> This udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
-        "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
-        "serverSide": "<strong> Backend: </strong> NodeJS, ExpressJS, TypeScript, RDS database(POSTGRESS), Amazon S3",
-        "concepts": "<strong> Concepts: </strong> Reverse Proxy, nginx.conf, Docker, Containerisation, Kebernetes, Microservices, HorizontalPodAutoscaler",
-        "githubLink": "https://github.com/TebogoYungMercykay/Refactoring_a_Monolith_to_Microservices"
+        "title": "Image Filter",
+        "subtitle": "(Udagram Image Filtering Microservice)",
+        "image": "./Images/Projects_Edits/Cat.png",
+        "description": "<strong> Description </strong> Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
+        "concepts": "<strong> About: </strong> This is the project in this repository. It is a Node-Express application which runs a simple script to process images.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Udagram_Image_Filtering_Microservice"
     },
     {
         "title": "Jerman Otto",
@@ -38,12 +36,14 @@
         "liveViewLink": "https://jerman-otto-car-site.netlify.app"
     },
     {
-        "title": "Image Filter",
-        "subtitle": "(Udagram Image Filtering Microservice)",
-        "image": "./Images/Projects_Edits/Cat.png",
-        "description": "<strong> Description </strong> Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
-        "concepts": "<strong> About: </strong> This is the project in this repository. It is a Node-Express application which runs a simple script to process images.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Udagram_Image_Filtering_Microservice"
+        "title": "Cloud Application",
+        "subtitle": "(Refactoring a Monolith to Microservices)",
+        "image": "./Images/Projects_Edits/Microservices.png",
+        "description": "<strong> Description </strong> This udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
+        "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
+        "serverSide": "<strong> Backend: </strong> NodeJS, ExpressJS, TypeScript, RDS database(POSTGRESS), Amazon S3",
+        "concepts": "<strong> Concepts: </strong> Reverse Proxy, nginx.conf, Docker, Containerisation, Kebernetes, Microservices, HorizontalPodAutoscaler",
+        "githubLink": "https://github.com/TebogoYungMercykay/Refactoring_a_Monolith_to_Microservices"
     },
     {
         "title": "Multithreaded CRUD API",
