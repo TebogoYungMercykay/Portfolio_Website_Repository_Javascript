@@ -32,7 +32,7 @@ fetch('./json/languages-data.json')
         </div>
         `;
     });
-    console.log(languagesIcon.innerHTML);
+    // console.log(languagesIcon.innerHTML);
     allEventListeners();
 })
 .catch(error => console.error('Error fetching data:', error));

@@ -52,7 +52,9 @@ let modifyVariables = function(mode) {
 		document.documentElement.style.setProperty('--bg-color', 'hsla(0, 0%, 15%, 0.99)');
 		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 0%, 0.972)');
 		document.documentElement.style.setProperty('--second-bg-color', 'hsla(0, 0%, 10%, 0.948)');
-		document.documentElement.style.setProperty('--animation-color', 'hsla(165, 100%, 98%, 0.70)');
+		document.documentElement.style.setProperty('--animation-color', 'hsla(0, 0%, 65%, 0.082)');
+		document.documentElement.style.setProperty('--grad-animation-color', 'hsla(0, 0%, 64%, 0.073)');
+		document.documentElement.style.setProperty('--grad1-animation-color', 'hsla(0, 0%, 64%, 0)');
 		document.documentElement.style.setProperty('--text-color', 'hsl(0, 0%, 95%)');
 		document.documentElement.style.setProperty('--main-color', 'hsl(0, 0%, 70%)');
 		document.documentElement.style.setProperty('--main-box-color', 'hsla(165, 100%, 100%, 0.977)');
@@ -66,9 +68,11 @@ let modifyVariables = function(mode) {
 		modifySVGImage(mode);
 	} else {
 		document.documentElement.style.setProperty('--bg-color', 'hsl(0, 0%, 95%)');
-		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 85%, 0.975)');
+		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 96%, 0.983)');
 		document.documentElement.style.setProperty('--second-bg-color', 'hsla(185, 100%, 65%, 0.211)');
-		document.documentElement.style.setProperty('--animation-color', 'hsla(185, 100%, 10%, 0.996)');
+		document.documentElement.style.setProperty('--animation-color', 'hsla(185, 100%, 10%, 0.158)');
+		document.documentElement.style.setProperty('--grad-animation-color', 'hsla(185, 100%, 10%, 0.124)');
+		document.documentElement.style.setProperty('--grad1-animation-color', 'hsla(185, 100%, 10%, 0)');
 		document.documentElement.style.setProperty('--text-color', 'hsla(0, 0%, 8%, 0.844)');
 		document.documentElement.style.setProperty('--main-color', 'hsla(185, 100%, 12%, 0.737)');
 		document.documentElement.style.setProperty('--main-box-color', 'hsl(185, 100%, 19%)');

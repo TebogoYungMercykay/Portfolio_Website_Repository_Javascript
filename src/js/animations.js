@@ -48,11 +48,13 @@ window.onscroll = () => {
 
 // * Animation Scripting
 
-const backgroundAnimation = document.getElementById('backgroundAnimation');
-const numBoxes = 900;
+window.addEventListener('load', function() {
+	const backgroundAnimation = document.getElementById('backgroundAnimation');
+	const numBoxes = 900;
 
-for (let i = 0; i < numBoxes; i++) {
-	const colorBoxEffect = document.createElement('div');
-	colorBoxEffect.classList.add('colorBoxEffect');
-	backgroundAnimation.append(colorBoxEffect)
-}
+	for (let i = 0; i < numBoxes; i++) {
+		const colorBoxEffect = document.createElement('div');
+		colorBoxEffect.classList.add('colorBoxEffect');
+		backgroundAnimation.append(colorBoxEffect)
+	}
+});

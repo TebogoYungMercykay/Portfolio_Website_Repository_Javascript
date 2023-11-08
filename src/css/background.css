@@ -27,15 +27,20 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 70px;
-    background: var(--animation-color);
-    filter: blur(90px);
+    height: 300px;
+    background: linear-gradient(to bottom,
+                                    var(--grad1-animation-color) 0%,
+                                    var(--grad-animation-color) 35%,
+                                    var(--animation-color) 50%,
+                                    var(--grad-animation-color) 60%,
+                                    var(--grad1-animation-color) 100%
+                                );
     animation: animBack 6s linear infinite;
 }
 
 @keyframes animBack {
     0% {
-        top: -60px;
+        top: -300px;
     }
     100% {
         top: 120%;
