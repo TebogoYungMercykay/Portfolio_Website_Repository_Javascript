@@ -1,6 +1,6 @@
 [
     {
-        "name": "NodeJS & Web Sockets (MultiUser Server)",
+        "name": "Node.js & Web Sockets (Multi-User Server)",
         "percentage": 91
     },
     {
@@ -24,7 +24,7 @@
         "percentage": 100
     },
     {
-        "name": "Bootstrap & NextJs (Frontend Development)",
+        "name": "Bootstrap & Next.js (Frontend Development)",
         "percentage": 86
     },
     {
