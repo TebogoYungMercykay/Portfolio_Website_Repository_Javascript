@@ -68,6 +68,12 @@ This README aims to provide you with an `overview` of the `content` and `functio
 
 ---
 
+- # `License`
+
+This project is licensed under the MIT License. See the [LICENSE](^2^) file for more details.
+
+---
+
 - # `Contact Information`
     - I'm always open to `collaboration`, `networking`, or `answering` any `questions` you may have. In this section, you will find my `contact information`, such as my `email` address and links to my professional `social media` profiles. Feel free to reach out, and I will respond as `promptly` as possible.
     - Thank you for visiting my portfolio website. I hope this README provides you with a clear understanding of the content you will discover here. I am thrilled to share my work and experiences with you, and I look forward to connecting with you!
