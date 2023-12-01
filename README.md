@@ -25,6 +25,8 @@ This README aims to provide you with an `overview` of the `content` and `functio
     - sheetdb
     - HTML
     - CSS
+    - jQuery
+    - JSON
     - Bootstrap
 
 ---
@@ -65,6 +67,12 @@ This README aims to provide you with an `overview` of the `content` and `functio
 - # `Projects`
     - My portfolio would be `incomplete` without showcasing the projects I have worked on. In this section, you can find a curated list of my most `significant` and `innovative` projects. For each project, I provide a detailed `description`, the `technologies` used, and, if available, a live demo or a link to the `repository`. I am passionate about solving `real-world` problems, and this section reflects my commitment to delivering impactful solutions.
     - Github Profile: [View Link](https://github.com/TebogoYungMercykay?tab=repositories)
+
+---
+
+- # `License`
+
+This project is licensed under the MIT License. See the [LICENSE](^2^) file for more details.
 
 ---
 

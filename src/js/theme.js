@@ -50,7 +50,7 @@ let changeThemeTo = function(mode) {
 let modifyVariables = function(mode) {
 	if (mode === 'light') {
 		document.documentElement.style.setProperty('--bg-color', 'hsla(0, 0%, 15%, 0.99)');
-		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 0%, 0.972)');
+		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 0%, 0.962)');
 		document.documentElement.style.setProperty('--second-bg-color', 'hsla(0, 0%, 10%, 0.948)');
 		document.documentElement.style.setProperty('--animation-color', 'hsla(0, 0%, 65%, 0.082)');
 		document.documentElement.style.setProperty('--grad-animation-color', 'hsla(0, 0%, 64%, 0.073)');
