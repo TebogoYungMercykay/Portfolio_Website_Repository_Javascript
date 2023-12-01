@@ -25,6 +25,8 @@ This README aims to provide you with an `overview` of the `content` and `functio
     - sheetdb
     - HTML
     - CSS
+    - jQuery
+    - JSON
     - Bootstrap
 
 ---
