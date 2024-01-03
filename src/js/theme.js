@@ -69,7 +69,7 @@ let modifyVariables = function(mode) {
 	} else {
 		document.documentElement.style.setProperty('--bg-color', 'hsl(0, 0%, 100%)');
 		document.documentElement.style.setProperty('--black-color', 'hsla(0, 0%, 96%, 0.983)');
-		document.documentElement.style.setProperty('--second-bg-color', 'hsla(185, 100%, 65%, 0.211)');
+		document.documentElement.style.setProperty('--second-bg-color', 'hsla(0, 0%, 75%, 0.7)');
 		document.documentElement.style.setProperty('--animation-color', 'hsla(185, 100%, 10%, 0.158)');
 		document.documentElement.style.setProperty('--grad-animation-color', 'hsla(185, 100%, 10%, 0.124)');
 		document.documentElement.style.setProperty('--grad1-animation-color', 'hsla(185, 100%, 10%, 0)');
