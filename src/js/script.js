@@ -21,6 +21,12 @@ function updateVariableBasedOnViewport() {
 	}
 }
 
+// * Showing the Modal when the Download Button is Clicked
+
+function showModal() {
+	$('#largeModal').modal('show');
+}
+
 // * This Function is Called when the Page Loads and on Window Resize
 
 window.addEventListener("resize", updateVariableBasedOnViewport);
