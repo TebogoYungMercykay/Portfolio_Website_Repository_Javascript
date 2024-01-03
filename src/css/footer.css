@@ -46,6 +46,7 @@
 
 .footer-iconTop a:hover::before {
     width: 100%;
+    background-color: var(--bg-color);
 }
 
 .footer-iconTop a i {
