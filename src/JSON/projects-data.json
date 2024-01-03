@@ -1,14 +1,5 @@
 [
     {
-        "title": "The Brand Race",
-        "subtitle": "(Local NodeJs Socket Server)",
-        "image": "./Images/Projects_Edits/NodeJS_Edit.png",
-        "description": "<strong> Description </strong> This game is played in real-time by users per 1 vs 1 per Game Loop. The general idea of the game is to guess the logo of a car brand quicker than an opponent.",
-        "clientSide": "<strong> Frontend: </strong> Javascript, HTML, and CSS.",
-        "serverSide": "<strong> Backend: </strong> Node.js, Socket.io, Express.js, PHP API, and MySQL Database.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Brand_Race-Local_NodeJS_Socket_Server"
-    },
-    {
         "title": "A TODO App",
         "subtitle": "(AWS Lambda and Serverless Framework)",
         "image": "./Images/Projects_Edits/AWS_Todo_Edit.png",
@@ -22,18 +13,25 @@
         "subtitle": "(Udagram Image Filtering Microservice)",
         "image": "./Images/Projects_Edits/Cat.png",
         "description": "<strong> Description </strong> Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
-        "concepts": "<strong> About: </strong> This Node-Express application runs a simple script to process images.",
+        "concepts": "<strong> About: </strong> This Node-Express application runs a script to process images.",
         "githubLink": "https://github.com/TebogoYungMercykay/Udagram_Image_Filtering_Microservice"
     },
     {
-        "title": "Jerman Otto",
-        "subtitle": "(Car Site: PHP, API, JavaScript and MySQL)",
-        "image": "./Images/Projects_Edits/Jerman_Otto_Edit.jpg",
-        "description": "<strong> Description </strong> Jerman Otto is a site to view and compare different cars and brands. The idea is for you to look at other cars and see the specs to choose which car to buy. You can view car models, compare cars, and even use the Find Me a Car feature.",
-        "clientSide": "<strong> Frontend: </strong> HTML and CSS, Javascript, AJAX and JQuery.",
-        "serverSide": "<strong> Backend: </strong> PHP, RESTful API, JSON, and MySQL Database.",
-        "githubLink": "https://github.com/TebogoYungMercykay/The_Jerman_Otto_Car_Site",
-        "liveViewLink": "https://jerman-otto-car-site.netlify.app"
+        "title": "Wackdonalds Restaurant",
+        "subtitle": "(Simulator Software, Group Project in C++)",
+        "image": "./Images/Projects_Edits/wackdonalds.jpg",
+        "description": "<strong> Description </strong>  This is a Design and Implementation for a Restaurant Simulation Software, where we Modelled the intricate processes of Running a Restaurant",
+        "concepts": "<strong> Concepts: </strong> OOP, Design Patterns, UML (Class, State, Communication, Sequence, Activity & Object Diagrams, Dev Ops (Linter, Unit Testing, CI/CD (Docker and CircleCI)), GitHub Jobs, Coding Standards, Doxygen.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Restaurant_Simulator_COS214_Group_Project.git"
+    },
+    {
+        "title": "Python FastAPI",
+        "subtitle": "Robust and Efficient API",
+        "image": "./Images/Projects_Edits/fastapi.png",
+        "description": "<strong> Description </strong> A comprehensive repository showcasing modern best practices and examples for building robust, high-performance and efficient API using FastAPI in Python.",
+        "concepts": "<strong> Concepts: </strong> Unit Testing, CI/CD (Docker, Heroku), Database Migration Tools, Authentication (JWT Tokens), Virtual Env, Relational Databases (Postgres), Uvicorn ASGI Web Server, Github Jobs, SQLAlchemy.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Python_API_Development_Booth_FASTAPI.git",
+        "liveViewLink": "https://healthconnect-python-fastapi-9b23b53a9ae4.herokuapp.com/docs"
     },
     {
         "title": "Cloud Application",
@@ -54,9 +52,36 @@
         "githubLink": "https://github.com/TebogoYungMercykay/Concurrent_Multithreaded_CRUD_API"
     },
     {
+        "title": "The Brand Race",
+        "subtitle": "(Local NodeJs Socket Server)",
+        "image": "./Images/Projects_Edits/NodeJS_Edit.png",
+        "description": "<strong> Description </strong> This game is played in real-time by users per 1 vs 1 per Game Loop. The general idea of the game is to guess the logo of a car brand quicker than an opponent.",
+        "clientSide": "<strong> Frontend: </strong> Javascript, HTML, and CSS.",
+        "serverSide": "<strong> Backend: </strong> Node.js, Socket.io, Express.js, PHP API, and MySQL Database.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Brand_Race-Local_NodeJS_Socket_Server"
+    },
+    {
+        "title": "DFA Simulator Engine",
+        "subtitle": "(Group Project in Assembly & C)",
+        "image": "./Images/Projects_Edits/dfa.png",
+        "description": "<strong> Description </strong> This program would allow lecturers to define a DFA in a text file, which the program could then construct and simulate with input strings using NASM Assembler and C language.",
+        "concepts": "<strong> Concepts: </strong> Deterministic Finite Automata, x86-64 Bit NASM Assembler, Constructing DFA, Simulation of Input Strings, Checking if Two DFAs Accept the Same Language.",
+        "githubLink": "https://github.com/TebogoYungMercykay/TeamName_COS284_Group_Project_1.git"
+    },
+    {
+        "title": "Jerman Otto",
+        "subtitle": "(Car Site: PHP, API, JavaScript and MySQL)",
+        "image": "./Images/Projects_Edits/Jerman_Otto_Edit.jpg",
+        "description": "<strong> Description </strong> Jerman Otto is a site to view and compare different cars and brands. The idea is for you to look at other cars and see the specs to choose which car to buy. You can view car models, compare cars, and even use the Find Me a Car feature.",
+        "clientSide": "<strong> Frontend: </strong> HTML and CSS, Javascript, AJAX and JQuery.",
+        "serverSide": "<strong> Backend: </strong> PHP, RESTful API, JSON, and MySQL Database.",
+        "githubLink": "https://github.com/TebogoYungMercykay/The_Jerman_Otto_Car_Site",
+        "liveViewLink": "https://jerman-otto-car-site.netlify.app"
+    },
+    {
         "title": "Relational Databases",
         "subtitle": "(Data Structures and Algorithms)",
-        "image": "./Images/Projects_Edits/Java_Edit.png",
+        "image": "./Images/Projects_Edits/relational-databases.png",
         "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
         "concepts": "<strong> Concepts: </strong> Treap, Binary Trees, Self-organizing, Max Heap, CRUD Operations, Exceptions, and Indexing.",
         "githubLink": "https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps"
