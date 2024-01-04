@@ -25,7 +25,10 @@
         <link type="text/css" rel="stylesheet" href="./css/animations.css">
         <link type="text/css" rel="stylesheet" href="./css/responsiveness.css">
         <link type="text/css" rel="stylesheet" href="./css/footer.css">
+        <!-- Resume Modal Code -->
+        <link type="text/css" rel="stylesheet" href="./css/modal.css" />
         <!----------------------- Icons ----------------------->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
         <link type="text/css" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     </head>
     <body>
@@ -59,25 +62,21 @@
                 <p class="introduction"> I am a Software Engineer/Developer, ALX Cloud Developer, Computer Laboratory Technician, and Mentor at the University of Pretoria (STARS Mentorship). I am enthusiastic about chess, art, and design. I am Interested in Problem-Solving and the Application of Technology to Real-World problems.
                 </p>
                 <div class="btn-box">
-                    <a href="#" id="Custom_Button_0" class="btn" onclick="showModal()">Get Resume</a>
+                    <a href="#" id="Custom_Button_0" class="btn custom-trigger">Get Resume</a>
                     <a href="#contact" class="btn">Let's Talk</a>
                     <!-- Get Resume Modal -->
-                    <!-- <div class="modal fade" id="largeModal" tabindex="-1">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Curriculum Vitae</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    The Resume/Curriculum Vitae is Available Upon Request. You may Contact me through the Following Methods: Kindly Call Me at (+27 66 411 0178), Send an Email to <a href="mailto:sbkskhalo.kq@gmail.com" id="mailto-2">sbkskhalo.kq@gmail.com</a>, or Submit an Enquiry through the Designated Contact Form.
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <div class="md-modal">
+                        <div class="md-modal md-effect-16" id="resume-modal">
+                            <div class="md-content">
+                                <h3>Curriculum Vitae</h3>
+                                <div>
+                                    <p> The Résumé/Curriculum Vitae is available upon request. You may contact me through the following methods for more information: Kindly call me at (+27 66 411 0178), send an email to <a href="mailto:sbkskhalo.kq@gmail.com" id="mailto-2">sbkskhalo.kq@gmail.com</a>, or submit an enquiry through the designated contact form. </p>
+
+                                    <button class="md-close">Close me!</button>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="home-sci" id="home-sci">
@@ -242,5 +241,9 @@
         <script type="text/javascript" src="./js/contact-email.js"></script>
         <script type="text/javascript" src="./js/animations.js"></script>
         <script type="text/javascript" src="./js/theme.js"></script>
+
+        <!-- Resume Modal Code -->
+		<script src="./js/modalEffects.js"></script>
+
     </body>
 </html>
