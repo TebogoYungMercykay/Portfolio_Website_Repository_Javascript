@@ -18,7 +18,16 @@ var ModalEffects = (function() {
 			}
 
 			function removeModalHandler() {
-				removeModal(classie.has(el, 'md-setperspective'));
+				var opacity = 1;
+				var fadeOutInterval = setInterval(function () {
+					modal.style.opacity = opacity;
+					opacity -= 0.1;
+					if (opacity <= 0) {
+						clearInterval(fadeOutInterval);
+						removeModal(classie.has(el, 'md-setperspective'));
+						modal.style.opacity = 1;
+					}
+				}, 300);
 			}
 
 			el.addEventListener('click', function(ev) {
@@ -33,7 +42,7 @@ var ModalEffects = (function() {
 				// Automatically remove the modal after 6 seconds (6000 milliseconds)
 				setTimeout(function() {
 					removeModalHandler();
-				}, 6000);
+				}, 6500);
 			});
 
 			close.addEventListener('click', function(ev) {
