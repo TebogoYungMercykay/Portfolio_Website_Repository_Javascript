@@ -18,6 +18,7 @@ body.md-modal-shown {
 }
 
 .md-modal {
+    font-family: "Montserrat", sans-serif;
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -86,8 +87,8 @@ body.md-modal-shown {
 }
 
 .md-content > div button {
-	display: block;
-	margin: 0 auto;
+    display: block;
+    margin: 0 auto;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -97,12 +98,13 @@ body.md-modal-shown {
     border: 0.2rem solid var(--main-color);
     border-radius: 0.8rem;
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.1rem;
     color: var(--bg-color);
     z-index: 1;
     overflow: hidden;
     transition: 0.5s;
+    margin-top: 20px;
 }
 
 .md-content > div button:hover {
@@ -130,7 +132,7 @@ body.md-modal-shown {
 	padding: 0.4em;
 	text-align: center;
 	font-size: 2.4em;
-	font-weight: 300;
+	font-weight: 700;
 	opacity: 0.8;
 	background: var(--main-color);
 	border-radius: 3px 3px 0 0;
