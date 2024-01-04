@@ -68,7 +68,7 @@ body.md-modal-shown {
 	border-radius: 3px;
 	margin: 0 auto;
 	align-items: center;
-	text-align: center; /* Aligns inline content to the center */
+	text-align: center;
 }
 
 .md-content > div {
@@ -76,13 +76,13 @@ body.md-modal-shown {
 	margin: 0;
 	font-weight: 300;
 	font-size: 1.15em;
-	text-align: left; /* Reset text alignment for child div if needed */
+	text-align: left;
 }
 
 .md-content > div p {
 	margin: 0;
 	padding: 10px 0;
-	display: inline-block; /* Ensures the paragraph is treated as a block element */
+	display: inline-block;
 }
 
 .md-content > div button {
