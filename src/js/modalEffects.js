@@ -2,10 +2,9 @@ var ModalEffects = (function() {
 
 	function init() {
 
-		// Change the selector to target the custom-trigger class
 		[].slice.call(document.querySelectorAll('.custom-trigger')).forEach(function(el, i) {
 
-			var modal = document.querySelector('#resume-modal'), // Change this to match the modal's ID
+			var modal = document.querySelector('#resume-modal'),
 				close = modal.querySelector('.md-close');
 
 			function removeModal(hasPerspective) {
