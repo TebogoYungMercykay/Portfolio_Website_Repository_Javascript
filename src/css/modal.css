@@ -93,6 +93,7 @@ body.md-modal-shown {
 .md-content > div button {
     display: block;
     margin: 0 auto;
+	position: relative;
     width: 15rem;
     height: 100%;
     background: var(--main-color);
