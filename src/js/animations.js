@@ -6,6 +6,14 @@ let navbar = document.querySelector('.navbar');
 menuIcon.onclick = () => {
 	menuIcon.classList.toggle('bx-x');
 	navbar.classList.toggle('active');
+
+	// Updating the Doc Title
+	let active = document.querySelector('.navbar a.active').textContent;
+	if (active == 'Home') {
+		document.title = 'Welcome to My Portfolio Site!';
+	} else {
+		document.title = active + ' Page';
+	}
 }
 
 // * Smooth scrolling
@@ -44,6 +52,14 @@ window.onscroll = () => {
 	// Footer animation on scroll
 	let footer = document.querySelector('footer');
 	footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
+
+	// Updating the Doc Title
+	let active = document.querySelector('.navbar a.active').textContent;
+	if (active == 'Home') {
+		document.title = 'Welcome to My Portfolio Site';
+	} else {
+		document.title = active + ' Page';
+	}
 };
 
 // * Animation Scripting
