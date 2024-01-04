@@ -21,11 +21,7 @@ function updateVariableBasedOnViewport() {
 	}
 }
 
-// * Showing the Modal when the Download Button is Clicked
-
-function showModal() {
-	$('#largeModal').modal('show');
-}
+// * Code to Show or Hide the Modal
 
 // * This Function is Called when the Page Loads and on Window Resize
 
