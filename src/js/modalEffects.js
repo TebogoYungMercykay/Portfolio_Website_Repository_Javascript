@@ -1,3 +1,5 @@
+// * Modal Effects
+
 var ModalEffects = (function() {
 
 	function init() {
@@ -27,6 +29,11 @@ var ModalEffects = (function() {
 						classie.add(document.documentElement, 'md-perspective');
 					}, 25);
 				}
+
+				// Automatically remove the modal after 6 seconds (6000 milliseconds)
+				setTimeout(function() {
+					removeModalHandler();
+				}, 6000);
 			});
 
 			close.addEventListener('click', function(ev) {
@@ -40,7 +47,7 @@ var ModalEffects = (function() {
 
 	init();
 
-})();
+})(window);
 
 (function(window) {
 
