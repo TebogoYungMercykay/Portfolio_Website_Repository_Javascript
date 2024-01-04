@@ -80,7 +80,7 @@
     },
     {
         "title": "Relational Databases",
-        "subtitle": "(Data Structures and Algorithms)",
+        "subtitle": "(Data Structures and Algorithms in Java)",
         "image": "./Images/Projects_Edits/relational-databases.png",
         "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
         "concepts": "<strong> Concepts: </strong> Treap, Binary Trees, Self-organizing, Max Heap, CRUD Operations, Exceptions, and Indexing.",
