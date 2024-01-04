@@ -25,15 +25,16 @@
         <link type="text/css" rel="stylesheet" href="./css/animations.css">
         <link type="text/css" rel="stylesheet" href="./css/responsiveness.css">
         <link type="text/css" rel="stylesheet" href="./css/footer.css">
+        <!-- Resume Modal Code -->
+        <link type="text/css" rel="stylesheet" href="./css/modal.css" />
         <!----------------------- Icons ----------------------->
-        <link type="text/css" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <link type="text/css" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     </head>
     <body>
         <!----------------------- Header ----------------------->
         <header class="header">
             <a href="#" class="logo">&lt;TebogoYungMercykay/&gt;
-                <span class="animate" style="--i:1;"></span>
             </a>
             <div class="bx bx-menu" id="menu-icon"></div>
             <nav class="navbar">
@@ -58,11 +59,24 @@
                 <div class="text-animate">
                     <h3>Software Engineer/Developer</h3>
                 </div>
-                <p class="introduction"> I am a Software Engineer/Developer, ALX Cloud Developer, Computer Laboratory Technician, and Mentor at the University of Pretoria (STARS Mentorship). I am enthusiastic about chess, art, and design. I am Interested in Problem-Solving and the Application of Technology to Real-World problems. <span class="animate" style="--i:4;"></span>
+                <p class="introduction"> I am a Software Engineer/Developer, ALX Cloud Developer, Computer Laboratory Technician, and Mentor at the University of Pretoria (STARS Mentorship). I am enthusiastic about chess, art, and design. I am Interested in Problem-Solving and the Application of Technology to Real-World problems.
                 </p>
                 <div class="btn-box">
-                    <a href="https://drive.google.com/file/d/1qdCKCt8iOnyzYawJ9mKu3mZkrvRqYAq9/view?usp=drivesdk" target="_blank" rel="noopener" id="Custom_Button_0" class="btn">Download CV</a>
+                    <a href="#" id="Custom_Button_0" class="btn custom-trigger">Get Resume</a>
                     <a href="#contact" class="btn">Let's Talk</a>
+                    <!-- Get Resume Modal -->
+                    <div class="md-modal">
+                        <div class="md-modal md-effect-16" id="resume-modal">
+                            <div class="md-content">
+                                <h3>Curriculum Vitae</h3>
+                                <div>
+                                    <p> The Résumé/Curriculum Vitae is available upon request. You may contact me through the following methods for more information: Kindly call me at (+27 66 411 0178), send an email to <a href="mailto:sbkskhalo.kq@gmail.com" id="mailto-2">sbkskhalo.kq@gmail.com</a>, or submit an enquiry through the designated contact form. </p>
+
+                                    <button class="md-close">Close me!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="home-sci" id="home-sci">
@@ -227,5 +241,9 @@
         <script type="text/javascript" src="./js/contact-email.js"></script>
         <script type="text/javascript" src="./js/animations.js"></script>
         <script type="text/javascript" src="./js/theme.js"></script>
+
+        <!-- Resume Modal Code -->
+		<script src="./js/modalEffects.js"></script>
+
     </body>
 </html>
