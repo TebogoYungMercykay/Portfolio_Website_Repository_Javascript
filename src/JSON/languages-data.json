@@ -7,31 +7,31 @@
     },
     {
         "id": "languages_content2",
-        "imageSrc": "./Images/Languages/Java.jpg",
+        "imageSrc": "./Images/Languages/Javascript.png",
         "altText": "Image2",
         "style": 1
     },
     {
         "id": "languages_content3",
-        "imageSrc": "./Images/Languages/Javascript.png",
+        "imageSrc": "./Images/Languages/Python.jpg",
         "altText": "Image3",
         "style": 3
     },
     {
         "id": "languages_content4",
-        "imageSrc": "./Images/Languages/PHP.jpg",
+        "imageSrc": "./Images/Languages/Java.jpg",
         "altText": "Image4",
         "style": 8
     },
     {
         "id": "languages_content5",
-        "imageSrc": "./Images/Languages/HTML_CSS.jpg",
+        "imageSrc": "./Images/Languages/PHP.jpg",
         "altText": "Image5",
         "style": 4
     },
     {
         "id": "languages_content6",
-        "imageSrc": "./Images/Languages/Python.jpg",
+        "imageSrc": "./Images/Languages/HTML_CSS.jpg",
         "altText": "Image6",
         "style": 7
     },
