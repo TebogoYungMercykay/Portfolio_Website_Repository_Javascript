@@ -1,3 +1,7 @@
+/*
+    Styles for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
 
 .Portfolio {
     min-height: 100%;
@@ -141,7 +145,7 @@
     font-family: "Lucida Console", "Courier New", monospace;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    position: relative;
     align-items: center;
     transition: box-shadow 0.7s linear;
 }
@@ -176,7 +180,13 @@
     font-weight: 700;
     font-family: "Open+Sans" + bold;
     text-transform: uppercase;
-    font-size: large;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    height: 6em;
+    overflow: hidden;
+    justify-content: center;
+    top: 0;
+    width: 100%;
 }
 
 .section_project p {
@@ -194,9 +204,12 @@
     color: var(--text-color);
     padding: 9px 10px;
     height: 40px;
+    min-width: 200px;
     font-weight: 600;
     border-radius: 9px;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     border: 2px solid var(--grey-color);
     transition: background-color 0.9s linear, color 0.9s linear,
         border 0.9s linear;
@@ -209,11 +222,16 @@
 }
 
 .view_project_on_github {
-    margin-top: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.div-project-details {
+    margin-bottom: 60px;
 }
 
 #Custom_Button_0 {
-    /* justify-content: ; */
     font-size: 1.73rem;
     padding-left: 6px;
     padding-right: 6px;
