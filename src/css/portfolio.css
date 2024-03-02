@@ -227,8 +227,12 @@
     bottom: 0;
 }
 
-.div-project-details {
+.liveview_link {
     margin-bottom: 60px;
+}
+
+.div-project-details {
+    margin-bottom: 90px;
 }
 
 #Custom_Button_0 {
