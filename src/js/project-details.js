@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <a href="${projectData.githubLink || ''}" class="view_project_on_github" title="view_project_on_github" target="_blank" rel="noopener">
                         <i class="bx bxl-github"></i> View On GitHub
                     </a>
-                    ${projectData.hasOwnProperty('liveViewLink') ? `<a href="${projectData.liveViewLink || ''}" class="view_project_on_github" title="view_project_on_github" target="_blank" rel="noopener">
+                    ${projectData.hasOwnProperty('liveViewLink') ? `<a href="${projectData.liveViewLink || ''}" class="view_project_on_github liveview_link" title="view_project_on_github" target="_blank" rel="noopener">
                         <i class='bx bxl-netlify'></i> Live View
                     </a>` : ''}
                 </div>`;
