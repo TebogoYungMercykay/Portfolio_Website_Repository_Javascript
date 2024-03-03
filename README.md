@@ -1,4 +1,4 @@
-# HI THERE HERO!!, WELCOME TO MY PORTFOLIO WEBSITE
+# YOU ARE WELCOME TO MY PORTFOLIO WEBSITE!!
 ---
 This README aims to provide you with an `overview` of the `content` and `functionality` of my personal `portfolio site`. Here, you will find information about my `skills`, `projects`, and `experiences`, allowing you to get to know me better as a `professional`.
 
