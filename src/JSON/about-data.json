@@ -1,39 +1,39 @@
 {
     "name": "Selepe Sello",
     "imageSrc": "./Images/Profile_Img.png",
-    "description": "I am a versatile Software Engineer/Developer and ALX Cloud Developer, driven by a passion for problem-solving and the practical application of technology to address real-world challenges. With programming and development expertise and experience as a Computer Laboratory Technician, I excel in ensuring seamless operations and support. Beyond technology, I find joy in chess, art, and design, constantly nurturing my strategic thinking and creative Portfolio. I thrive on leveraging my diverse interests and expertise to make a meaningful impact through innovative solutions. <br><br>Additionally, as a STARS Mentor at the University of Pretoria, I guide and inspire aspiring minds on their educational and professional journeys. As Martin Luther King, Jr. once said, \"Life's most persistent and urgent question is, what are you doing for others?\" Mentoring is a way to contribute to others by dedicating yourself to your mentee's well-being. Since I enrolled in the STARS mentorship, I have a better appreciation for the importance of mentorship. I am thankful for the individuals who have shared their time to help guide first-year students as they start their journey to pursue their dreams and goals.",
+    "description": "As a BSc Computer Sciences student at UP, I am a dedicated and diligent professional with a passion for Software Engineering, Cyber Security, Cloud Development, and Database Management. I'm also intrigued by Data Science, where I use data to derive valuable insights and inform decisions. My experience includes a Nanodegree in Cloud Development from Udacity, where I honed my skills in designing, building, and deploying scalable and secure cloud applications using AWS services and tools. I also have hands-on experience in Web Development, DevOps, and Testing, which further enhances my software engineering skills. I am a highly motivated individual with excellent communication and interpersonal skills, committed to delivering high-quality work that adds value to any team and aligns with the company's objectives. <br><br> Additionally, I am an open-minded person willing to learn, I am eager to continue learning and applying my skills to real-world problems and challenges, striving for self-discipline and high standards in dealing with professionals. Visit my GitHub profile for a more detailed overview using the link below. I am also capable of working independently or collaboratively with a cost-conscious approach, making me a trustworthy asset to any team.",
     "education": [
         {
-            "year": "2015 - 2019",
-            "institution": "High School (Grade 8-12)",
-            "details": "I attended and completed my Grade 12 at Selebalo Secondary School for my high school education and Grade 11 at Tshihlo. I studied and understood combinations of the following subjects: Physical Sciences (PHSC), Mathematics (MATH), Life Sciences (LFSC), Agricultural Sciences (AGRS), and Accounting (ACC)."
+            "year": "Feb 2022 - Present",
+            "institution": "BSc Computer Sciences",
+            "details": "I initially enrolled for BSc Information Systems in 2020 after Matric and Then changed courses in 2022. I am currently enrolled in and passionately pursuing a Bachelor of Science in Computer Sciences at the University of Pretoria, as my goal is to become the finest software developer/engineer. I have completely fallen in love with the field."
         },
         {
             "year": "Aug 2022 - Oct 2022",
-            "institution": "ALX Cloud Development",
-            "details": "ALX-T Cloud Development is an Online Nanodegree Programme/Course offered by Udacity: Developing, Deploying, and Testing Applications on the Cloud or migrating existing Apps to the Cloud, with AWS as an Example."
+            "institution": "AWS Cloud Development",
+            "details": "I participated in the ALX-T Cloud Development Nanodegree Program offered by Udacity. This comprehensive course focused on developing, deploying, and testing applications in the cloud, with AWS (Amazon Web Services) as the main focus for the course. During the program, I gained proficiency in various AWS services"
         },
         {
-            "year": "2022 - Present",
-            "institution": "BSc Computer Sciences",
-            "details": "I initially enrolled for BSc IKS after Matric and Then changed courses in 2022. I am currently enrolled in and passionately pursuing a Bachelor of Science in Computer Sciences at the University of Pretoria, as my goal is to become the finest software developer/engineer. I have completely fallen in love with the field."
+            "year": "Jan 2017 - Dec 2019",
+            "institution": "High School (Grade 10-12)",
+            "details": "I attended and completed my Grade 12 at Selebalo Secondary School for my high school education and Grade 11 at Tshihlo. I studied and understood combinations of the following subjects: Physical Sciences (PHSC), Mathematics (MATH), Life Sciences (LFSC), Agricultural Sciences (AGRS), and Accounting (ACC)."
         }
     ],
     "experience": [
         {
-            "year": "2023 - Present",
-            "position": "Computer Laboratory Technician",
-            "details": "I provide support and assistance to the users of the Student Computing Labs, as well as performing tasks like Software installation, Hardware installation, and Computer Hardware assembly to provide an efficient student computing laboratory at UP."
+            "year": "Mar 2024 - Present",
+            "position": "Software Developer, Virtu-Tech",
+            "details": "I work closely with clients to develop customized solutions. My role involves collaborating with cross-functional teams on various projects, providing technical expertise, and overseeing project execution. We utilize a range of programming languages and tools to deliver effective solutions."
         },
         {
-            "year": "2022 - Present",
-            "position": "STARS Mentorship",
-            "details": "The STARS Mentorship program is a student development program at the University of Pretoria. The program's main aim is to assist first-year students with adjusting from high school to varsity life by supporting them socially and emotionally to boost their academic performance."
+            "year": "Feb 2023 - Feb 2024",
+            "position": "Computer Laboratory Technician, UP",
+            "details": "I provided support and assistance to the users of the Student Computing Labs, as well as performing tasks like Software installation, server and live casting, Hardware installation, and Computer Hardware assembly to provide an efficient student computing laboratory at University of Pretoria."
         },
         {
-            "year": "2022 - Present",
-            "position": "Hackathons & Bootcamps",
-            "details": "I actively participate in hackathons, datathons, and similar events to enhance my skills and collaborate with peers on projects. I am enrolling in coding bootcamps, such as Umuzi, to sharpen my skills further and acquire new knowledge. I aim to stay updated with cutting-edge technologies and become a more effective team player."
+            "year": "Jan 2024 - Feb 2024",
+            "position": "Web Developer, GAO TEK Inc",
+            "details": "As part of our the development interns, I skillfully utilized a combination of WordPress, HTML, CSS, JavaScript, and PHP to meticulously engineer responsive user interfaces, including e-commerce sites powered by WooCommerce. i made use of a local WordPress environment using XAMPP"
         }
     ]
 }
