@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	window.addEventListener("resize", updateVariableBasedOnViewport);
 	window.addEventListener("load", updateVariableBasedOnViewport);
 	
-	// // * The View on GitHub link for the Languages:
+	// // * The View on GitHub link for the languages:
 	// const viewOnGithubLinks = document.querySelectorAll('.view_on_github');
 	// viewOnGithubLinks.forEach(function(link) {
 	//     link.addEventListener('click', function(event) {

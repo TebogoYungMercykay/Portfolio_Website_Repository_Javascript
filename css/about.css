@@ -126,7 +126,7 @@ span {
     left: -1.5rem;
     width: 3rem;
     height: 3rem;
-    background: url("../Images/AI_SVG.png") center no-repeat, var(--main-box-color);
+    background: url("../images/AI_SVG.png") center no-repeat, var(--main-box-color);
     background-size: 40px, cover;
     border-radius: 50%;
 }

@@ -1,49 +1,49 @@
 [
     {
         "id": "languages_content1",
-        "imageSrc": "./Images/Languages/CPP.jpg",
+        "imagesrc": "./images/languages/CPP.jpg",
         "altText": "Image1",
         "style": 2
     },
     {
         "id": "languages_content2",
-        "imageSrc": "./Images/Languages/Javascript.png",
+        "imagesrc": "./images/languages/Javascript.png",
         "altText": "Image2",
         "style": 1
     },
     {
         "id": "languages_content3",
-        "imageSrc": "./Images/Languages/Python.jpg",
+        "imagesrc": "./images/languages/Python.jpg",
         "altText": "Image3",
         "style": 3
     },
     {
         "id": "languages_content4",
-        "imageSrc": "./Images/Languages/Java.jpg",
+        "imagesrc": "./images/languages/Java.jpg",
         "altText": "Image4",
         "style": 8
     },
     {
         "id": "languages_content5",
-        "imageSrc": "./Images/Languages/PHP.jpg",
+        "imagesrc": "./images/languages/PHP.jpg",
         "altText": "Image5",
         "style": 4
     },
     {
         "id": "languages_content6",
-        "imageSrc": "./Images/Languages/HTML_CSS.jpg",
+        "imagesrc": "./images/languages/HTML_CSS.jpg",
         "altText": "Image6",
         "style": 7
     },
     {
         "id": "languages_content7",
-        "imageSrc": "./Images/Languages/Typescript.png",
+        "imagesrc": "./images/languages/Typescript.png",
         "altText": "Image7",
         "style": 5
     },
     {
         "id": "languages_content8",
-        "imageSrc": "./Images/Languages/CSharp.jpg",
+        "imagesrc": "./images/languages/CSharp.jpg",
         "altText": "Image8",
         "style": 6
     }

@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "imageSrc": "./Images/Languages/CPP.jpg",
+        "imagesrc": "./images/languages/CPP.jpg",
         "name": "C++",
         "description": "Programming Language",
         "repositories": "6+"
     },
     {
         "id": 2,
-        "imageSrc": "./Images/Languages/Javascript.png",
+        "imagesrc": "./images/languages/Javascript.png",
         "name": "Javascript",
         "description": "Programming Language",
         "repositories": "5+"
     },
     {
         "id": 3,
-        "imageSrc": "./Images/Languages/Python.jpg",
+        "imagesrc": "./images/languages/Python.jpg",
         "name": "Python",
         "description": "Programming Language",
         "repositories": "4+"
     },
     {
         "id": 4,
-        "imageSrc": "./Images/Languages/Java.jpg",
+        "imagesrc": "./images/languages/Java.jpg",
         "name": "Java",
         "description": "Programming Language",
         "repositories": "5+"
     },
     {
         "id": 5,
-        "imageSrc": "./Images/Languages/PHP.jpg",
+        "imagesrc": "./images/languages/PHP.jpg",
         "name": "PHP",
         "description": "Scripting Language",
         "repositories": "3+"
     },
     {
         "id": 6,
-        "imageSrc": "./Images/Languages/HTML_CSS.jpg",
+        "imagesrc": "./images/languages/HTML_CSS.jpg",
         "name": "HTML & CSS",
         "description": "Standard Markup Language and a Style sheet language",
         "repositories": "9+"
     },
     {
         "id": 7,
-        "imageSrc": "./Images/Languages/Typescript.png",
+        "imagesrc": "./images/languages/Typescript.png",
         "name": "Typescript",
         "description": "Strongly Typed Programming Language",
         "repositories": "4+"
     },
     {
         "id": 8,
-        "imageSrc": "./Images/Languages/CSharp.jpg",
+        "imagesrc": "./images/languages/CSharp.jpg",
         "name": "C Sharp",
         "description": "Programming Language",
         "repositories": "1+"

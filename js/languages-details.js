@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         data.forEach(imageData => {
             languagesIcon.innerHTML += `
             <div class="imgBx" style="--i:${imageData.style};" data-id="${imageData.id}">
-                <img src="${imageData.imageSrc}" alt="${imageData.altText}">
+                <img src="${imageData.imagesrc}" alt="${imageData.altText}">
             </div>
             `;
         });
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 languagesContent.innerHTML += `<div class="languages_contentBx active" id="languages_content${languageData.id}">
                     <div class="card">
                         <div class="imgBx">
-                            <img src="${languageData.imageSrc}" alt="Image${languageData.id}">
+                            <img src="${languageData.imagesrc}" alt="Image${languageData.id}">
                         </div>
                         <div class="textBx">
                             <h2 class="Type_C"> #${languageData.id}. ${languageData.name} <br>
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 languagesContent.innerHTML += `<div class="languages_contentBx" id="languages_content${languageData.id}">
                     <div class="card">
                         <div class="imgBx">
-                            <img src="${languageData.imageSrc}" alt="Image${languageData.id}">
+                            <img src="${languageData.imagesrc}" alt="Image${languageData.id}">
                         </div>
                         <div class="textBx">
                             <h2 class="Type_C"> #${languageData.id}. ${languageData.name} <br>
