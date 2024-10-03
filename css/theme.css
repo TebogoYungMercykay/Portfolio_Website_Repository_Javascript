@@ -1,0 +1,51 @@
+/*
+    Styles for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display-swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: hsla(0, 0%, 50%);
+    --black-color: hsla(0, 0%, 50%);
+    --second-bg-color: hsla(0, 0%, 50%);
+    --animation-color: hsla(0, 0%, 50%);
+    --grad-animation-color: hsla(0, 0%, 50%);
+    --grad1-animation-color: hsla(0, 0%, 50%);
+    --text-color: hsla(0, 0%, 50%);
+    --main-color: hsla(0, 0%, 50%);
+    --main-box-color: hsla(0, 0%, 50%);
+    --lang-color: hsla(0, 0%, 50%);
+    --lang-color-yel: hsla(0, 0%, 50%);
+    --transparent-bg-color: hsla(0, 0%, 50%);
+    --grey-color: hsla(0, 0%, 50%);
+    --projects-grey-color: hsla(0, 0%, 50%);
+    --contact-input-hover: hsla(0, 0%, 50%);
+    --color-box-effect: hsla(0, 0%, 50%);
+
+    --ratio-px-manipulation: 10px;
+    --ratio-em-manipulation: 10em;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--black-color);
+    color: var(--text-color);
+    width: 100%;
+}

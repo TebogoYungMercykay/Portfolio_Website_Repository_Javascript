@@ -1,0 +1,69 @@
+/*
+    Styles for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
+/* Header Cascading Starts Here */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.3s;
+}
+
+.header.sticky {
+    background: var(--bg-color);
+    opacity: 0.96;
+}
+
+.logo {
+    position: relative;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: 3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    position: relative;
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+/****** Light/Dark Theme Toggle ******/
+
+#toggleDark {
+    font-size: 2.3rem;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    padding: 10rem 9% 2rem;
+}
