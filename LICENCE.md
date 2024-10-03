@@ -1,7 +1,6 @@
-# Apache License
-
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+                             Apache License
+                       Version 2.0, January 2004
+                    http://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -187,13 +186,7 @@ APPENDIX: How to apply the Apache License to your work.
     same "printed page" as the copyright notice for easier
     identification within third-party archives.
 
-<div id="license">
-    Copyright <span id="year">2024</span> Selepe Sello, [WhatsApp: 0664110178]
-</div>
-
-<script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+Copyright 2024 Selepe Sello, (WhatsApp: 0664110178)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
