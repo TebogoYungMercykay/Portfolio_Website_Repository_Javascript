@@ -57,7 +57,6 @@ This project is licensed under the Apache License. See the [LICENSE](LICENCE.md)
   - WhatsApp/Mobile: +27 66 411 0178
   - Email: [sbkskhalo.kq@gmail.com](mailto:sbkskhalo.kq@gmail.com)
   - LinkedIn: [sello-selepe-tebogoyungmercykay](https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay)
-
   - GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay)
 
 ---
@@ -67,4 +66,3 @@ This project is licensed under the Apache License. See the [LICENSE](LICENCE.md)
 </p>
 
 ---
-
