@@ -180,7 +180,7 @@
     font-weight: 700;
     font-family: "Open+Sans" + bold;
     text-transform: uppercase;
-    font-size: 1.6em;
+    font-size: 1.75em;
     line-height: 1.6em;
     height: 6em;
     overflow: hidden;
@@ -199,7 +199,7 @@
 
 .section_project .view_project_on_github {
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 1.7em;
     background-color: var(--bg-color);
     color: var(--text-color);
     padding: 9px 10px;
