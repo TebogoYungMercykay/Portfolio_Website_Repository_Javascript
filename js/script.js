@@ -22,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
 			document.documentElement.style.setProperty("--ratio-em-manipulation", "10em");
 		}
 	}
+
+	// * Update to Current Year
+
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+	document.getElementById("curryear").innerHTML = new Date().getFullYear();
 	
 	// * Code to Show or Hide the Modal
 	
