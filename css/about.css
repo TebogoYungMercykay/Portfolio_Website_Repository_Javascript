@@ -82,6 +82,11 @@ span {
     color: var(--second-bg-color);
 }
 
+#about-description {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .journey {
     display: flex;
     justify-content: center;
