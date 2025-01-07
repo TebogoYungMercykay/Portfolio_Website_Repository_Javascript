@@ -11,9 +11,9 @@
     },
     {
         "title": "Compiler Construction",
-        "subtitle": "(Python: Rec Programmng Lang)",
+        "subtitle": "(Python: Rec Programming Lang)",
         "image": "./images/edits/compiler.jpg",
-        "description": "<strong> Description </strong> This repository contains the core components of our Recursive Student Programming Language Compiler Construction and Design project. The project aims to implement a complete compiler, including lexical analysis, parsing, semantic analysis, and target code generation.",
+        "description": "<strong> Description </strong> This repository contains the core components of the Recursive Student Programming Language Compiler Construction and Design project. The project aims to implement a complete compiler from scratch, including lexical analysis, parsing, semantic analysis, and target code generation.",
         "concepts": "<strong> Concepts: </strong> Recursion, Scopes, Lexer, Parser, Testing, PyTest, Scope Analyzer, Type Checker, Code Generator, Virtual Environment, Pip, User Manual, Netwide Assembler.",
         "githubLink": "https://github.com/TebogoYungMercykay/RecSPL-Compiler-Construction-In-Python"
     },
