@@ -6,34 +6,34 @@
         {
             "year": "Feb 2022 - Present",
             "institution": "BSc Computer Sciences",
-            "details": "I initially enrolled for BSc IKS after Matric and Then changed courses in 2022. I am currently enrolled in and passionately pursuing a Bachelor of Science in Computer Sciences at the University of Pretoria, as my goal is to become the finest software developer/engineer. I have completely fallen in love with the field."
+            "details": "Relevant Coursework: Object-Oriented Programming, Databases, Discrete Mathematics, Operating Systems, Computer Networks, Machine Learning, Compiler Construction, Software Engineering, Concurrent Systems, Assembly, Multimedia, Advanced Data Structures and Algorithms, Artificial Intelligence, Programming Languages."
         },
         {
             "year": "Oct 2023 - Nov 2023",
             "institution": "Web Development Bootcamp",
-            "details": "I participated in an intensive Web Development Bootcamp, where I enhanced my existing skills in building robust websites and web applications. The program strengthened my capabilities in coding, unit testing, and various web technologies, while also instilling and advancing valuable learning methodologies."
+            "details": "Participated in an intensive Web Development Bootcamp, enhancing skills in building robust websites and web applications. Strengthened capabilities in coding, unit testing, and various web technologies while advancing effective learning methodologies."
         },
         {
             "year": "Aug 2022 - Oct 2022",
             "institution": "AWS Cloud Development",
-            "details": "I participated in the ALX-T Cloud Development Nanodegree Program offered by Udacity. This comprehensive course focused on developing, deploying, and testing applications in the cloud, with AWS (Amazon Web Services) as the main focus for the course. During the program, I gained proficiency in various AWS services."
+            "details": "Completed the ALX-T Cloud Development Nanodegree Program, focusing on developing, deploying, and testing applications in the cloud using AWS (Amazon Web Services). Gained proficiency in leveraging various AWS services for application development."
         }
     ],
     "experience": [
         {
             "year": "Mar 2024 - Present",
             "position": "Software Developer, Virtu-Tech",
-            "details": "I work closely with clients to develop customized solutions. My role involves collaborating with cross-functional teams on various projects, providing technical expertise, and overseeing project execution. We utilize a range of programming languages and tools to deliver effective solutions."
-        },
-        {
-            "year": "Feb 2023 - Feb 2024",
-            "position": "Computer Laboratory Technician, UP",
-            "details": "I provided support and assistance to the users of the Student Computing Labs, as well as performing tasks like Software installation, server and live casting, Hardware installation, and Computer Hardware assembly to provide an efficient student computing laboratory at University of Pretoria."
+            "details": "Designed and implemented scalable, full-stack solutions using modern technologies such as Next.js and Supabase, ensuring optimal performance and maintainability. Enhanced cloud infrastructure and hosting reliability, achieving 99.9% uptime through efficient DevOps practices and optimized resource allocation."
         },
         {
             "year": "Jan 2024 - Feb 2024",
             "position": "Web Developer, GAO TEK Inc",
-            "details": "As part of our the development interns, I skillfully utilized a combination of WordPress, HTML, CSS, JavaScript, and PHP to meticulously engineer responsive user interfaces, including e-commerce sites powered by WooCommerce. i made use of a local WordPress environment using XAMPP."
+            "details": "Built an interactive e-commerce platform, integrating custom WordPress plugins and optimizing user interfaces to increase customer engagement by 30%. Developed robust back-end solutions in PHP to handle complex product filtering and search capabilities."
+        },
+        {
+            "year": "Feb 2023 - Feb 2024",
+            "position": "Computer Laboratory Technician, UP",
+            "details": "Supported over 500 students and 5 administrators by ensuring the smooth operation of computer labs and related systems. Implemented efficient hardware and software installation processes, reducing downtime by 20%."
         }
     ]
 }
