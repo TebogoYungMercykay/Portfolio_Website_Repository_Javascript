@@ -1,68 +1,69 @@
-# WELCOME TO MY PORTFOLIO WEBSITE
+# Portfolio Website
 
-This README provides an overview of the content and functionality of my personal portfolio site. Here, you will find information about my skills, projects, and experiences, allowing you to get to know me better as a professional.
+<img src="images/readme.png" style="width: 100%; height: 40%;" />
+
+Welcome to my personal portfolio website repository. This project showcases my skills, projects, and professional experience as a developer.
 
 ## Table of Contents
 
-- [About Me](#about-me)
-- [Skills](#skills)
-- [Experience](#experience)
-- [Projects](#projects)
-- [Contact Information](#contact-information)
+- [Portfolio Website](#portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Tech Stack](#tech-stack)
+  - [Project Structure](#project-structure)
+  - [License](#license)
+  - [Credits](#credits)
+  - [Contact](#contact)
 
-## Languages and Tools Used
+## Overview
+
+This website highlights my background, technical skills, and selected projects. Explore the site to learn more about my work and expertise.
+
+## Tech Stack
 
 - JavaScript
-- SmtpJS
-- sheetdb
-- HTML
-- CSS
+- HTML & CSS
+- Bootstrap
 - jQuery
 - JSON
-- Bootstrap
 
----
+## Project Structure
 
-## About Me
+```
+.
+├── CODE_OF_CONDUCT.md
+├── css/
+├── images/
+├── js/
+├── json/
+├── LICENCE.md
+├── index.html
+├── README.md
+└── README.pdf
+```
 
-- In this section, you will learn about me as a professional. I will introduce myself, my background, and my passions. I believe in continuously expanding my knowledge and embracing new challenges, and I'm excited to share my journey with you.
-- GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay)
-
-## Skills
-
-- Here, you can explore the various skills I have acquired throughout my career. From programming languages and technologies to design tools and soft skills, this section highlights the breadth and depth of my expertise. Each skill is accompanied by a brief description to provide context for my proficiency.
-- GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay)
-
-## Experience
-
-- In this section, I outline my professional experience, including internships, previous roles, and any relevant positions. By sharing my journey through different organizations and projects, I aim to demonstrate the valuable experiences that have shaped my career. I believe in collaboration and continuous learning, both of which I have cultivated throughout my work experience.
-- GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay)
-
-## Projects
-
-- My portfolio would be incomplete without showcasing the projects I have worked on. In this section, you can find a curated list of my most significant and innovative projects. For each project, I provide a detailed description, the technologies used, and, if available, a live demo or a link to the repository. I am passionate about solving real-world problems, and this section reflects my commitment to delivering impactful solutions.
-- GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay?tab=repositories)
+- **css/**: Stylesheets for different sections and themes
+- **images/**: Portfolio and project images
+- **js/**: JavaScript files for interactivity and data handling
+- **json/**: Data files for dynamic content
 
 ## License
 
 This project is licensed under the Apache License. See the [LICENSE](LICENCE.md) file for more details.
 
-## Contact Information
+## Credits
 
-- I'm always open to collaboration, networking, or answering any questions you may have. In this section, you will find my contact information, such as my email address and links to my professional social media profiles. Feel free to reach out, and I will respond as promptly as possible.
-- Thank you for visiting my portfolio website. I hope this README provides you with a clear understanding of the content you will discover here. I am thrilled to share my work and experiences with you, and I look forward to connecting with you!
+[![Watch the video](https://img.youtube.com/vi/sQoiM7i5Nqc/0.jpg)](https://www.youtube.com/watch?v=sQoiM7i5Nqc)
 
-- ### Contact Details
+> Starter Code Credits: https://codehalweb.com/responsive-portfolio-website/
 
-  - WhatsApp/Mobile: +27 66 411 0178
-  - Email: [sbkskhalo.kq@gmail.com](mailto:sbkskhalo.kq@gmail.com)
-  - LinkedIn: [sello-selepe-tebogoyungmercykay](https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay)
-  - GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay)
+## Contact
 
----
+- WhatsApp/Mobile: +27 66 411 0178
+- Email: [sbkskhalo.kq@gmail.com](mailto:sbkskhalo.kq@gmail.com)
+- LinkedIn: [sello-selepe-tebogoyungmercykay](https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay)
+- GitHub Profile: [Profile Link](https://github.com/TebogoYungMercykay)
 
-<p align="center">
-    THE END, THANK YOU
-</p>
+Feel free to reach out for collaboration, networking, or questions. My contact details and professional profiles are listed above. Thank you for visiting my portfolio.
 
 ---
