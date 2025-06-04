@@ -53,7 +53,11 @@ This project is licensed under the Apache License. See the [LICENSE](LICENCE.md)
 
 ## Credits
 
-[![Watch the video](https://img.youtube.com/vi/sQoiM7i5Nqc/0.jpg)](https://www.youtube.com/watch?v=sQoiM7i5Nqc)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=sQoiM7i5Nqc">
+    <img src="https://img.youtube.com/vi/sQoiM7i5Nqc/maxresdefault.jpg" alt="Watch the video" style="width:100%;max-width:600px;">
+  </a>
+</div>
 
 > Starter Code Credits: https://codehalweb.com/responsive-portfolio-website/
 
