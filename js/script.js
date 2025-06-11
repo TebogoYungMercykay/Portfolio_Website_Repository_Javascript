@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // * Updating The CSS Variable as The Width-Dimensions Change:
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.getElementById("curryear").innerHTML = new Date().getFullYear();
 	
 	// * Code to Show or Hide the Modal
-	
 	// * This Function is Called when the Page Loads and on Window Resize
 	
 	window.addEventListener("resize", updateVariableBasedOnViewport);

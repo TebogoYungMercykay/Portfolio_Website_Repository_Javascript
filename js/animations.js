@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // * Toddle icon navbar
 
 document.addEventListener('DOMContentLoaded', function() {

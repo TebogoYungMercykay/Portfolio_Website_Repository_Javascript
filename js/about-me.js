@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // * Function to ensure all content dividers have the same height
 
 document.addEventListener('DOMContentLoaded', function() {

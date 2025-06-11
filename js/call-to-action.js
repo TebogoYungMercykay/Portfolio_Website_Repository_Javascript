@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // New Contact Form Enquiry
 
 document.addEventListener('DOMContentLoaded', function () {

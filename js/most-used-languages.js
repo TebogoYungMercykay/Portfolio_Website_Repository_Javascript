@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // Fetching and populating images from the JSON file
 
 document.addEventListener('DOMContentLoaded', function() {

@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // * Modal Effects
 
 document.addEventListener('DOMContentLoaded', function() {
