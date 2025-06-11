@@ -6,7 +6,6 @@
 .Portfolio {
     min-height: 100%;
     padding-bottom: 3rem;
-    /* position: relative; */
 }
 
 .Portfolio::before {
@@ -242,9 +241,7 @@
     border: 2px solid var(--animation-color);
 }
 
-#Custom_Button,
-#Custom_Button_2 {
-    /* justify-content: ; */
+#Custom_Button, #Custom_Button_2 {
     font-size: 2.4rem;
     padding-left: 6px;
     padding-right: 6px;

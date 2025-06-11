@@ -5,8 +5,7 @@
 
 /** Modal Styles */
 
-.md-perspective,
-.md-perspective body {
+.md-perspective, .md-perspective body {
 	height: 100%;
 	overflow: hidden;
 }
