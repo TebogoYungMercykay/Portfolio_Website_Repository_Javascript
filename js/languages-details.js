@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // * Language Section, A function for Adding event Listeners
 
 document.addEventListener('DOMContentLoaded', function() {

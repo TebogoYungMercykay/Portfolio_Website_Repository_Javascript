@@ -1,3 +1,8 @@
+/*
+    Scripts for the Portfolio Site
+    Selepe Sello - TebogoYungMercykay
+*/
+
 // * Sending Form Data Via Email
 
 document.addEventListener('DOMContentLoaded', function() {
