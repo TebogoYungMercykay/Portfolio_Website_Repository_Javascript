@@ -21,7 +21,7 @@
     ],
     "experience": [
         {
-            "year": "Mar 2024 - Mar 2025",
+            "year": "Jan 2024 - Jun 2025",
             "position": "Software Developer, Virtu-Tech",
             "details": "Developed 7+ scalable applications using TypeScript, Next.js/React, Python, FastAPI, and Node.js, maintaining seamless functionality for 9,500 concurrent users. Led automated CI/CD pipeline integration achieving 15% faster release cycles across 6 projects through GitHub Actions. Optimized cloud infrastructure achieving 99.5% uptime through DevOps practices and implemented secure architecture with JWT Auth and real-time WebSocket communication."
         },
