@@ -1,39 +1,39 @@
 {
     "name": "Selepe Sello",
     "imagesrc": "./images/tebogoyungmercykay.png",
-    "description": "Driven by a passion for solving real-world challenges, I specialize in AWS Cloud Development, DevOps Engineering, Web Development, Database Management, and Software Testing. With a keen interest in Cybersecurity and Ethical Hacking, I focus on delivering secure, scalable solutions that meet the ever-evolving demands of the software industry. Constantly exploring cutting-edge tools and practices, I thrive in dynamic environments that foster innovation and growth.<br><br>My growing interest in Data Science fuels my ability to analyze data, uncover actionable insights, and guide strategic decisions. Outside of technology, my love for chess and art sharpens my creativity and strategic thinking, traits I integrate into every project and collaboration.",
+    "description": "I am a highly motivated Computer Sciences graduate with a strong focus on end-product delivery, ranked among the most active GitHub contributors in South Africa, with a proven ability to build secure, scalable, high-performance and innovative solutions in Software Engineering, and Cloud Development. I achieved over 2.6K commits and 1.6K pull requests across 50+ open-source projects, demonstrating my dedication to collaborative development and continuous learning. My proficiency spans 12+ programming languages, enabling versatile cross-domain solutions.",
     "education": [
         {
-            "year": "Feb 2022 - Nov 2024",
+            "year": "Feb 2022 - Jun 2025",
             "institution": "BSc Computer Sciences",
-            "details": "Developed an exceptional grasp of design principles and development methodologies. Built and deployed over 15 live projects on GitHub across multiple modules, demonstrating expertise in version control, collaborative workflows, and deployment practices, each accompanied by a live demo."
+            "details": "Earned distinction in Software Engineering, demonstrating advanced proficiency in software design, agile methodologies, and CI/CD practices. Built and deployed 15+ live projects on GitHub across multiple modules with comprehensive documentation and live demos. Competed in hackathons including Nemisa 2023 Data Science Datathon, created Capture The Flag cybersecurity challenges, and mentored students through the STARS Mentorship Programme."
         },
         {
             "year": "Oct 2023 - Nov 2023",
             "institution": "Web Development Bootcamp",
-            "details": "Participated in an intensive Web Development Bootcamp, enhancing skills in building robust websites and web applications. Strengthened capabilities in coding, unit testing, and various web technologies while advancing effective learning methodologies."
+            "details": "Completed intensive bootcamp focusing on modern web technologies and industry-standard development methodologies. Enhanced skills in building robust, scalable web applications with emphasis on responsive design, performance optimization, and comprehensive unit testing. Strengthened capabilities in advanced coding techniques, debugging strategies, and modern JavaScript frameworks while advancing effective learning methodologies."
         },
         {
             "year": "Aug 2022 - Oct 2022",
-            "institution": "AWS Cloud Development",
-            "details": "Completed the ALX-T Cloud Development Nanodegree Program, focusing on developing, deploying, and testing applications in the cloud using AWS (Amazon Web Services). Gained proficiency in leveraging various AWS services for application development."
+            "institution": "ALX-T (AWS) Cloud Development",
+            "details": "Completed Cloud Development Nanodegree 3 weeks early while managing university studies, ranking among top four participants. Built production-ready applications with microservices architecture, serverless framework, and RESTful APIs using AWS S3 and PostgreSQL. Deployed applications using Docker Containers and Kubernetes Clusters, leveraging AWS services including Lambda, API Gateway, EC2, and CloudFormation."
         }
     ],
     "experience": [
         {
             "year": "Mar 2024 - Mar 2025",
             "position": "Software Developer, Virtu-Tech",
-            "details": "Designed and implemented scalable, full-stack solutions using modern technologies such as Next.js and Supabase, ensuring optimal performance and maintainability. Enhanced cloud infrastructure and hosting reliability, achieving 99.9% uptime through efficient DevOps practices and optimized resource allocation."
+            "details": "Developed 7+ scalable applications using TypeScript, Next.js/React, Python, FastAPI, and Node.js, maintaining seamless functionality for 9,500 concurrent users. Led automated CI/CD pipeline integration achieving 15% faster release cycles across 6 projects through GitHub Actions. Optimized cloud infrastructure achieving 99.5% uptime through DevOps practices and implemented secure architecture with JWT Auth and real-time WebSocket communication."
         },
         {
             "year": "Jan 2024 - Feb 2024",
-            "position": "Web Developer, GAO TEK Inc",
-            "details": "Built an interactive e-commerce platform, integrating custom WordPress plugins and optimizing user interfaces to increase customer engagement by 30%. Developed robust back-end solutions in PHP to handle complex product filtering and search capabilities."
+            "position": "Web Developer Intern, GAO TEK Inc",
+            "details": "Built 3 interactive WooCommerce platforms boosting customer engagement through optimized user interfaces and custom WordPress plugins using PHP, HTML, CSS, and JavaScript. Engineered high-performance back-end solutions accelerating product filtering and AJAX search capabilities, seamlessly handling 1,500+ daily users with zero downtime while implementing responsive design principles."
         },
         {
             "year": "Feb 2023 - Feb 2024",
             "position": "Computer Laboratory Technician, UP",
-            "details": "Supported over 500 students and 5 administrators by ensuring the smooth operation of computer labs and related systems. Implemented efficient hardware and software installation processes, reducing downtime by 20%."
+            "details": "Supported over 500 students and 5 administrators ensuring 95% availability of computer labs through proactive monitoring and rapid issue resolution. Executed 50+ hardware/software installations and conducted 15+ live casting setups with no delays, implementing efficient workflow processes and maintaining detailed documentation for enhanced productivity."
         }
     ]
 }
