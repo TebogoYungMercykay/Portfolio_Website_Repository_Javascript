@@ -23,7 +23,7 @@
         "image": "./images/edits/fastapi.png",
         "description": "<strong> Description </strong> A comprehensive repository showcasing modern best practices and examples for building robust, high-performance and efficient API using FastAPI in Python.",
         "concepts": "<strong> Technologies: </strong> Unit Testing, CI/CD (Docker, Heroku), Database Migration Tools, Authentication (JWT Tokens), Virtual Env, Relational Databases (Postgres), Uvicorn ASGI Web Server, GitHub Jobs, SQLAlchemy.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Python_API_Development_Booth_FASTAPI.git",
+        "githubLink": "https://github.com/TebogoYungMercykay/FastAPI-Backend-ML-Service",
         "liveViewLink": "https://healthconnect-python-fastapi-9b23b53a9ae4.herokuapp.com/docs"
     },
     {
@@ -50,7 +50,7 @@
         "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
         "serverSide": "<strong> Backend: </strong> Node.js, Express.js, TypeScript, RDS Database (POSTGRESS), Amazon S3",
         "concepts": "<strong> Technologies: </strong> Reverse Proxy, nginx.conf, Docker, Containerization, Kubernetes Clusters, Microservices, HorizontalPodAutoscaler.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Refactoring_a_Monolith_to_Microservices"
+        "githubLink": "https://github.com/TebogoYungMercykay/Udagram-Image-Social-Microservices"
     },
     {
         "title": "Image Filter",
