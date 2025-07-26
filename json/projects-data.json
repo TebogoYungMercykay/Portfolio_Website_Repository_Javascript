@@ -6,8 +6,7 @@
         "description": "<strong> Description </strong> Imagine a fusion of 'Eskom se Push' and 'X'. The Republic allows users to raise concerns and spread awareness about government services through incident reports, with cool data visualizations providing a dynamic overview of public sentiment on service delivery.",
         "clientSide": "<strong> Frontend: </strong> Next Js, Radix UI, Typescript, Jest, ECharts.",
         "serverSide": "<strong> Backend: </strong> Node.js, Typescript, Express.js, Flask, NGINX, Supabase, Docker, Jest, WebPack, ESLint.",
-        "githubLink": "https://github.com/COS301-SE-2024/The-Republic",
-        "liveViewLink": "https://www.the-republic.co.za/about"
+        "githubLink": "https://github.com/COS301-SE-2024/The-Republic"
     },
     {
         "title": "Compiler Construction",
@@ -23,8 +22,7 @@
         "image": "./images/edits/fastapi.png",
         "description": "<strong> Description </strong> A comprehensive repository showcasing modern best practices and examples for building robust, high-performance and efficient API using FastAPI in Python.",
         "concepts": "<strong> Technologies: </strong> Unit Testing, CI/CD (Docker, Heroku), Database Migration Tools, Authentication (JWT Tokens), Virtual Env, Relational Databases (Postgres), Uvicorn ASGI Web Server, GitHub Jobs, SQLAlchemy.",
-        "githubLink": "https://github.com/TebogoYungMercykay/FastAPI-Backend-ML-Service",
-        "liveViewLink": "https://healthconnect-python-fastapi-9b23b53a9ae4.herokuapp.com/docs"
+        "githubLink": "https://github.com/TebogoYungMercykay/FastAPI-Backend-ML-Service"
     },
     {
         "title": "Computer Networking",
