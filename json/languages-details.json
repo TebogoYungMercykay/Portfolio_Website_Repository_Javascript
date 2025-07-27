@@ -22,31 +22,32 @@
     },
     {
         "id": 4,
-        "imagesrc": "./images/languages/PHP.jpg",
-        "name": "PHP",
-        "description": "Scripting Language",
-        "repositories": "3+"
-    },
-    {
-        "id": 5,
         "imagesrc": "./images/languages/Javascript.png",
         "name": "Javascript",
         "description": "Programming Language",
         "repositories": "5+"
     },
     {
-        "id": 6,
+        "id": 5,
         "imagesrc": "./images/languages/Typescript.png",
         "name": "Typescript",
         "description": "Strongly Typed Programming Language",
         "repositories": "4+"
     },
     {
-        "id": 7,
+
+        "id": 6,
         "imagesrc": "./images/languages/HTML_CSS.jpg",
         "name": "HTML & CSS",
         "description": "Standard Markup Language and a Style sheet language",
         "repositories": "9+"
+    },
+    {
+        "id": 7,
+        "imagesrc": "./images/languages/PHP.jpg",
+        "name": "PHP",
+        "description": "Scripting Language",
+        "repositories": "3+"
     },
     {
         "id": 8,

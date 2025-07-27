@@ -30,13 +30,16 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
     border-radius: 50%;
+    aspect-ratio: 1;
 }
 
 .about-img img {
-    width: 90%;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
     border-radius: 50%;
     border: 0.2rem solid var(--main-color);
 }

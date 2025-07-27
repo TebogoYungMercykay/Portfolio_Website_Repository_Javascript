@@ -25,12 +25,30 @@
         "githubLink": "https://github.com/TebogoYungMercykay/FastAPI-Backend-ML-Service"
     },
     {
-        "title": "Computer Networking",
-        "subtitle": "(C++ OOP: Network Protocols)",
-        "image": "./images/edits/Networking.jpg",
-        "description": "<strong> Description </strong> This is a comprehensive collection of network protocol implementations and server applications built from scratch to demonstrate core networking concepts and server-side programming.",
-        "concepts": "<strong> Topics:  </strong> RFCs, Proxy, HTTP/1.1 with CGI support, FTP with active/passive modes, SMTP for email transmission, POP3 for email retrieval, LDAP for directory services, Telnet for remote terminal access </strong> .",
-        "githubLink": "https://github.com/TebogoYungMercykay/Computer-Networking-In-CPP"
+        "title": "Image Filter",
+        "subtitle": "(AWS, Udagram Image Filtering Microservice)",
+        "image": "./images/edits/Cat.png",
+        "description": "<strong> Description </strong> This project delivers a robust Node.js API and server for cloud-based image processing. Users can seamlessly upload images and apply a variety of advanced filters via RESTful endpoints. The service is designed for scalability, reliability, and efficient image transformation, providing an automated solution for image filtering workflows.",
+        "concepts": "<strong> Technologies: </strong> AWS Cloud, AWS Elastic Beanstalk, IAM User, SSH, RestAPI, Node JS, AWS Cloud, Node-Express Scripts.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Udagram_Image_Filtering_Microservice"
+    },
+    {
+        "title": "Serverless Framework",
+        "subtitle": "(AWS Cloud Architecture & DevOps)",
+        "image": "./images/edits/serverless.png",
+        "description": "<strong> Description </strong> A Full-Stack Serverless TODO application built with AWS Lambda, API Gateway, DynamoDB, and React. Features secure authentication through Auth0 and demonstrates modern serverless architecture patterns. Enables users to manage personal tasks with CRUD operations, ensuring data isolation and supporting optional image attachments for each task.",
+        "concepts": "<strong> Topics: </strong> AWS Lambda Functions, API Gateway REST API, DynamoDB NoSQL Database, S3 File Storage, Serverless Framework Infrastructure as Code, Auth0 Authentication, Custom Lambda Authorizers, IAM Security Models, Event-Driven Architecture, Node.js Runtime.",
+        "githubLink": "https://github.com/TebogoYungMercykay/AWS-Serverless-Task-Manager-App"
+    },
+    {
+        "title": "Cloud Application",
+        "subtitle": "(AWS, Kebernetes Clusters, NGINX & Docker)",
+        "image": "./images/edits/AWS.jpg",
+        "description": "<strong> Description </strong> This cloud application allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice. It is built using a microservices architecture.",
+        "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
+        "serverSide": "<strong> Backend: </strong> Node.js, Express.js, TypeScript, RDS Database (POSTGRESS), Amazon S3",
+        "concepts": "<strong> Technologies: </strong> Reverse Proxy, nginx.conf, Docker, Containerization, Kubernetes Clusters, Microservices, HorizontalPodAutoscaler.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Udagram-Image-Social-Microservices"
     },
     {
         "title": "Concurrent Testing Framework",
@@ -41,22 +59,28 @@
         "githubLink": "https://github.com/TebogoYungMercykay/Concurrent-Testing-Framework"
     },
     {
-        "title": "Cloud Application",
-        "subtitle": "(AWS, Kebernetes Clusters, NGINX & Docker)",
-        "image": "./images/edits/Microservices.png",
-        "description": "<strong> Description </strong> This udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.",
-        "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
-        "serverSide": "<strong> Backend: </strong> Node.js, Express.js, TypeScript, RDS Database (POSTGRESS), Amazon S3",
-        "concepts": "<strong> Technologies: </strong> Reverse Proxy, nginx.conf, Docker, Containerization, Kubernetes Clusters, Microservices, HorizontalPodAutoscaler.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Udagram-Image-Social-Microservices"
+        "title": "Relational Databases",
+        "subtitle": "(Java: Data Structures and Algorithms)",
+        "image": "./images/edits/JavaDSA.jpg",
+        "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
+        "concepts": "<strong> Topics: </strong> Treap, Binary Trees, Self-organizing, Max Heap, CRUD Operations, Exceptions, and Indexing.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps"
     },
     {
-        "title": "Image Filter",
-        "subtitle": "(AWS: Udagram Image Filtering Microservice)",
-        "image": "./images/edits/Cat.png",
-        "description": "<strong> Description </strong> This project delivers a robust Node.js API and server for cloud-based image processing. Users can seamlessly upload images and apply a variety of advanced filters via RESTful endpoints. The service is designed for scalability, reliability, and efficient image transformation, providing an automated solution for image filtering workflows.",
-        "concepts": "<strong> Technologies: </strong> AWS Cloud, AWS Elastic Beanstalk, IAM User, SSH, RestAPI, Node JS, AWS Cloud, Node-Express Scripts.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Udagram_Image_Filtering_Microservice"
+        "title": "Computer Networking",
+        "subtitle": "(C++ OOP: Network Protocols)",
+        "image": "./images/edits/Networking.jpg",
+        "description": "<strong> Description </strong> This is a comprehensive collection of network protocol implementations and server applications built from scratch to demonstrate core networking concepts and server-side programming.",
+        "concepts": "<strong> Topics:  </strong> RFCs, Proxy, HTTP/1.1 with CGI support, FTP with active/passive modes, SMTP for email transmission, POP3 for email retrieval, LDAP for directory services, Telnet for remote terminal access </strong> .",
+        "githubLink": "https://github.com/TebogoYungMercykay/Computer-Networking-In-CPP"
+    },
+    {
+        "title": "Multithreaded CRUD API",
+        "subtitle": "(Java: Concurrent Systems)",
+        "image": "./images/edits/CRUD.png",
+        "description": "<strong> Description </strong> This API is a multi-threaded CRUD (Create, Read, Update, Delete) API for handling database requests. It utilizes multi-threading and the Bakery Lock algorithm to ensure thread safety and concurrent operations on a shared database.",
+        "concepts": "<strong> Topics: </strong> Java, Multi-threading, Locking, Fairness, Concurrency, CRUD Operations, Bakery Lock, Queues, Threads, Makefile, WSL, Linked Lists, Database Development, Requests.",
+        "githubLink": "https://github.com/TebogoYungMercykay/Concurrent_Multithreaded_CRUD_API"
     },
     {
         "title": "Wackdonalds Restaurant",
@@ -74,29 +98,5 @@
         "clientSide": "<strong> Frontend: </strong> Modern JavaScript (ES6+), HTML5, CSS3, with responsive design and real-time UI updates.",
         "serverSide": "<strong> Backend: </strong> Node.js, Socket.io for real-time communication, Express.js, PHP API integration, and MySQL Database for persistent, scalable data storage.",
         "githubLink": "https://github.com/TebogoYungMercykay/Brand_Race-Local_NodeJS_Socket_Server"
-    },
-    {
-        "title": "Multithreaded CRUD API",
-        "subtitle": "(Java: Concurrent Systems)",
-        "image": "./images/edits/CRUD.png",
-        "description": "<strong> Description </strong> This API is a multi-threaded CRUD (Create, Read, Update, Delete) API for handling database requests. It utilizes multi-threading and the Bakery Lock algorithm to ensure thread safety and concurrent operations on a shared database.",
-        "concepts": "<strong> Topics: </strong> Java, Multi-threading, Locking, Fairness, Concurrency, CRUD Operations, Bakery Lock, Queues, Threads, Makefile, WSL, Linked Lists, Database Development, Requests.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Concurrent_Multithreaded_CRUD_API"
-    },
-    {
-        "title": "DFA Simulator Engine",
-        "subtitle": "(Assembly & C: Group Project)",
-        "image": "./images/edits/dfa.png",
-        "description": "<strong> Description </strong> This program would allow lecturers to define a DFA in a text file, which the program could then construct and simulate with input strings using NASM Assembler and C language.",
-        "concepts": "<strong> Topics: </strong> Deterministic Finite Automata, x86-64 Bit NASM Assembler, Constructing DFA, Simulation of Input Strings, Checking if Two DFAs Accept the Same Language.",
-        "githubLink": "https://github.com/TebogoYungMercykay/TeamName_COS284_Group_Project_1.git"
-    },
-    {
-        "title": "Relational Databases",
-        "subtitle": "(Java: Data Structures and Algorithms)",
-        "image": "./images/edits/JavaDSA.jpg",
-        "description": "<strong> Description </strong> This project puts a twist on the Standard Treap (randomized search tree) in that I add the idea of self-organizing data structures to implement a Database (collection of somehow related rows) Indexing.",
-        "concepts": "<strong> Topics: </strong> Treap, Binary Trees, Self-organizing, Max Heap, CRUD Operations, Exceptions, and Indexing.",
-        "githubLink": "https://github.com/TebogoYungMercykay/Relational-Database_Using_Self-organizing_Treaps"
     }
 ]

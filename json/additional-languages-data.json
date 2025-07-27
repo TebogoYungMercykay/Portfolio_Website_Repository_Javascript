@@ -1,19 +1,19 @@
 [
     {
         "name": "Node.js & Web Sockets (Real-Time Multi-User Server Applications)",
-        "percentage": 91
+        "percentage": 95
     },
     {
         "name": "Ionic, Angular, React Native (Cross-Platform Mobile Applications)",
-        "percentage": 70
+        "percentage": 75
     },
     {
         "name": "AWS, Docker, Github Actions (Cloud Infrastructure and DevOps)",
         "percentage": 100
     },
     {
-        "name": "NPM (JavaScript Package Management and Dependency Handling)",
-        "percentage": 99
+        "name": "NPM (Node Package Management and Dependency Handling)",
+        "percentage": 100
     },
     {
         "name": "MySQL (Relational Database Management and Data Dumps)",
@@ -25,10 +25,10 @@
     },
     {
         "name": "Next.js (Frontend Development and Server-Side Rendering)",
-        "percentage": 96
+        "percentage": 100
     },
     {
         "name": "NASM (Netwide Assembler for x86-64 Architecture)",
-        "percentage": 68
+        "percentage": 70
     }
 ]

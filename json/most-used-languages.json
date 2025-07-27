@@ -1,15 +1,15 @@
 [
     {
         "name": "C++ (Object-Oriented Programming and Software Design Patterns)",
-        "percentage": 90
+        "percentage": 95
     },
     {
         "name": "Java (Data Structures, Algorithms, and Concurrent Programming)",
-        "percentage": 86
+        "percentage": 90
     },
     {
         "name": "JavaScript (Advanced Client-Side Scripting and Frameworks)",
-        "percentage": 97
+        "percentage": 100
     },
     {
         "name": "PHP (RESTful APIs and Server-Side Scripting)",
@@ -21,11 +21,11 @@
     },
     {
         "name": "Python (Scientific Computing and Data Analysis)",
-        "percentage": 88
+        "percentage": 100
     },
     {
         "name": "TypeScript (Strongly Typed JavaScript for Scalable Applications)",
-        "percentage": 87
+        "percentage": 90
     },
     {
         "name": "C# (Windows Forms Applications and .NET Framework)",
