@@ -42,7 +42,7 @@
     },
     {
         "title": "Cloud Application",
-        "subtitle": "(AWS, Kebernetes Clusters, NGINX & Docker)",
+        "subtitle": "(AWS, Kubernetes Clusters, NGINX & Docker)",
         "image": "./images/edits/AWS.jpg",
         "description": "<strong> Description </strong> This cloud application allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice. It is built using a microservices architecture.",
         "clientSide": "<strong> Frontend: </strong> Angular and Ionic.",
