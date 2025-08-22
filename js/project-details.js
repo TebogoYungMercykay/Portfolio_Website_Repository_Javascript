@@ -22,12 +22,16 @@ document.addEventListener('DOMContentLoaded', function() {
                         ${projectData.hasOwnProperty('serverSide') ? `<p class="project-details">${projectData.serverSide}</p>` : ''}
                         ${projectData.hasOwnProperty('concepts') ? `<p class="project-details">${projectData.concepts}</p>` : ''}
                     </div>
-                    <a href="${projectData.githubLink || ''}" class="view_project_on_github" title="view_project_on_github" target="_blank" rel="noopener">
-                        <i class="bx bxl-github"></i> View Project
-                    </a>
-                    ${projectData.hasOwnProperty('liveViewLink') ? `<a href="${projectData.liveViewLink || ''}" class="view_project_on_github liveview_link" title="view_project_on_github" target="_blank" rel="noopener">
-                        <i class='bx bxl-netlify'></i> Live View
-                    </a>` : ''}
+                    ${projectData.hasOwnProperty('githubLink') ?
+                        `<a href="${projectData.githubLink || ''}" class="view_project_on_github" title="view_project_on_github" target="_blank" rel="noopener">
+                            <i class="bx bxl-github"></i> Project Code
+                        </a>` : ''
+                    }
+                    ${projectData.hasOwnProperty('liveLink') ?
+                        `<a href="${projectData.liveLink || ''}" class="view_project_on_github" title="view_project_on_github" target="_blank" rel="noopener">
+                            <i class='bx bxl-netlify'></i> Live Demo
+                        </a>` : ''
+                    }
                 </div>`;
     
                 // Checking if the projectData object has a "title" property
