@@ -1,7 +1,7 @@
 [
     {
-        "title": "Maximum Notion Security Services",
-        "subtitle": "(Full-Stack Web Development & DevOps)",
+        "title": "Maximum Notion",
+        "subtitle": "(NextJS: Web Development)",
         "image": "./images/edits/favicon.svg",
         "description": "<strong> Description </strong> Complete website transformation for South Africa's leading security services provider. Migrated from WordPress template to custom Next.js implementation, delivering enhanced performance, SEO optimization, and comprehensive analytics integration with zero-downtime hosting migration.",
         "clientSide": "<strong> Frontend: </strong> Next.js, TypeScript, Tailwind CSS, Responsive Design",
