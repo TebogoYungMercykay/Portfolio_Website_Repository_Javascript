@@ -1,39 +1,39 @@
 {
     "name": "Selepe Sello",
     "imagesrc": "./images/tebogoyungmercykay.png",
-    "description": "Computer Sciences graduate and one of South Africa's most active GitHub contributors with 2.6K+ commits and 1.6K+ pull requests across 50+ open-source projects. I specialize in building secure, scalable, high-performance solutions in Software Engineering, DevOps, and AWS Cloud Development, with a strong focus on end-product delivery and collaborative development.<br><br>My expertise spans Web Development, Database Management, Software Testing, and Cybersecurity, while my growing passion for Data Science drives me to uncover actionable insights that guide strategic decisions. I thrive in dynamic environments that foster innovation, continuous learning, and the delivery of cutting-edge solutions that meet evolving industry demands.",
+    "description": "Computer Science graduate and active open-source contributor specializing in building secure, scalable, high-performance solutions. My expertise spans Software Engineering, DevOps, AWS Cloud Development, Web Development, Database Management, and Software Testing, with a strong focus on end-product delivery and collaborative development.<br><br>Driven by a passion for Cybersecurity and Data Science, I thrive in dynamic environments that foster innovation and continuous learning. I am committed to delivering cutting-edge solutions that solve real-world challenges, meet evolving industry demands, and create meaningful impact through technology.",
     "education": [
         {
             "year": "Feb 2022 - Jun 2025",
             "institution": "BSc Computer Sciences",
-            "details": "Earned distinction in Software Engineering, demonstrating advanced proficiency in software design, agile methodologies, and CI/CD practices. Built and deployed 15+ live projects on GitHub across multiple modules with comprehensive documentation and live demos. Competed in hackathons including Nemisa 2023 Data Science Datathon, created Capture The Flag cybersecurity challenges, and mentored students through the STARS Mentorship Programme."
+            "details": "Graduated with distinction in Software Engineering, demonstrating advanced proficiency in software design, agile methodologies, and CI/CD practices. Developed and deployed 15+ projects on GitHub with comprehensive documentation and live demos. Participated in hackathons including the Nemisa 2023 Data Science Datathon, authored Capture The Flag cybersecurity challenges, and mentored peers through the STARS Mentorship Programme."
         },
         {
             "year": "Oct 2023 - Nov 2023",
             "institution": "Web Development Bootcamp",
-            "details": "Completed intensive bootcamp focusing on modern web technologies and industry-standard development methodologies. Enhanced skills in building robust, scalable web applications with emphasis on responsive design, performance optimization, and comprehensive unit testing. Strengthened capabilities in advanced coding techniques, debugging strategies, and modern JavaScript frameworks while advancing effective learning methodologies."
+            "details": "Completed an intensive bootcamp focused on modern web technologies and industry-standard development practices. Strengthened skills in building robust, scalable web applications with emphasis on responsive design, performance optimization, and unit testing. Advanced capabilities in coding techniques, debugging strategies, and modern JavaScript frameworks."
         },
         {
             "year": "Aug 2022 - Oct 2022",
             "institution": "ALX-T (AWS) Cloud Development",
-            "details": "Completed Cloud Development Nanodegree 3 weeks early while managing university studies, ranking among top four participants. Built production-ready applications with microservices architecture, serverless framework, and RESTful APIs using AWS S3 and PostgreSQL. Deployed applications using Docker Containers and Kubernetes Clusters, leveraging AWS services including Lambda, API Gateway, EC2, and CloudFormation."
+            "details": "Completed the Cloud Development Nanodegree three weeks ahead of schedule while managing university coursework, ranking among the top four participants. Built production-ready applications featuring microservices architecture, serverless framework, and RESTful APIs with AWS S3 and PostgreSQL. Deployed containerized applications using Docker and Kubernetes, leveraging AWS Lambda, API Gateway, EC2, and CloudFormation."
         }
     ],
     "experience": [
         {
-            "year": "Jan 2024 - Jun 2025",
-            "position": "Software Developer, Virtu-Tech",
-            "details": "Developed 7+ scalable applications using TypeScript, Next.js/React, Python, FastAPI, and Node.js, maintaining seamless functionality for 9,500 concurrent users. Led automated CI/CD pipeline integration achieving 15% faster release cycles across 6 projects through GitHub Actions. Optimized cloud infrastructure achieving 99.5% uptime through DevOps practices and implemented secure architecture with JWT Auth and real-time WebSocket communication."
+            "year": "Oct 2025 - Jan 2026",
+            "position": "Software Developer, Map2Tech",
+            "details": "Designed and prototyped a new user interface from scratch using HTML, TailwindCSS, and JavaScript, then rebuilt the application with Django and HTMX for dynamic interactions. Integrated OpenAI and Google AI models for text, image, and video generation with real-time streaming via Server-Sent Events. Configured Django Vite to bundle JavaScript and manage TailwindCSS, replacing CDN usage for improved performance."
         },
         {
-            "year": "Jan 2024 - Feb 2024",
-            "position": "Web Developer Intern, GAO TEK Inc",
-            "details": "Built 3 interactive WooCommerce platforms boosting customer engagement through optimized user interfaces and custom WordPress plugins using PHP, HTML, CSS, and JavaScript. Engineered high-performance back-end solutions accelerating product filtering and AJAX search capabilities, seamlessly handling 1,500+ daily users with zero downtime while implementing responsive design principles."
+            "year": "Jan 2024 - Jun 2025",
+            "position": "Software Developer, Virtu-Tech",
+            "details": "Developed secure, scalable applications using modern languages and frameworks within Agile teams. Implemented CI/CD pipelines, automated testing, and code quality practices. Designed responsive, accessible user interfaces and managed cloud infrastructure through DevOps practices, automated deployments, and monitoring solutions."
         },
         {
             "year": "Feb 2023 - Feb 2024",
             "position": "Computer Laboratory Technician, UP",
-            "details": "Supported over 500 students and 5 administrators ensuring 95% availability of computer labs through proactive monitoring and rapid issue resolution. Executed 50+ hardware/software installations and conducted 15+ live casting setups with no delays, implementing efficient workflow processes and maintaining detailed documentation for enhanced productivity."
+            "details": "Maintained computer lab infrastructure supporting students and faculty, ensuring high availability through proactive monitoring and rapid issue resolution. Performed hardware maintenance, software installations, and troubleshooting to minimize downtime and optimize productivity. Conducted live casting setups for lectures and events while maintaining detailed documentation and implementing efficient workflow processes."
         }
     ]
 }

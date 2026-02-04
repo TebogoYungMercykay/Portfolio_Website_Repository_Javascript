@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             data.forEach(projectData => {
                 const projectDetailsHTML = `<div class="section_project">
                     <h3 class="project_tittle"> ${projectData.title} <br> ${projectData.subtitle || ''} </h3>
-                    <img class="project_image" src="${projectData.image}" alt="Image: ${projectData.title}" />
+                    <img class="project_image" src="${projectData.image}" alt="Image: ${projectData.title}" style="background-color: ${projectData.bgColor || 'transparent'}" />
                     <br>
                     <div class="div-project-details">
                         <p class="project-details"> ${projectData.description || ''} </p>
