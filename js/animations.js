@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		if (active == 'Home') {
 			document.title = 'Welcome to My Portfolio Site!';
 		} else {
-			document.title = active + ' Page';
+			document.title = active + ' Section';
 		}
 	}
 	
