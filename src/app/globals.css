@@ -1,0 +1,385 @@
+/* Fonts */
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/Poppins-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/poppins/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Restore browser heading defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* CSS Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-width: 0;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-color: hsla(0, 0%, 15%, 0.99);
+  --black-color: hsla(0, 0%, 0%, 0.962);
+  --second-bg-color: hsla(0, 0%, 10%, 0.948);
+  --animation-color: hsla(0, 0%, 65%, 0.082);
+  --grad-animation-color: hsla(0, 0%, 64%, 0.073);
+  --grad1-animation-color: hsla(0, 0%, 64%, 0);
+  --text-color: hsl(0, 0%, 95%);
+  --main-color: hsl(0, 0%, 70%);
+  --main-box-color: hsla(165, 100%, 100%, 0.977);
+  --lang-color: hsla(165, 100%, 98%, 0.98);
+  --lang-color-yel: hsla(160, 100%, 98%, 0.08);
+  --transparent-bg-color: hsla(0, 0%, 100%, 0.18);
+  --grey-color: hsla(165, 100%, 98%, 0.508);
+  --projects-grey-color: hsla(0, 0%, 57%, 0.09);
+  --contact-input-hover: hsla(0, 100%, 100%, 0.999);
+  --color-box-effect: hsla(165, 100%, 98%, 0.25);
+
+  --ratio-px-manipulation: 10px;
+  --ratio-em-manipulation: 10em;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+body {
+  background: var(--black-color);
+  color: var(--text-color);
+  width: 100%;
+}
+
+/* Global span color */
+span {
+  color: var(--main-color);
+}
+
+strong {
+  font-weight: 600;
+}
+
+section {
+  padding: 10rem 9% 2rem;
+}
+
+/* Background Animation */
+.colorBoxEffect {
+  transition: 2s ease;
+  margin: 2px;
+}
+
+.colorBoxEffect:hover {
+  background: var(--color-box-effect);
+  transition-duration: 0s;
+}
+
+/* Languages Carousel */
+.languages_section {
+  margin: calc(5 * var(--ratio-px-manipulation));
+  margin-bottom: calc(8 * var(--ratio-px-manipulation));
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.languages_section::before {
+  content: "";
+  position: absolute;
+}
+
+.languages_container {
+  position: relative;
+  width: calc(60 * var(--ratio-px-manipulation));
+  height: calc(60 * var(--ratio-px-manipulation));
+  border: calc(0.4 * var(--ratio-px-manipulation)) solid var(--grey-color);
+  border-radius: 50%;
+}
+
+.languages_container .languages_icon {
+  position: relative;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.languages_container .languages_icon .imgBx {
+  position: absolute;
+  width: calc(8 * var(--ratio-px-manipulation));
+  height: calc(8 * var(--ratio-px-manipulation));
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid var(--text-color);
+  box-shadow: 0 0 0 calc(0.4 * var(--ratio-px-manipulation)) var(--bg-color),
+    0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--text-color);
+  transform: rotate(calc(360deg / 8 * var(--i)));
+  transform-origin: calc(34 * var(--ratio-px-manipulation));
+  z-index: 1;
+  overflow: hidden;
+}
+
+.languages_container .languages_icon .imgBx.active {
+  box-shadow: 0 0 0 calc(0.6 * var(--ratio-px-manipulation)) var(--bg-color),
+    0 0 0 calc(1.2 * var(--ratio-px-manipulation)) var(--main-color);
+}
+
+.languages_content {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.languages_content::before {
+  content: "";
+  position: absolute;
+  inset: calc(6 * var(--ratio-px-manipulation));
+  border: calc(0.4 * var(--ratio-px-manipulation)) solid transparent;
+  border-left: calc(0.5 * var(--ratio-px-manipulation)) solid var(--main-color);
+  border-right: calc(0.5 * var(--ratio-px-manipulation)) solid var(--text-color);
+  border-radius: 50%;
+  animation: rotate360 5s linear infinite;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.languages_content::after {
+  content: "";
+  position: absolute;
+  inset: calc(8.3 * var(--ratio-px-manipulation));
+  border: calc(0.4 * var(--ratio-px-manipulation)) solid transparent;
+  border-left: calc(0.5 * var(--ratio-px-manipulation)) solid var(--lang-color);
+  border-right: calc(0.5 * var(--ratio-px-manipulation)) solid var(--lang-color-yel);
+  border-radius: 50%;
+  animation: rotateReverse 2.5s linear infinite;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes rotate360 {
+  0% { rotate: 0deg; }
+  100% { rotate: 360deg; }
+}
+
+@keyframes rotateReverse {
+  0% { rotate: 360deg; }
+  100% { rotate: 0deg; }
+}
+
+.languages_contentBx {
+  position: absolute;
+  transform: scale(0);
+  transition: 0.5s;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.languages_contentBx.active {
+  transform: scale(1);
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.languages_contentBx .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: calc(1.5 * var(--ratio-px-manipulation));
+}
+
+.languages_contentBx .card .imgBx {
+  position: relative;
+  width: calc(21 * var(--ratio-px-manipulation));
+  height: calc(21 * var(--ratio-px-manipulation));
+  border-radius: var(--ratio-px-manipulation);
+  overflow: hidden;
+}
+
+.languages_contentBx .card .textBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.languages_contentBx .card .textBx h2 {
+  position: relative;
+  font-size: calc(0.3 * var(--ratio-em-manipulation));
+  font-weight: 600;
+  color: var(--text-color);
+  line-height: calc(0.1 * var(--ratio-em-manipulation));
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.languages_contentBx .card .textBx h2 span {
+  font-size: calc(0.065 * var(--ratio-em-manipulation));
+  color: var(--text-color);
+  font-weight: 500;
+  letter-spacing: calc(0.01 * var(--ratio-em-manipulation));
+}
+
+.Type_C span {
+  font-size: calc(0.039 * var(--ratio-em-manipulation)) !important;
+}
+
+.languages_contentBx .card .textBx .sci {
+  position: relative;
+  display: flex;
+  gap: calc(0.7 * var(--ratio-px-manipulation));
+  margin-top: var(--ratio-px-manipulation);
+  font-size: calc(0.15 * var(--ratio-em-manipulation));
+  color: var(--text-color);
+  height: calc(6 * var(--ratio-px-manipulation));
+  font-weight: 600;
+  border-radius: calc(0.3 * var(--ratio-px-manipulation));
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  html { font-size: 55%; }
+}
+
+@media (max-width: 991px) {
+  section { padding: 10rem 4% 2rem; }
+}
+
+@media (max-width: 520px) {
+  html { font-size: 50%; }
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-icon {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-icon {
+    display: block !important;
+  }
+}
+
+/* Keyframes for text animation */
+@keyframes homeBgText {
+  0%, 10%, 100% { background-position: -33rem 0; }
+  65%, 85% { background-position: 0 0; }
+}
+
+@keyframes homeCursorText {
+  0%, 10%, 100% { width: 0; }
+  65%, 78%, 85% { width: 100%; opacity: 1; }
+  75%, 81% { opacity: 0; }
+}
+
+@keyframes aboutSpinner {
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes animBack {
+  0% { top: -300px; }
+  100% { top: 120%; }
+}
+
+/* Number input spinner removal */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
