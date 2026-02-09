@@ -1,0 +1,21 @@
+{
+  "name": "Selepe Sello — Software Engineer & Developer",
+  "short_name": "Selepe Sello",
+  "description": "Software Engineer and Computer Science graduate specializing in full-stack development, DevOps, AWS Cloud, and cybersecurity.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["technology", "portfolio", "software"],
+  "icons": [
+    {
+      "src": "/images/teyumek-g.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

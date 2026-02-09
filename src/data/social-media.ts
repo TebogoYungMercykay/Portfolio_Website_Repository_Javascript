@@ -1,0 +1,24 @@
+import { SocialMedia } from "@/types";
+
+export const socialMediaData: SocialMedia[] = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/sello-selepe-tebogoyungmercykay",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/TebogoYungMercykay",
+  },
+  {
+    name: "Twitter",
+    url: "https://twitter.com/tebogoyungmercy",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/tebogoyungmercykay",
+  },
+  {
+    name: "WhatsApp",
+    url: "https://wa.me/27664110178",
+  },
+];
