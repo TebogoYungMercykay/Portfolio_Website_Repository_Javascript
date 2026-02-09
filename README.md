@@ -27,10 +27,21 @@ This website highlights my background, technical skills, and selected projects. 
 - Contact form with validation (powered by SheetDB)
 - Animated background grid effect
 - Dynamic viewport ratio scaling for consistent sizing across breakpoints
+- **SEO Optimized** with meta tags, JSON-LD structured data, sitemap, and robots.txt
+
+## SEO Configuration
+
+This portfolio website includes comprehensive SEO optimizations:
+
+- **Metadata Configuration** (`src/lib/seo.ts`): Centralized site metadata including title, description, keywords, author info, and Open Graph tags
+- **JSON-LD Structured Data** (`src/components/JsonLd.tsx`): Schema.org markup for better search engine understanding
+- **Dynamic Sitemap** (`src/app/sitemap.ts`): Auto-generated XML sitemap for search engine crawlers
+- **Robots.txt** (`src/app/robots.ts`): Crawler directives and sitemap reference
+- **Responsive Meta Tags**: Viewport configuration and mobile optimization
+- **Social Media Cards**: Open Graph and Twitter Card support for rich link previews
 
 ## Project Structure
 
-```
 .
 ├── Dockerfile                  # Container build configuration
 ├── next.config.mjs             # Next.js configuration
@@ -38,12 +49,16 @@ This website highlights my background, technical skills, and selected projects. 
 ├── tsconfig.json               # TypeScript compiler options
 ├── postcss.config.mjs          # PostCSS plugins
 ├── package.json                # Dependencies and scripts
-│
+├── CODE_OF_CONDUCT.md          # Contribution guidelines
+├── LICENCE.md                  # Apache License
+├── code.md                     # Additional documentation
 └── src/
     ├── app/
     │   ├── globals.css         # Global styles, fonts, CSS variables, animations
     │   ├── layout.tsx          # Root layout with metadata and icon imports
-    │   └── page.tsx            # Main page composing all sections
+    │   ├── page.tsx            # Main page composing all sections
+    │   ├── sitemap.ts          # Dynamic sitemap generation
+    │   └── robots.ts           # Robots.txt configuration
     │
     ├── components/
     │   ├── common/
@@ -68,11 +83,12 @@ This website highlights my background, technical skills, and selected projects. 
     │   │       ├── ProjectsGrid.tsx     # Projects title and grid
     │   │       ├── ContactInfo.tsx      # Address, email, phone block
     │   │       └── ContactForm.tsx      # Form state, validation, submission
-    │   └── ui/
-    │       ├── BackgroundAnimation.tsx  # Animated grid background
-    │       ├── LanguagesCarousel.tsx    # Orbiting language icon carousel
-    │       ├── ProgressBar.tsx          # Skill proficiency bar
-    │       └── ThemeToggle.tsx          # Dark/light mode toggle
+    │   ├── ui/
+    │   │   ├── BackgroundAnimation.tsx  # Animated grid background
+    │   │   ├── LanguagesCarousel.tsx    # Orbiting language icon carousel
+    │   │   ├── ProgressBar.tsx          # Skill proficiency bar
+    │   │   └── ThemeToggle.tsx          # Dark/light mode toggle
+    │   └── JsonLd.tsx          # JSON-LD structured data component
     │
     ├── data/
     │   ├── index.ts            # Barrel exports
@@ -83,12 +99,11 @@ This website highlights my background, technical skills, and selected projects. 
     │
     ├── lib/
     │   ├── helpers.ts          # Viewport ratio utility
-    │   ├── seo.ts              # Site metadata configuration
+    │   ├── seo.ts              # Site metadata and SEO configuration
     │   └── theme.ts            # Theme colors and toggle logic
     │
     └── types/
         └── index.ts            # TypeScript interfaces and types
-```
 
 ## Getting Started
 
@@ -114,12 +129,12 @@ Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
 ## Releases
 
-This site has evolved through multiple iterations. The current version is a complete rebuild in Next.js with TypeScript and Tailwind CSS.
+This site has evolved through multiple iterations. The current version is a complete rebuild in Next.js with TypeScript and Tailwind CSS, featuring comprehensive SEO optimization.
 
-| Version | Stack | Link |
-|---------|-------|------|
-| **Next.js** (latest) | Next.js, TypeScript, Tailwind CSS | _Release coming soon_ |
-| **v4.0.3** | HTML, CSS, JavaScript, jQuery, Bootstrap | [v4.0.3](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v4.0.3) |
+| Version                    | Stack                                    | Notable Features                                | Link                                                                                                     |
+| -------------------------- | ---------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Next.js** (latest) | Next.js, TypeScript, Tailwind CSS        | SEO optimized with JSON-LD, sitemap, robots.txt | _Current version_                                                                                      |
+| **v4.0.3**           | HTML, CSS, JavaScript, jQuery, Bootstrap | Legacy jQuery implementation                    | [v4.0.3](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v4.0.3) |
 
 View all previous releases: [All Releases](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases)
 
