@@ -6,7 +6,7 @@ Welcome to my personal portfolio website repository. This project showcases my s
 
 ## Overview
 
-This website highlights my background, technical skills, and selected projects. Explore the site to learn more about my work and expertise.
+This website highlights my background, technical skills, and selected projects. You can explore the site to learn more about my work and expertise.
 
 ## Tech Stack
 
@@ -123,7 +123,7 @@ npm run build
 npm start
 
 # Or run with Docker
-docker build -t portfolio .
+docker build -t portfolio.
 docker run -p 3000:3000 portfolio
 ```
 
@@ -135,14 +135,14 @@ This site has evolved through multiple iterations. The current version is a comp
 
 | Version                    | Stack                                    | Notable Features                                | Link                                                                                                     |
 | -------------------------- | ---------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Next.js** (latest) | Next.js, TypeScript, Tailwind CSS        | SEO optimized with JSON-LD, sitemap, robots.txt | _Current version_                                                                                      |
+| **Next.js** (latest) | Next.js, TypeScript, Tailwind CSS        | SEO optimized with JSON-LD, sitemap, robots.txt | [v5.0.0]([https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v5.0.0](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v5.0.0)) |
 | **v4.0.3**           | HTML, CSS, JavaScript, jQuery, Bootstrap | Legacy jQuery implementation                    | [v4.0.3](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v4.0.3) |
 
 View all previous releases: [All Releases](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases)
 
 ## License
 
-This project is licensed under the Apache License. See the [LICENSE](LICENCE.md) file for more details.
+This project is licensed under the Apache License. Please take a look at the [LICENSE](LICENCE.md) file for more details.
 
 > _Original design inspiration from [codehalweb.com](https://codehalweb.com/responsive-portfolio-website/). Rebuilt from scratch in Next.js with TypeScript and Tailwind CSS._
 
