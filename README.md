@@ -135,7 +135,7 @@ This site has evolved through multiple iterations. The current version is a comp
 
 | Version                    | Stack                                    | Notable Features                                | Link                                                                                                     |
 | -------------------------- | ---------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Next.js** (latest) | Next.js, TypeScript, Tailwind CSS        | SEO optimized with JSON-LD, sitemap, robots.txt | [v5.0.0]([https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v5.0.0](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v5.0.0)) |
+| **Next.js** (latest) | Next.js, TypeScript, Tailwind CSS        | SEO optimized with JSON-LD, sitemap, robots.txt | [v5.0.0](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v5.0.0) |
 | **v4.0.3**           | HTML, CSS, JavaScript, jQuery, Bootstrap | Legacy jQuery implementation                    | [v4.0.3](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases/tag/v4.0.3) |
 
 View all previous releases: [All Releases](https://github.com/TebogoYungMercykay/Portfolio_Website_Repository_Javascript/releases)
