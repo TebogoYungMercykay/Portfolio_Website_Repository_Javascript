@@ -42,6 +42,7 @@ This portfolio website includes comprehensive SEO optimizations:
 
 ## Project Structure
 
+```text
 .
 ├── Dockerfile                  # Container build configuration
 ├── next.config.mjs             # Next.js configuration
@@ -104,6 +105,7 @@ This portfolio website includes comprehensive SEO optimizations:
     │
     └── types/
         └── index.ts            # TypeScript interfaces and types
+```
 
 ## Getting Started
 
