@@ -12,10 +12,10 @@ export default function LinkButton({
   external = true,
 }: LinkButtonProps) {
   return (
-    <div className="btn-box btns inline-block w-60">
+    <div className="btn-box btns inline-block w-72">
       <a
         href={href}
-        className="btn relative inline-flex justify-center items-center w-60 h-full bg-theme-main border-2 border-theme-animation rounded-[0.8rem] text-[2.4rem] font-semibold tracking-wider text-theme-bg z-[1] overflow-hidden transition-all duration-500 hover:text-theme-main group py-2 px-1.5"
+        className="btn relative inline-flex justify-center items-center w-72 h-full bg-theme-main border-2 border-theme-animation rounded-[0.8rem] text-[2.4rem] font-semibold tracking-wider text-theme-bg z-[1] overflow-hidden transition-all duration-500 hover:text-theme-main group py-2 px-1.5"
         {...(external ? { target: "_blank", rel: "noopener" } : {})}
       >
         <span className="absolute top-0 left-0 w-0 h-full bg-theme-bg -z-[1] transition-all duration-500 group-hover:w-full" />
