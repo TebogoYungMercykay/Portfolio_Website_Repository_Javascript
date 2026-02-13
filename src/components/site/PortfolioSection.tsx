@@ -2,7 +2,8 @@
 
 import LanguagesCarousel from "@/components/ui/LanguagesCarousel";
 import LinkButton from "@/components/common/LinkButton";
-import { SkillsSection, ProjectsGrid } from "./partials";
+import { ProjectsGrid } from "./partials";
+import SkillsSection from "./SkillsSection"
 import { mostUsedLanguages, additionalLanguages, projectsData } from "@/data";
 
 export default function PortfolioSection() {
@@ -30,8 +31,6 @@ export default function PortfolioSection() {
       <LanguagesCarousel />
 
       <SkillsSection mostUsed={mostUsedLanguages} additional={additionalLanguages} />
-
-      <hr className="border-theme-grey my-8" />
 
       <ProjectsGrid projects={projectsData} />
 
