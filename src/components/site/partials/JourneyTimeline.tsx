@@ -21,7 +21,7 @@ export default function JourneyTimeline({
       </h2>
 
       {/* Desktop Layout - Row by row for matching heights */}
-      <div className="hidden lg:block w-full max-w-[1200px] px-4">
+      <div className="hidden lg:block w-full max-w-[1280px] px-4">
         {/* Column Headers */}
         <div className="grid grid-cols-2 gap-x-20 mb-6">
           <h3 className="title relative inline-block text-[2.5rem] ml-8">

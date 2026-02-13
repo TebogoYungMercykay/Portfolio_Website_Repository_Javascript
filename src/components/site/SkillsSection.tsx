@@ -24,15 +24,17 @@ export default function SkillsSection({
   additional,
 }: SkillsSectionProps) {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
-      <SkillsColumn
-        title="Skills - Most Used languages (Proficiency %)"
-        languages={mostUsed}
-      />
-      <SkillsColumn
-        title="Skills - Tools and languages (Proficiency %)"
-        languages={additional}
-      />
+    <div className="max-w-[1280px] mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <SkillsColumn
+          title="Skills - Most Used languages (Proficiency %)"
+          languages={mostUsed}
+        />
+        <SkillsColumn
+          title="Skills - Tools and languages (Proficiency %)"
+          languages={additional}
+        />
+      </div>
     </div>
   );
 }
