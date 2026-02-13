@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import {
   SITE_URL,
   BRAND,
@@ -145,7 +146,10 @@ export default function RootLayout({
         <meta name="rating" content="general" />
         <meta name="distribution" content="global" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
