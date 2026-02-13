@@ -1,19 +1,14 @@
 import ProgressBar from "@/components/ui/ProgressBar";
-import { LanguageProgress } from "@/types";
-
-interface SkillsColumnProps {
-  title: string;
-  languages: LanguageProgress[];
-}
+import { SkillsSectionProps, SkillsColumnProps } from "@/types";
 
 function SkillsColumn({ title, languages }: SkillsColumnProps) {
   return (
-    <div className="Portfolio-column flex-[1_1_40rem]">
+    <div className="flex flex-col h-full">
       <h3 className="title relative inline-block text-[2.5rem] mb-6">
         {title}
       </h3>
-      <div className="Portfolio-box relative">
-        <div className="Portfolio-content relative border-2 border-theme-main rounded-[0.6rem] py-2 px-6 z-[1] overflow-hidden group">
+      <div className="Portfolio-box relative flex-1">
+        <div className="Portfolio-content relative border-2 border-theme-main rounded-[0.6rem] py-2 px-6 z-[1] overflow-hidden group h-full transition-all duration-300 hover:border-theme-text hover:shadow-[0_0_15px_var(--main-color)]">
           <div className="absolute top-0 left-0 w-0 h-full bg-theme-transparent-bg -z-[1] transition-all duration-500 group-hover:w-full" />
           {languages.map((lang, idx) => (
             <ProgressBar key={idx} name={lang.name} percentage={lang.percentage} />
@@ -24,17 +19,12 @@ function SkillsColumn({ title, languages }: SkillsColumnProps) {
   );
 }
 
-interface SkillsSectionProps {
-  mostUsed: LanguageProgress[];
-  additional: LanguageProgress[];
-}
-
 export default function SkillsSection({
   mostUsed,
   additional,
 }: SkillsSectionProps) {
   return (
-    <div className="Portfolio-row flex flex-wrap gap-20">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
       <SkillsColumn
         title="Skills - Most Used languages (Proficiency %)"
         languages={mostUsed}

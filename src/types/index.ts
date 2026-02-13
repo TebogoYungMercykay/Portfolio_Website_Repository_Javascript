@@ -9,12 +9,14 @@ export interface EducationItem {
   year: string;
   institution: string;
   details: string;
+  group?: string;
 }
 
 export interface ExperienceItem {
   year: string;
   position: string;
   details: string;
+  group?: string;
 }
 
 export interface AboutData {
@@ -85,4 +87,56 @@ export interface ThemeColors {
 
 export interface SectionProps {
   className?: string;
+}
+
+export interface JourneyCardProps {
+  year: string;
+  title: string;
+  details: string;
+  connectToNext?: boolean;
+}
+
+export interface JourneyTimelineProps {
+  education: EducationItem[];
+  experience: ExperienceItem[];
+}
+
+export interface ProgressBarProps {
+  name: string;
+  percentage: number;
+}
+
+export interface SkillsSectionProps {
+  mostUsed: LanguageProgress[];
+  additional: LanguageProgress[];
+}
+
+export interface SkillsColumnProps {
+  title: string;
+  languages: LanguageProgress[];
+}
+
+export interface ProfileImageProps {
+  src: string;
+  alt: string;
+  size?: string;
+}
+
+export interface LinkButtonProps {
+  href: string;
+  icon?: string;
+  label: string;
+  external?: boolean;
+}
+
+export interface SocialLinksProps {
+  className?: string;
+}
+
+export interface ProjectCardProps {
+  project: Project;
+}
+
+export interface ProjectsGridProps {
+  projects: Project[];
 }

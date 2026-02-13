@@ -14,14 +14,18 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         {project.subtitle || ""}
       </h3>
 
-      <Image
-        src={project.image}
-        alt={`Image: ${project.title}`}
-        width={400}
-        height={400}
-        className="w-full aspect-square block rounded-[3px] object-cover mb-6"
+      <div 
+        className={project.bgColor ? "p-4 rounded-[3px] mb-6" : "mb-6"}
         style={{ backgroundColor: project.bgColor || "transparent" }}
-      />
+      >
+        <Image
+          src={project.image}
+          alt={`Image: ${project.title}`}
+          width={400}
+          height={400}
+          className="w-full aspect-square block rounded-[3px] object-cover"
+        />
+      </div>
 
       <div className="div-project-details mb-[90px]">
         {project.description && (
