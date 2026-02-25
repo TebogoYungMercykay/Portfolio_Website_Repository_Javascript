@@ -15,16 +15,22 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </h3>
 
       <div 
-        className={project.bgColor ? "p-4 rounded-[3px] mb-6" : "mb-6"}
-        style={{ backgroundColor: project.bgColor || "transparent" }}
+        className="relative w-full aspect-square rounded-[3px] mb-6 overflow-hidden"
       >
-        <Image
-          src={project.image}
-          alt={`Image: ${project.title}`}
-          width={400}
-          height={400}
-          className="w-full aspect-square block rounded-[3px] object-cover"
-        />
+        <div
+          className={`absolute inset-0 ${project.bgColor ? "p-4" : ""}`}
+          style={{ backgroundColor: project.bgColor || "transparent" }}
+        >
+          <div className="relative w-full h-full">
+            <Image
+              src={project.image}
+              alt={`Image: ${project.title}`}
+              fill
+              className="object-cover rounded-[3px]"
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+            />
+          </div>
+        </div>
       </div>
 
       <div className="div-project-details mb-[90px]">

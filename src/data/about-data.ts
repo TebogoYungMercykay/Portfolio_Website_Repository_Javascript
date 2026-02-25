@@ -7,28 +7,42 @@ export const aboutData: AboutData = {
     "Computer Science graduate and active open-source contributor specializing in building secure, scalable, high-performance solutions. My expertise spans Software Engineering, DevOps, AWS Cloud Development, Web Development, Database Management, and Software Testing, with a strong focus on end-product delivery and collaborative development.<br><br>Driven by a passion for Cybersecurity and Data Science, I thrive in dynamic environments that foster innovation and continuous learning. I am committed to delivering cutting-edge solutions that solve real-world challenges, meet evolving industry demands, and create meaningful impact through technology.",
   education: [
     {
+      year: "Feb 2026 - Nov 2026",
+      institution: "BSc (Hons) Computer Sciences, University of Pretoria",
+      details:
+        "Pursuing an Honours degree in Computer Sciences with a focus on cybersecurity, software engineering, and data-driven technologies. Coursework spans Information Security, Digital Forensics, Software Engineering, Educational Software Development, and Data Mining, alongside a Research Report. Active in the Computer Science Society, Cybersecurity & Digital Forensics, and Research & Data Analytics societies.",
+      group: "degree",
+    },
+    {
       year: "Feb 2022 - Jun 2025",
-      institution: "BSc Computer Sciences",
+      institution: "BSc Computer Sciences, University of Pretoria",
       details:
         "Graduated with distinction in Software Engineering, demonstrating advanced proficiency in software design, agile methodologies, and CI/CD practices. Developed and deployed 15+ projects on GitHub with comprehensive documentation and live demos. Participated in hackathons including the Nemisa 2023 Data Science Datathon, authored Capture The Flag cybersecurity challenges, and mentored peers through the STARS Mentorship Programme.",
       group: "degree",
     },
     {
       year: "Oct 2023 - Nov 2023",
-      institution: "Web Development Bootcamp",
+      institution: "Web Development Bootcamp, Umuzi",
       details:
         "Completed an intensive bootcamp focused on modern web technologies and industry-standard development practices. Strengthened skills in building robust, scalable web applications with emphasis on responsive design, performance optimization, and unit testing. Advanced capabilities in coding techniques, debugging strategies, and modern JavaScript frameworks.",
       group: "certification",
     },
     {
       year: "Aug 2022 - Oct 2022",
-      institution: "ALX-T (AWS) Cloud Development",
+      institution: "ALX-T (AWS) Cloud Development, Udacity",
       details:
         "Completed the Cloud Development Nanodegree three weeks ahead of schedule while managing university coursework, ranking among the top four participants. Built production-ready applications featuring microservices architecture, serverless framework, and RESTful APIs with AWS S3 and PostgreSQL. Deployed containerized applications using Docker and Kubernetes, leveraging AWS Lambda, API Gateway, EC2, and CloudFormation.",
       group: "certification",
     },
   ],
   experience: [
+    {
+      year: "Feb 2026 - Feb 2026",
+      position: "Frontend Web Developer, SmartKing Agri",
+      details:
+        "Developed a custom marketing website for a South African AgriTech startup showcasing their IoT-based farm monitoring solution. Implemented smooth animations, video integration, and a compelling product narrative. Designed a modern, mobile-optimised website with responsive design and enhanced cross-platform performance. Owned the full project lifecycle: UI/UX design, frontend development, Vercel deployment, image optimisation, and SEO configuration.",
+      group: "dev",
+    },
     {
       year: "Oct 2025 - Jan 2026",
       position: "Software Developer, Map2Tech",
