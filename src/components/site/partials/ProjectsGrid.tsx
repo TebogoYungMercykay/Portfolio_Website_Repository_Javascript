@@ -18,7 +18,7 @@ export default function ProjectsGrid({ projects }: ProjectsGridProps) {
       </div>
 
       {/* Projects Grid */}
-      <div className="section_projects text-theme-text grid relative z-[1] grid-cols-[repeat(auto-fit,minmax(300px,auto))] gap-[50px] mx-auto mt-[90px] mb-2.5 max-w-[1280px] p-5 rounded-[15px] bg-theme-projects-grey transition-shadow duration-700 hover:shadow-[0_0_16px_var(--main-color)]">
+      <div className="section_projects text-theme-text grid relative z-[1] grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[50px] mt-[90px] mb-2.5 p-5 rounded-[15px] bg-theme-projects-grey transition-shadow duration-700 hover:shadow-[0_0_16px_var(--main-color)]">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} project={project} />
         ))}

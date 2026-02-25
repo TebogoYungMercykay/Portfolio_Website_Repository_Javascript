@@ -47,8 +47,8 @@ export default function Header() {
     const active = activeSection === "home" ? "Home" : activeSection;
     document.title =
       active === "home" || active === "Home"
-        ? "Welcome to My Portfolio Site"
-        : `${active.charAt(0).toUpperCase() + active.slice(1)} Page`;
+        ? "Hi there, Hero."
+        : `${active.charAt(0).toUpperCase() + active.slice(1)} Section`;
   }, [activeSection]);
 
   useEffect(() => {
